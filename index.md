@@ -26,3 +26,4 @@
 #### Busan
 - [Busan Station (부산역)](/busan/)
 
+[First direction](/icn/dimag/)

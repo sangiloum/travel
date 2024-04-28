@@ -4,13 +4,35 @@ description: General Travel Instruction to IBS, Daejeon, Korea
 theme: just-the-docs
 logo: "/assets/images/dimag.png"
 url: https://travel.dimag.kr/
-theme: just-the-docs
 
-
+collections:
+  destinations:
+    output: false 
+    sort_by: order
+  origins:
+    output: true
+    sort_by: order
+    permalink: /:name/
+  routes:
+    output: false
+    sort_by: order
+defaults:
+  - scope:
+      path: ""
+      type: origins
+    values:
+      layout: "origin"
 plugins:
   - jekyll-default-layout
 
-mermaid:
-  # Version of mermaid library
-  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "9.1.3"
+# mermaid:
+#   # Version of mermaid library
+#   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+#   version: "9.1.3"
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "tests" collection
+    origins:
+      # Give the collection a name
+      name: Origin
