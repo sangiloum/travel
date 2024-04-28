@@ -1,0 +1,16 @@
+
+title: How to visit IBS
+description: General Travel Instruction to IBS, Daejeon, Korea
+theme: just-the-docs
+logo: "/assets/images/dimag.png"
+url: https://travel.dimag.kr/
+theme: just-the-docs
+
+
+plugins:
+  - jekyll-default-layout
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.3"
