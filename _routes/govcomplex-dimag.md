@@ -7,7 +7,7 @@ Now, you are within 3km from the IBS Discrete Mathematics Group.
 After you arrive at the [Government Complex Bus Stop](https://naver.me/GlVC83eN), there should be taxis waiting for you. It is recommended for you to take a taxi to IBS. The taxi fare should be around 6,500 KRW. 
 
 
-Here's the instruction to give to the taxi driver.
+Here's the instruction to give to the taxi driver. Often taxi drivers do not know IBS but all of them are familiar with the big department store next to the IBS --- Shinsegae Department Store, the tallest building of Daejeon.
 
 > <font size="+3">신세계백화점 옆 기초과학연구원(IBS)으로 가주세요.</font>
 > 

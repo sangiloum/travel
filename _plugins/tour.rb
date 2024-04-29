@@ -38,7 +38,7 @@ module Jekyll
                 @ext      = '.html'      # the extension.
                 @name     = 'index.html' # basically @basename + @ext.
                 @data =  {
-                    "title" => "Travel Instruction from #{origin.data['title']} to #{destination.data['title']}",
+                    "title" => "#{origin.data['title']} → #{destination.data['title']}",
                     "origin"=> origin.data['slug'],
                     "destination"=> destination.data['slug'],
                     "layout"=> "tour",
