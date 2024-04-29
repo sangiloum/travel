@@ -1,6 +1,8 @@
 ---
+order: 100
+title: Take a taxi
 ---
-Now, you are within 3km from the IBS Discrete Mathematics Group. 
+Now, you are within 3km from the [Lotte City Hotel](https://www.lottehotel.com/daejeon-city/en.html). 
 
 After you arrive at the [Government Complex Bus Stop](https://naver.me/GlVC83eN), there should be taxis waiting for you. It is recommended for you to take a taxi to IBS. The taxi fare should be around 6,500 KRW and it should take less than 10 minutes.
 

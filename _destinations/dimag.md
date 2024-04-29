@@ -1,5 +1,5 @@
 ---
-title: IBS Discrete Mathematics Group
+title: IBS Discrete Mathematics Group (IBS 이산수학그룹)
 order: 1
 ---
 

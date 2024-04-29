@@ -1,8 +1,9 @@
 ---
 title: Using the Airport Bus to go to Daejeon directly
+order: 1
 ---
 For most visitors, this is the most recommended method to visit IBS.
-From the Incheon Airport, you can take the airport bus to the Daejeon Government Complex. The bus will take you directly. The bus ride will take roughly 2 hours 40 minutes.
+From the Incheon Airport, you can take the airport bus to the Daejeon Government Complex. The bus will take you directly. The bus ride will take roughly **2 hours 40 minutes**.
 
 You can buy bus tickets inside the airport near Exit 4 and in between 8 and 9; and outside just left of Exit 11.
 At the ticket office, you can purchase the ticket for **Daejeon Government Complex (대전청사)** Bus Stop. 

@@ -1,5 +1,6 @@
 ---
 title: Using a train
+order: 2
 ---
 
 
@@ -20,7 +21,7 @@ The ticketing counter closest to the AREX entrance is smaller and typically has 
 
 #### KTX Trains
 The KTX is a high-speed train that travels at speeds of up to 305 km/h.
-KTX standard seats cost **KRW 23,700** and first class seats costs KRW 33,200 and are sometimes discounted. Travel time is roughly **one hour** depending on the number of stops in route. Tickets do occasionally sell out but trains run every 10 to 20 minutes. Please see the website above for current timetables. Train types other than KTX exist but take two hours to travel to Daejeon and do not run as often.
+KTX standard seats cost **KRW 23,700** and first class seats costs KRW 33,200 and are sometimes discounted. Travel time is roughly **one hour** depending on the number of stops in route. Tickets do occasionally sell out but trains run every 10 to 20 minutes. Please see the website above for current timetables. 
 
 {: .warning}
 Often KTX tickets on Friday evening, Saturday morning, and Sunday evening are sold out. If you are traveling on these days, it is recommended to buy tickets in advance. 

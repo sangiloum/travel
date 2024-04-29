@@ -1,4 +1,6 @@
 ---
+order: 100
+title: Take a taxi or a bus or a subway + taxi
 ---
 Now, you are within 8km from the [I-Hotel](https://www.i-hotel.co.kr). 
 

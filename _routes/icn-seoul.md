@@ -1,5 +1,6 @@
 ---
 title: Using trains via Seoul station
+order: 2
 ---
 If you prefer to take the train, you can take an [AREX (Airport Railroad Express)](https://www.arex.or.kr) train at Incheon International Airport Station across the street from Terminal 1. All stop AREX trains are to the east (your left) and non-stop express AREX trains are to the west (your right). 
 
