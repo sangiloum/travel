@@ -5,6 +5,16 @@ module Jekyll
             priority :low
 
             def generate(site)
+                site.collections['routes'].docs.each do |route|
+                    raise "Route must have a slug" if route.data['slug'].nil?
+                    if route.data['origin'] == nil 
+                        route.data['origin']= route.data['slug'].split("-").first
+                    end 
+                    if route.data['destination'] == nil
+                        route.data['destination']= route.data['slug'].split("-").last
+                    end
+                end
+                        
                 # Generate the tour page
                 site.collections['origins'].docs.each do |origin|
                     # site.pages << OriginPage.new(site, origin)

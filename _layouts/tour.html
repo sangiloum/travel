@@ -15,7 +15,7 @@ layout: default
     {% assign r2=rfinal|where: "origin", route.destination %}
     {% for route2 in r2 %}
         {% assign count=count | plus: 1 %}        
-  <h2>Method {{count}}</h2>
+  <h2>Method {{count}}. {{route.title}}</h2>
     <h3>Step 1</h3>
         {{route.content}}
     <h3>Step 2</h3>
@@ -29,7 +29,7 @@ layout: default
         {% assign r3 = site.routes | where: 'origin', route2.destination | where: 'destination', page.destination %}
         {% for route3 in r3 %}
         {% assign count=count | plus: 1 %}        
-  <h2>Method {{count}}</h2>
+  <h2>Method {{count}}. {{route.title}}</h2>
     <h3>Step 1</h3>
         {{route.content}}
     <h3>Step 2</h3>
