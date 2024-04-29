@@ -11,7 +11,7 @@ Here's the instruction to give to the taxi driver.
 > Message to the taxi driver
 > 
 > {: .text-alpha}
-> **롯데시티호텔 옆 I-Hotel로 가주세요**
+> **롯데시티호텔 옆 아이호텔(I-Hotel)로 가주세요**
 >
 > (구)대덕특구게스트하우스
 > 
