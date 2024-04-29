@@ -1,5 +1,5 @@
 ---
-title: Gwangmyeong Station
+title: Gwangmyeong Station (광명역)
 city: Gyounggi
-order: 100
+nav_order: 100
 ---

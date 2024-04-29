@@ -43,8 +43,8 @@ module Jekyll
                     "destination"=> destination.data['slug'],
                     "layout"=> "tour",
                     # "nav_exclude"=> true,
-                    "parent"=> origin.data['title']
-
+                    # "parent"=> origin.data['title']
+                    "parent"=> "Home"
                 } 
             end
         end

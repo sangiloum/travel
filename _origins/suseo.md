@@ -1,5 +1,5 @@
 ---
-title: Suseo Station
+title: Suseo Station (수서역)
 city: Seoul
-order: 10
+nav_order: 10
 ---

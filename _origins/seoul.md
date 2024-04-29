@@ -1,5 +1,5 @@
 ---
-title: Seoul Station
+title: Seoul Station (서울역)
 city: Seoul
-order: 10
+nav_order: 10
 ---

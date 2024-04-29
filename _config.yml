@@ -11,7 +11,7 @@ collections:
     sort_by: order
   origins:
     output: true
-    sort_by: order
+    sort_by: nav_order
     permalink: /:name/
   routes:
     output: false
@@ -22,6 +22,8 @@ defaults:
       type: origins
     values:
       layout: "origin"
+      has_children: false
+      has_toc: false
 plugins:
   - jekyll-default-layout
 
@@ -35,4 +37,38 @@ just_the_docs:
     # Reference the "tests" collection
     origins:
       # Give the collection a name
-      name: Origin
+      name: "Departing from"
+
+
+nav_external_links:
+  - title: IBS Discrete Mathematics Group
+    url: https://dimag.ibs.re.kr/
+
+liquid:
+   error_mode: strict
+   strict_filters: true
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+nav_enabled: true
+back_to_top: true
+back_to_top_text: "Back to top"

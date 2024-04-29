@@ -1,4 +1,7 @@
 ---
+nav_order: 1
+title: Home
+---
 # Travel Instructions to the IBS, Daejeon, Korea
 
 ## Where are you travelling from?

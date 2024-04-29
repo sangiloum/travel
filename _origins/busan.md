@@ -1,5 +1,5 @@
 ---
-title: Busan Station
+title: Busan Station (부산역)
 city: Busan
-order: 10
+nav_order: 10
 ---

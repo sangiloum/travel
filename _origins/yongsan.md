@@ -1,5 +1,5 @@
 ---
-title: Yongsan Station
+title: Yongsan Station (용산역)
 city: Seoul
-order: 10
+nav_order: 10
 ---

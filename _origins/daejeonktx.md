@@ -1,5 +1,5 @@
 ---
 title: Daejeon Station (대전역)
 city: Daejeon
-order: 99
+nav_order: 1000
 ---

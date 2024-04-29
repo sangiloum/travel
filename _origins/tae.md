@@ -1,5 +1,5 @@
 ---
-title: Daegu Incheon Airport (TAE) 
+title: Daegu Incheon Airport (TAE) (대구공항)
 city: tae
-order: 4
+nav_order: 4
 ---

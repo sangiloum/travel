@@ -1,5 +1,5 @@
 ---
-title: Gimpo International Airport (GMP)
+title: Gimpo International Airport (GMP) (김포공항)
 city: Seoul
-order: 5
+nav_order: 5
 ---
