@@ -2,3 +2,4 @@
 title: I-Hotel
 order: 3
 ---
+- Address: 27-5 Expo-ro 123beon-gil, Yuseong-gu, Daejeon, 34126, Republic of Korea
