@@ -1,5 +1,6 @@
 ---
 title: Take a bus or a taxi
+order: 1
 ---
 
 You can take a bus number 1 to reach Dongdaegu Station (동대구역). It will take 8 minutes and you will get off about 500m away from the station. 

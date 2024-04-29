@@ -1,5 +1,6 @@
 ---
 title: Take a train
+order: 1
 ---
 From Suseo Station, you can use the SRT train to go to Daejeon.
 The SRT is another high-speed train similar to the KTX Train but run by a different company, SR. SR and KORAIL share the same tracks from Busan to Osong.
