@@ -3,11 +3,13 @@ layout: default
 ---
 <h1>{{page.title}}</h1>
 
-{{page.origin}}
+{% assign endlocation=site.destinations | where: 'slug', page.destination | first  %}
 
-{{page.destination}}
+{{ endlocation.content}}
 
 {% assign count=0 %}
+{% assign startlocation=site.origins | where: 'slug', page.origin | first  %}
+<!-- {% assign endlocation=site.destination | where: 'slug', page.destination %} -->
 
 {% assign rstart=site.routes | where:'origin', page.origin %}
 {% assign rfinal=site.routes |where: 'destination', page.destination %}
@@ -15,10 +17,12 @@ layout: default
     {% assign r2=rfinal|where: "origin", route.destination %}
     {% for route2 in r2 %}
         {% assign count=count | plus: 1 %}        
+        {% assign transit=site.origins | where: 'slug', route2.origin | first  %}
+
   <h2>Method {{count}}. {{route.title}}</h2>
-    <h3>Step 1</h3>
+    <h3>Step 1 @ {{startlocation.title}}</h3>
         {{route.content}}
-    <h3>Step 2</h3>
+    <h3>Step 2 @ {{transit.title}}</h3>
         {{route2.content}}
   {% endfor %}
 {% endfor %}
@@ -28,14 +32,21 @@ layout: default
     {% for route2 in r2 %}
         {% assign r3 = site.routes | where: 'origin', route2.destination | where: 'destination', page.destination %}
         {% for route3 in r3 %}
-        {% assign count=count | plus: 1 %}        
+        {% assign count=count | plus: 1 %}  
+        {% assign transit=site.origins | where: 'slug', route2.origin | first  %}
+        {% assign transit2=site.origins | where: 'slug', route3.origin | first  %}     
   <h2>Method {{count}}. {{route.title}}</h2>
-    <h3>Step 1</h3>
+    <h3>Step 1 @ {{startlocation.title}}</h3>
         {{route.content}}
-    <h3>Step 2</h3>
+    <h3>Step 2 @ {{transit.title}}</h3>
         {{route2.content}}
-    <h3>Step 3</h3>
+    <h3>Step 3 @ {{transit2.title}}</h3>
         {{route3.content}}
         {% endfor %}
   {% endfor %}
 {% endfor %}
+
+<hr/>
+<h2>General advice</h2>
+{%capture my_include%}{% include tips.md %}{% endcapture %}
+{{my_include|markdownify}}
