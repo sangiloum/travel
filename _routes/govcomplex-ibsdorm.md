@@ -13,8 +13,8 @@ Here's the instruction to give to the taxi driver. Often taxi drivers do not kno
 > Message to the taxi driver
 > 
 > {: .text-alpha}
-> **신세계백화점 옆 기초과학연구원(IBS)으로 가주세요**
+> **신세계백화점 옆 기초과학연구원 생활관으로 가주세요**
 > 
-> Please go to the Institute for Basic Science (IBS), next to the Shinsegae Department Store.
+> Please go to the Institute for Basic Science Dormitory (IBS), next to the Shinsegae Department Store.
 
 
