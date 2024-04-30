@@ -2,6 +2,25 @@
 
 - No tipping is necessary in Korea. It is not customary to tip at restaurants, hotels, taxi, or for services.
 
+
+### Breakfast
+
+{: .important}
+> One of the best options for having breakfast around IBS is the famous bakery, called **Sungsimdang** (성심당). It is located across the street from the Lotte City Hotel (롯데시티호텔), inside the Daejeon Convention Center (DCC). It opens daily from 8am. Very close to IBS.
+> 
+> On the second floor of the Daejeon Convention Center, there is also a **brunch cafe** (브런치카페) run by Sungsimdang. The brunch menus are available from 8am to 7pm. You need to enter the building and take the elevator to the second floor.
+
+A closer option is *Starbucks* on the 38th floor of the EXPO tower, the building having the Shinsegae department store. It opens daily from 8am. You can buy a coffee and a sandwich there and enjoy the great view of Daejeon. It opens at 8am and closes at 10pm.
+
+On the 39th floor of the same building, there is a cafe called *Paul Bassett* with a pizza restaurant called *Il Forno*. It opens at 9am and closes at 10pm. 
+
+IBS has a cafeteria which is open daily during weekdays. It is located on the 1st (ground) floor. You can buy a breakfast coupon KRW 3,000 at the machine by cash or credit card and replace it with a sandwich and a drink at the counter.
+
+### Convenience Stores
+
+Convenience stores are are open 24 hours. You can buy snacks, drinks, and daily necessities there. They also have ATMs and you can buy and charge the transportation card. Here is a list of the most popular convenience stores in Korea:
+- **CU** (씨유), **GS25** (지에스25), **7-Eleven**, **Mini Stop**, **Emart 24**
+
 ### SIM Card
 
 - If your smartphone supports an E-SIM, then it is best to buy an E-SIM online by installing an app. [Airalo](https://ref.airalo.com/gW2F) is highly recommended. They have a E-SIM covering 18 countires in Asia including Korea, that costs US $5 for 1GB data for 7 days or  US $13 for 3 GB data for 30 days.
@@ -36,3 +55,9 @@ Both Kakao Taxi and Uber have the same price, as the taxi service will be provid
   - Do not buy an Mpass (Daily Pass), because it does NOT work in Daejeon.
   - There is a T-Money card dedicated for foreign tourists, called [Korea Tour Card](http://www.koreatourcard.kr/en/). It is available at the Incheon airport.
 - As of 2024, the bus fare for adults is 1,500 KRW. You can transfer to another buses or subways within 30 minutes for free, if you use the public transportation card.
+
+
+### Electricity
+
+[Korea uses 220V and 60Hz. The plug type is C or F](https://www.power-plugs-sockets.com/south-korea/). You may need a plug adapter and a voltage converter if your device does not support 220V.
+
