@@ -1,9 +1,27 @@
 ---
 layout: default
 ---
+
+<div class="breadcrumb-nav-list" align="center">
+    {% if page.prev %}
+    <a href="../{{page.prev}}/"><button class="btn btn-blue">← Prev</button></a>
+    {% endif %}
+    <a href="../"><button class="btn">Up</button></a>
+    {% if page.next %}
+    <a href="../{{page.next}}/"><button class="btn btn-blue">Next →</button></a>
+    {% endif %}
+</div>
 <h1>{{page.title}}</h1>
+{% assign endlocation=site.destinations | where: 'slug', page.destination | first  %}
+<h2 id="destination">{{endlocation.title}}</h2>
+
+{{ endlocation.content}}
+<hr/>
 
 {% capture allcontent %}
+
+
+
 {% assign count=0 %}
 {% assign startlocation=site.origins | where: 'slug', page.origin | first  %}
 <!-- {% assign endlocation=site.destination | where: 'slug', page.destination %} -->
@@ -12,8 +30,8 @@ layout: default
 {% assign rstart=site.routes | where:'origin', page.origin |where: 'destination', page.destination %}
 {% for route in rstart %}
 {% assign count=count | plus: 1 %}        
-<h2 id="method{{count}}">Method {{count}}. {{route.title}}</h2>
-<h3 id="method{{count}}-1">Step 1 @ {{startlocation.title}}</h3>
+<h2 id="method{{count}}"><span class="label label-yellow">Method {{count}}</span> {{route.title}}</h2>
+<h3 id="method{{count}}-1"><span class="label">Step 1</span>  {{startlocation.title}}</h3>
     {{route.content}}
 {% endfor  %}
 
@@ -25,10 +43,10 @@ layout: default
         {% assign count=count | plus: 1 %}        
         {% assign transit=site.origins | where: 'slug', route2.origin | first  %}
 
-  <h2 id="method{{count}}">Method {{count}}. {{route.title}}</h2>
-    <h3 id="method{{count}}-1">Step 1 @ {{startlocation.title}}</h3>
+  <h2 id="method{{count}}"><span class="label label-yellow">Method {{count}}</span> {{route.title}}</h2>
+    <h3 id="method{{count}}-1"><span class="label">Step 1</span>  {{startlocation.title}}</h3>
         {{route.content}}
-    <h3 id="method{{count}}-2">Step 2 @ {{transit.title}}</h3>
+    <h3 id="method{{count}}-2"><span class="label">Step 2</span> {{transit.title}}</h3>
         {{route2.content}}
   {% endfor %}
 {% endfor %}
@@ -41,12 +59,12 @@ layout: default
         {% assign count=count | plus: 1 %}  
         {% assign transit=site.origins | where: 'slug', route2.origin | first  %}
         {% assign transit2=site.origins | where: 'slug', route3.origin | first  %}     
-  <h2 id="method{{count}}">Method {{count}}. {{route.title}}</h2>
-    <h3 id="method{{count}}-1">Step 1 @ {{startlocation.title}}</h3>
+  <h2 id="method{{count}}"><span class="label label-yellow">Method {{count}}</span> {{route.title}}</h2>
+    <h3 id="method{{count}}-1"><span class="label">Step 1</span>  {{startlocation.title}}</h3>
         {{route.content}}
-    <h3 id="method{{count}}-2">Step 2 @ {{transit.title}}</h3>
+    <h3 id="method{{count}}-2"><span class="label">Step 2</span>  {{transit.title}}</h3>
         {{route2.content}}
-    <h3 id="method{{count}}-3">Step 3 @ {{transit2.title}}</h3>
+    <h3 id="method{{count}}-3"><span class="label">Step 3</span> {{transit2.title}}</h3>
         {{route3.content}}
         {% endfor %}
   {% endfor %}
@@ -56,11 +74,7 @@ layout: default
 <h2>Travel Instruction: Under construction</h1>
 {% endif %}
 <hr/>
-{% assign endlocation=site.destinations | where: 'slug', page.destination | first  %}
-<h2 id="destination">Your destination: {{endlocation.title}}</h2>
 
-{{ endlocation.content}}
-<hr/>
 <h2 id="advice">General advice</h2>
 {%endcapture%}
 {% include toc.html html=allcontent %}

@@ -1,8 +1,10 @@
 ---
 title: IBS Discrete Mathematics Group (IBS 이산수학그룹)
 order: 1
+lat: 36.376419
+long: 127.385482
 ---
-
+![IBS Main Building](/assets/images/ibs.jpg)
 - Address: 55 Expo-ro, Yuseong-gu, Daejeon, 34126, Republic of Korea
 
 After you arrive at the IBS, you can proceed to the Lobby of the main building of the IBS. 

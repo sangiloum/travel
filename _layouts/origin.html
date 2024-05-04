@@ -8,7 +8,48 @@ layout: default
 <h2>Where are you travelling to?</h2>
 <ul>
 {% for destination in site.destinations %}
-
 <li><a href="{{destination.slug}}/">{{destination.title}}</a></li>
 {% endfor %}
 </ul>
+
+<div id="map"></div>
+<script language="javascript">
+    var greenIcon = new L.Icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+  shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+var redIcon = new L.Icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+  shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+    var map = L.map('map').setView([36.363419,127.385482], 13);
+    L.tileLayer('https://{s}.tile.openstreetmap.de/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    {% for dest in site.destinations %}
+    {% if dest.lat and dest.long %}
+        {% if dest.slug== "dimag" %}
+        L.marker([{{ dest.lat }}, {{ dest.long }}],{icon:redIcon}).addTo(map)
+        .bindPopup('<b><a href="{{dest.slug}}/">{{ dest.title }}</a></b>');
+        {%else%}
+        L.marker([{{ dest.lat }}, {{ dest.long }}]).addTo(map)
+        .bindPopup('<b><a href="{{dest.slug}}/">{{ dest.title }}</a></b>');
+        {%endif%}
+    {% endif %}
+    {% endfor %}
+    {% for dest in site.origins %}
+    {% if dest.lat and dest.long %}
+    L.marker([{{ dest.lat }}, {{ dest.long }}],{icon:greenIcon}).addTo(map)
+        .bindPopup("<b>{{ dest.title }}</b>");
+    {% endif %}
+    {% endfor %}
+</script>

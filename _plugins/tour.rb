@@ -14,7 +14,16 @@ module Jekyll
                         route.data['destination']= route.data['slug'].split("-").last
                     end
                 end
-                        
+                prevdest=nil
+                site.collections['destinations'].docs.each do |dest|
+                    raise "Destination slug should be nonempty" if dest.data['slug'].empty?
+                    if prevdest && prevdest.data 
+                        dest.data['prev']=prevdest.data['slug']
+                        prevdest.data['next']=dest.data['slug']
+                    end
+                    prevdest=dest
+                end
+
                 # Generate the tour page
                 site.collections['origins'].docs.each do |origin|
                     # site.pages << OriginPage.new(site, origin)
@@ -44,7 +53,9 @@ module Jekyll
                     "layout"=> "tour",
                     # "nav_exclude"=> true,
                     # "parent"=> origin.data['title']
-                    "parent"=> "Home"
+                    "parent"=> "Home",
+                    "prev"=> destination.data['prev'],
+                    "next"=> destination.data['next']
                 } 
             end
         end
