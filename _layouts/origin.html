@@ -1,6 +1,27 @@
 ---
 layout: default
 ---
+{% assign prevslug=nil %}
+{% assign orlist=site.origins |sort: "nav_order"%}
+{% for origin in orlist %}
+    {% if origin.slug == page.slug %}
+        {% assign prev=prevslug %}
+    {%endif %}
+    {% if prevslug == page.slug%}
+        {% assign next=origin.slug %}
+        {% break %}
+    {% endif %}
+    {% assign prevslug=origin.slug %}
+{% endfor %}
+<div class="breadcrumb-nav-list" align="center">
+    {% if prev %}
+    <a href="/{{prev}}/"><button class="btn btn-blue">← Prev</button></a>
+    {% endif %}
+    <a href="../"><button class="btn btn-blue">Up</button></a>
+    {% if next %}
+    <a href="/{{next}}/"><button class="btn btn-blue">Next →</button></a>
+    {% endif %} 
+</div>  
 <h1>{{page.title}}</h1>
 
 {{page.content}}
