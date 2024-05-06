@@ -16,5 +16,14 @@ Instead of a single journey ticket, you can buy a transportation card called the
 
 Timetables and updated information are available at [www.arex.or.kr](https://www.arex.or.kr).
 
+|![AREX information and tickets](/assets/images/icn-arex-info.jpg)|![AREX ticket kiosks](/assets/images/icn-arex-ticket-kiosk.jpg)|
+|:--:|:--:|
+|*AREX information and tickets*|*AREX ticket kiosks*|
+|![AREX Non-stop train entrance](/assets/images/icn-arex-entrance.jpg)|![Transport card machines (T Money)](/assets/images/icn-tmoney-machine.jpg)|
+|*AREX Non-stop train entrance*|*Transport card machines (T Money)*|
+
+{: .note}
+
+
 After arriving at Seoul Station, follow the crowds up 1 small escalator, 1 long escalator, scan your transit card, if you have a single journey ticket then refund it in the separate refund machine, 2 more escalators, and now you are in the center of Seoul Station. 
 

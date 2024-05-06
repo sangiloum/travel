@@ -52,7 +52,6 @@ Both Kakao Taxi and Uber have the same price, as the taxi service will be provid
 ### City Buses in Daejeon
 
 - From 2023, buses in Daejeon do not accept cash. You can pay by [T-money card](https://www.t-money.co.kr/ncs/pct/tmnyintd/ReadFrgnKoreaTourCardEngIntd.dev). You can buy such a transportation card at convenience stores (CU, GS25, 7-Eleven) or at subway stations.
-  - Do not buy an Mpass (Daily Pass), because it does NOT work in Daejeon.
   - There is a T-Money card dedicated for foreign tourists, called [Korea Tour Card](http://www.koreatourcard.kr/en/). It is available at the Incheon airport.
 - As of 2024, the bus fare for adults is 1,500 KRW. You can transfer to another buses or subways within 30 minutes for free, if you use the public transportation card.
 

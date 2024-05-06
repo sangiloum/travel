@@ -40,6 +40,7 @@ ICN == 2 hours 35 min.==>Daejeon
 ```
 
 |![Bus Ticket Kiosks](/assets/images/icn2-ticket-kiosk.jpg)|![Bus ticket office](/assets/images/icn2-ticket.jpg)|
+|:--:|:--:|
 |*Bus Ticket Kiosks*|*Bujs Ticket Office*|
 |![Door](/assets/images/icn2-door.jpg)|![Bus Platform 5](/assets/images/icn-t2-platform.jpg)|
 |*Doors to bus platforms*|*Bus platform 5*|

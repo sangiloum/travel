@@ -13,7 +13,7 @@ Here's the instruction to give to the taxi driver.
 > Message to the taxi driver
 > 
 > {: .text-alpha}
-> **ICC Hotel로 가주세요**
+> **ICC 호텔로 가주세요**
 >
 > Please go to the ICC Hotel.
 

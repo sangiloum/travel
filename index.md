@@ -67,7 +67,8 @@ var redIcon = new L.Icon({
     {% if dest.lat and dest.long %}
         {% if dest.slug== "dimag" %}
         L.marker([{{ dest.lat }}, {{ dest.long }}],{icon:redIcon}).addTo(map)
-        .bindPopup('<b>{{ dest.title }}</b>');
+        .bindPopup('<b>{{ dest.title }}</b>')
+        .openPopup();
         {%else%}
         L.marker([{{ dest.lat }}, {{ dest.long }}]).addTo(map)
         .bindPopup('<b>{{ dest.title }}</b>');

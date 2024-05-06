@@ -6,3 +6,6 @@ long: 127.3930
 ---
 
 ![ICC Hotel](/assets/images/icc.jpg)
+- Website: [http://hotel.hotelicc.com/](http://hotel.hotelicc.com/view/index.do?SS_SVC_LANG_CODE=ENG)
+- Free breakfast and free Wi-Fi
+- Address: 55, Expo-ro 123beon-gil, Yuseong-gu, Daejeon, 34126, Republic of Korea

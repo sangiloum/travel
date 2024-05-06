@@ -9,9 +9,17 @@ If you want to exchange currencies, Seoul Station has a few official current exc
 
 
 From Seoul Station, you can take trains to Daejeon Station.
+
+|![Ticket Machine](/assets/images/seoul-station-ticket-matchine.jpg)| ![Ticket Counter](/assets/images/seoul-station-ticket.jpg)|
+|:--:|:--:|
+|*Automated bilingual ticketing machines*|*Staffed ticketing counter*|
+
 Tickets for trains can be purchased by tellers at ticketing counters, by machine, or online at
 - [Korail Website (English)](https://www.letskorail.com/english)
 - [Mobile Korail Website (English)](https://m.letskorail.com/english)
+
+
+{: .note}
 
 For visitors from China, it is also possible to buy the train ticket on [WeChat](https://www.minipaycn.com/minipay/wechat.do) or [AliPay](https://www.minipaycn.com/minipay/alipay.do).
 
