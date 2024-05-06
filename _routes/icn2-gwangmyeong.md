@@ -1,5 +1,5 @@
 ---
-title: Tranfer from a bus to a KTX train at KTX Gwangmyeon Station 
+title: Tranfer from a bus to a KTX train at KTX Gwangmyeong Station 
 order: 3
 ---
 
