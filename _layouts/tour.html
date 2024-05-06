@@ -31,7 +31,7 @@ layout: default
 {% assign startlocation=site.origins | where: 'slug', page.origin | first  %}
 
 {% assign colors = ",red,blue,green,black,yellow,magenta,purple" | split: "," %}
-{% assign tpoints = "" %}"
+{% assign tpoints = "" %}
 {% assign rstart=site.routes | where:'origin', page.origin |where: 'destination', page.destination %}
 {% for route in rstart %}
 {% assign count=count | plus: 1 %}        
