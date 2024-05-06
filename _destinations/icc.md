@@ -1,7 +1,7 @@
 ---
 title: ICC Hotel (ICC 호텔)
 order: 14
-lat: 36.37489
+lat: 36.37695
 long: 127.3933
 ---
 

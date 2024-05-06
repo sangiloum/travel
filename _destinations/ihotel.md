@@ -1,7 +1,7 @@
 ---
 title: I-Hotel (아이호텔)  [Formerly, Daedeok Innopolis Guest House]
 order: 13
-lat: 36.37703
+lat: 36.37481
 long: 127.3930
 ---
 ![I-Hotel](/assets/images/ihotel.jpg)
