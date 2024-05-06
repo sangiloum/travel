@@ -3,6 +3,7 @@ title: Lotte City Hotel (롯데시티호텔)
 order: 12
 lat: 36.37601
 long: 127.3929
+roadview: https://kko.to/0-LAeEUY1B
 ---
 ![Lotte City Hotel](/assets/images/lotte.jpg)
 

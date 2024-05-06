@@ -27,11 +27,11 @@ layout: default
 {{page.content}}
 
 <h2>Where are you travelling to?</h2>
-<ul>
+
 {% for destination in site.destinations %}
-<li><a href="{{destination.slug}}/">{{destination.title}}</a></li>
+<a href="{{destination.slug}}/" class="btn btn-blue">{{destination.title}}</a>
 {% endfor %}
-</ul>
+
 
 <div id="map"></div>
 <script language="javascript">

@@ -3,6 +3,7 @@ title: IBS Discrete Mathematics Group (기초과학연구원 이산수학그룹)
 order: 1
 lat: 36.376419
 long: 127.385482
+roadview: https://kko.to/5AYThThWnr
 ---
 |![IBS Main Building](/assets/images/ibs.jpg)|
 |:--:|

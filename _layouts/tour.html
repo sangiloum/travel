@@ -15,7 +15,12 @@ layout: default
 {% assign endlocation=site.destinations | where: 'slug', page.destination | first  %}
 <h2 id="destination">{{endlocation.title}}</h2>
 
-<a href="https://www.google.com/maps/search/?api=1&query={{endlocation.lat}}%2C{{endlocation.long}}" target="maps">Google Maps</a>
+{% if endlocation.lat and endlocation.long %}
+<a href="https://www.google.com/maps/search/?api=1&query={{endlocation.lat}}%2C{{endlocation.long}}" target="maps" class="btn">Google Maps</a>
+{% endif %}
+{% if endlocation.roadview %}
+<a href="{{endlocation.roadview}}" target="maps" class="btn">Road View (Kakao)</a>
+{% endif %}
 
 {{ endlocation.content}}
 <hr/>
@@ -30,8 +35,8 @@ layout: default
 {% assign rstart=site.routes | where:'origin', page.origin |where: 'destination', page.destination %}
 {% for route in rstart %}
 {% assign count=count | plus: 1 %}        
-<h2 id="method{{count}}"><span class="label label-yellow">Method {{count}}</span> {{route.title}}</h2>
-<h3 id="method{{count}}-1"><span class="label">Step 1</span>  {{startlocation.title}}</h3>
+<h2 id="method{{count}}"><span class="btn">Method {{count}}</span> {{route.title}}</h2>
+<h3 id="method{{count}}-1">Step 1 @ {{startlocation.title}}</h3>
     {{route.content}}
     <script language="javascript">
         L.polyline([
@@ -50,10 +55,10 @@ layout: default
         {% assign count=count | plus: 1 %}        
         {% assign transit=site.origins | where: 'slug', route2.origin | first  %}
 
-  <h2 id="method{{count}}"><span class="label label-yellow">Method {{count}}</span> {{route.title}}</h2>
-    <h3 id="method{{count}}-1"><span class="label">Step 1</span>  {{startlocation.title}}</h3>
+  <h2 id="method{{count}}"><span class="btn">Method {{count}}</span> {{route.title}}</h2>
+    <h3 id="method{{count}}-1">Step 1 @ {{startlocation.title}}</h3>
         {{route.content}}
-    <h3 id="method{{count}}-2"><span class="label">Step 2</span> {{transit.title}}</h3>
+    <h3 id="method{{count}}-2">Step 2 @ {{transit.title}}</h3>
         {{route2.content}}
         <script language="javascript">
             L.polyline([
@@ -75,12 +80,12 @@ layout: default
         {% assign count=count | plus: 1 %}  
         {% assign transit=site.origins | where: 'slug', route2.origin | first  %}
         {% assign transit2=site.origins | where: 'slug', route3.origin | first  %}     
-  <h2 id="method{{count}}"><span class="label label-yellow">Method {{count}}</span> {{route.title}}</h2>
-    <h3 id="method{{count}}-1"><span class="label">Step 1</span>  {{startlocation.title}}</h3>
+  <h2 id="method{{count}}"><span class="btn">Method {{count}}</span> {{route.title}}</h2>
+    <h3 id="method{{count}}-1">Step 1 @ {{startlocation.title}}</h3>
         {{route.content}}
-    <h3 id="method{{count}}-2"><span class="label">Step 2</span>  {{transit.title}}</h3>
+    <h3 id="method{{count}}-2">Step 2 @ {{transit.title}}</h3>
         {{route2.content}}
-    <h3 id="method{{count}}-3"><span class="label">Step 3</span> {{transit2.title}}</h3>
+    <h3 id="method{{count}}-3">Step 3 @ {{transit2.title}}</h3>
         {{route3.content}}
         <script language="javascript">
             L.polyline([
@@ -105,7 +110,7 @@ layout: default
 <h2 id="advice">General advice</h2>
 {%endcapture%}
 {%assign transitpoints=tpoints|split:","|uniq%}
-{% include toc.html html=allcontent %}
+{% include toc.html html=allcontent h_max=3  %}
 <div id="map"></div>
 <script language="javascript">
         var greenIcon = new L.Icon({

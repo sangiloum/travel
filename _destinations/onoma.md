@@ -3,6 +3,7 @@ title: Onoma Hotel (오노마호텔)
 order: 25
 lat: 36.37482
 long: 127.3833
+roadview: https://kko.to/POEWMn3-ki
 ---
 ![Shinsegae Department Store and Onoma Hotel](/assets/images/shinsegae.jpg)
 *Shinsegae Department Store and Onoma Hotel*

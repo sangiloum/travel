@@ -1,5 +1,5 @@
 ---
-title: Cheongju Airport (CJJ) (청주공항)
+title: Cheongju International Airport (CJJ) (청주공항)
 city: Cheongju
 nav_order: 3
 lat: 36.72261
