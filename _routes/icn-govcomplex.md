@@ -10,7 +10,7 @@ You can buy bus tickets inside the airport near Exit 4 and in between 8 and 9; a
 At the ticket office, you can purchase the ticket for **Daejeon Government Complex (대전청사)** Bus Stop. 
 
 
-#### Bus Schedule (as of Nov. 2024)
+#### Bus Schedule (as of May 2024)
 
 |	Departure	|	Arrival	|	Class	|	Fare for an Adult	(KRW)|
 |  :--:	|	:--:	|	:--:	|	:--:	|

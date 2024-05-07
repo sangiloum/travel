@@ -5,11 +5,10 @@ order: 1
 For most visitors, this is the most recommended method to visit IBS.
 From the Incheon Airport, you can take the airport bus to the Daejeon Government Complex. The bus will take you directly. The bus ride will take roughly **3 hours**.
 
-
 Arrivals are on the first floor and most of the transportation options are in the Transit Center Basement 1. Buy your bus ticket at the kiosks or manned ticket office for **Daejeon Government Complex (대전청사)** Bus Stop. 
 Pass the rail options (AREX) and your bus is located to the left at **platform 5**. There is seating near the platforms and you can recharge your phone or other electronics at one of the outlets. Your bus departure time and seat number will be on the ticket. The first bus leaves at 6:00 AM and the last bus leaves at 23:00.
 
-#### Bus Schedule (as of Nov. 2024)
+#### Bus Schedule (as of May 2024)
 
 |	Departure	|	Arrival	|	Class	|		Fare for an Adult	(KRW)|
 |  :--:	|	:--:	|	:--:	|	:--:	|
