@@ -86,3 +86,5 @@ var redIcon = new L.Icon({
     {% endif %}
     {% endfor %}
 </script>
+
+
