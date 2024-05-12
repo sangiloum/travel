@@ -58,7 +58,7 @@ pm(24,36.368,127.3805,"Mannyeon-dong",'https://kko.to/rrjvSwh-Lo');
 - Banks
   - Shinhan Bank (신한은행) <span class="mi">4</span> (9th Floor), Woori Bank (우리은행) <span class="mi">20</span>
   - ATM of the Woori Bank is located in the 1st floor of the IBS Main Building <span class="mi">1</span>.
-- Bakery: Sungsimdang <span class="mi">14</span> (Open at 8 am)
+- Bakery: [Sungsimdang](https://www.instagram.com/sungsimdang_dcc/) <span class="mi">14</span> (Open at 8 am)
 - Cafe (having sandwiches for breakfast)
   - Sungsimdang Cafe (성심당 카페) <span class="mi">14</span> (2nd Floor): 
     Open at 8 am. Brunch menu (Salad, Toast, Sandwich) is available from 8 am to 7 pm. Tea, Coffee.
