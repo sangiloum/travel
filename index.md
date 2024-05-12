@@ -4,6 +4,8 @@ title: Home
 ---
 # Travel Instructions to the IBS, Daejeon, Korea
 
+[Local Information](/localinfo/){: .btn .btn-green .v-align-middle}
+
 ## Where are you travelling from?
 
 ### Airports
@@ -67,6 +69,7 @@ var redIcon = new L.Icon({
         maxZoom: 19,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
+    L.control.scale().addTo(map);
     {% for dest in site.destinations %}
     {% if dest.lat and dest.long %}
         {% if dest.slug== "dimag" %}

@@ -107,7 +107,7 @@ layout: default
 {% endif %}
 <hr/>
 
-<h2 id="advice">General advice</h2>
+<h2 id="advice">Local information</h2>
 {%endcapture%}
 {%assign transitpoints=tpoints|split:","|uniq%}
 {% include toc.html html=allcontent h_max=3  %}
@@ -134,6 +134,7 @@ var redIcon = new L.Icon({
         maxZoom: 19,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
+    L.control.scale().addTo(map);
     var bounds= new L.latLngBounds();
     {% for dest in site.destinations %}
     {% if dest.lat and dest.long %}
@@ -167,6 +168,6 @@ var redIcon = new L.Icon({
 </script>
 {{allcontent}}
 
-{%capture my_include%}{% include tips.md %}{% endcapture %}
-{{my_include|markdownify}}
+<a href="/localinfo/" class="btn btn-green">Local Information</a>
+
 

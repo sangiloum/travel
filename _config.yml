@@ -32,13 +32,13 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "10.9.0"
-just_the_docs:
-  # Define which collections are used in just-the-docs
-  collections:
-    # Reference the "tests" collection
-    origins:
-      # Give the collection a name
-      name: "Departing from"
+# just_the_docs:
+#   # Define which collections are used in just-the-docs
+#   collections:
+#     # Reference the "tests" collection
+#     origins:
+#       # Give the collection a name
+#       name: "Departing from"
 
 
 nav_external_links:
