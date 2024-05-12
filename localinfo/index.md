@@ -74,7 +74,7 @@ pm(24,36.368,127.3805,"Mannyeon-dong",'https://kko.to/rrjvSwh-Lo');
   - Mannyeon-dong <span class="mi">24</span> (Various restaurants)
   - [Restaurant Guide Book around Daejeon Convention Center (PDF File)](http://www.micedaejeon.com/images/djec/link/Restaurant_Guide_Book_Around_DCC_Eng.pdf)
 - Sightseeing
-  - Hanbat Arboretum <span class="mi">16</span> <span class="mi">17</span>, Leeungno Museum <span class="mi">18</span>, National Science Museum <span class="mi">23</span>
+  - Hanbat Arboretum (한밭수목원) <span class="mi">16</span> <span class="mi">17</span>, Leeungno Museum <span class="mi">18</span>, National Science Museum <span class="mi">23</span>
   - [Daejeon Tour Guide (PDF File)](http://www.djto.kr/boardFileDown.do?file_idx=10883)
 - Pharmacy
   - JEONG Pharmacy (정약국) <span class="mi">4</span>. Closed on Sunday. Open at 10am. Closed at 7:30pm on weekdays, 4:30pm on Saturday.
