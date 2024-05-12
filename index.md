@@ -1,6 +1,6 @@
 ---
 nav_order: 1
-title: Home
+title: Travel Instructions to IBS
 ---
 # Travel Instructions to the IBS, Daejeon, Korea
 
