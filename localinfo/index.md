@@ -45,8 +45,9 @@ pm(24,36.368,127.3805,"Mannyeon-dong",'https://kko.to/rrjvSwh-Lo');
 </script>
 
 - IBS
-  - IBS, Main Entrance <span class="mi">1</span>: The entrance pass can be picked up at the reception in the main lobby. You may need a photo ID to pick up the pass.
-  - IBS Guesthouse / Dormitory <span class="mi">2</span>
+  - IBS, Main Entrance <span class="mi">1</span>: The entrance pass can be picked up at the reception in the main lobby. You may need a photo ID to pick up the pass. Since the reception is located in the Building B (Theory Building) already, after passing through the security gate using the entrance pass, go straight until you see the elevator on the right, next to the cafeteria. Take the elevator to the 3rd floor. Discrete Mathematics Group and Extremal Combinatorics and Probabaility Group are located on the left side of the elevator, right above the reception and the main entrance.
+  The eduroam Wi-Fi is available. If you don't have the eduroam account, please contact your host to get the guest Wi-Fi account.
+  - IBS Guesthouse / Dormitory <span class="mi">2</span> You will need to find the key code in the email instruction in order to enter the building. There is no front desk or reception here. In the emergency, please go to the reception at the main building <span class="mi">1</span>; the security guard will be there for 24 hours. Wi-Fi is available for free.
 - Hotels
   - Onoma Hotel (오노마호텔) <span class="mi">4</span>, I-Hotel (아이호텔) <span class="mi">15</span>, ICC Hotel (ICC호텔) <span class="mi">8</span>, Lotte City Hotel (롯데시티호텔) <span class="mi">10</span>, Gaon Residence Hotel (가온레지던스호텔) <span class="mi">19</span>
 - Groceries: Open every day.
