@@ -25,5 +25,5 @@ Timetables and updated information are available at [www.arex.or.kr](https://www
 {: .note}
 
 
-After arriving at Seoul Station, follow the crowds up 1 small escalator, 1 long escalator, scan your transit card, if you have a single journey ticket then refund it in the separate refund machine, 2 more escalators, and now you are in the center of Seoul Station. 
+After arriving at Seoul Station, follow the crowds up 1 small escalator, 1 long escalator, scan your transit card at the exit, if you have a single journey ticket then refund it in the separate refund machine, 2 or 3 more escalators, and now you are in the center of Seoul Station. 
 
