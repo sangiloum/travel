@@ -4,7 +4,7 @@ title: Take a taxi or a bus or a subway + taxi
 ---
 Now, you are within 8km from the IBS Discrete Mathematics Group. 
 
-It is recommended for you to take a taxi to IBS. The taxi fare should be around 10,000 KRW and it will take about 20 minutes.
+It is recommended for you to take a taxi to IBS. The taxi fare should be around 11,000 KRW and it will take about 20 minutes.
 
 #### Taxi
 Here's the instruction to give to the taxi driver. Often taxi drivers do not know IBS but all of them are familiar with the big department store next to the IBS --- Shinsegae Department Store, the tallest building of Daejeon.

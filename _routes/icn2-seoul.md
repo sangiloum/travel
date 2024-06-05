@@ -13,6 +13,7 @@ All-stop trains take 66 minutes, cost KRW 4,950 including a refundable KRW 500 f
 
 {: .note}
 Instead of a single journey ticket, you can buy a transportation card called the [T-money card](https://www.t-money.co.kr/ncs/pct/tmnyintd/ReadFrgnKoreaTourCardEngIntd.dev) at the airport and use it for the all-stop AREX train and other public transportation in Korea.
+Some people reported that you need Korean cash to buy the T-money card.
 
 Timetables and updated information are available at [www.arex.or.kr](https://www.arex.or.kr).
 

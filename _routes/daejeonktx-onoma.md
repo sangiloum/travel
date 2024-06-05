@@ -4,7 +4,7 @@ title: Take a taxi or a bus or a subway + taxi
 ---
 Now, you are within 8km from the [Onoma Hotel](https://www.marriott.com/en-us/hotels/cjjak-hotel-onoma-daejeon-autograph-collection/overview/).
 
-It is recommended for you to take a taxi to IBS. The taxi fare should be around 10,000 KRW and it will take about 20 minutes.
+It is recommended for you to take a taxi to IBS. The taxi fare should be around 11,000 KRW and it will take about 20 minutes.
 
 #### Taxi
 Here's the instruction to give to the taxi driver. 

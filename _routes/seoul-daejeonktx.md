@@ -18,14 +18,20 @@ Tickets for trains can be purchased by tellers at ticketing counters, by machine
 - [Korail Website (English)](https://www.letskorail.com/english)
 - [Mobile Korail Website (English)](https://m.letskorail.com/english)
 
-
-{: .note}
-
+As of 2023, it is possible to buy tickets online at above website by using foreign credit cards.
 For visitors from China, it is also possible to buy the train ticket on [WeChat](https://www.minipaycn.com/minipay/wechat.do) or [AliPay](https://www.minipaycn.com/minipay/alipay.do).
 
-As of 2023, it is possible to buy tickets online at above website by using foreign credit cards.
 
 The ticketing counter closest to the AREX entrance is smaller and typically has a smaller line than the ticketing counter close to the main street entrance. Ticketing machines are located in between the two sets of counters and are closer to the street entrance than the AREX entrance.
+
+{: .note}
+Many of the ticket machines are marked as "domestic credit card only". If you want to pay by a foreign credit card, you should use the ticket counter or the other ticket machines.
+
+
+{: .note}
+Refund fees are not too big; it is at most 10% of the ticket price if you request the refund before the train leaves. If you miss the train, you can still get a refund at the ticket counter after paying the fee up to 15%, 40%, or 70% of the ticket price depending on how late you are.
+If you arrive at the train station too early, you can go to the ticket counter to exchange your ticket for an earlier train, as long as seats are available. 
+
 
 #### KTX Trains
 The KTX is a high-speed train that travels at speeds of up to 305 km/h.

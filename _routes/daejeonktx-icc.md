@@ -5,7 +5,7 @@ title: Take a taxi or a bus or a subway + taxi
 Now, you are within 8km from the [ICC Hotel](http://hotel.hotelicc.com/view/index.do?SS_SVC_LANG_CODE=ENG). 
 
 
-It is recommended for you to take a taxi to the ICC Hotel. The taxi fare should be around 10,000 KRW and it will take about 20 minutes.
+It is recommended for you to take a taxi to the ICC Hotel. The taxi fare should be around 11,000 KRW and it will take about 20 minutes.
 
 #### Taxi
 
