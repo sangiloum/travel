@@ -111,7 +111,7 @@ ICN == 2 hours 35 min.==>Daejeon
 
 
 
-The bus to Daejeon will be at **bus platform 11A**.
+The bus to Daejeon will be at **bus platform 11A-3**.
 The ticket will have your departure time and your seat number.
 There is no bathroom on the bus. Sometimes the bus stops at the highway rest area for 10 or 20 minutes.
 
