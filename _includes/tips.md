@@ -5,10 +5,10 @@
 
 ### Breakfast
 
-{: .important}
-> One of the best options for having breakfast around IBS is the famous bakery, called **Sungsimdang** (성심당). It is located across the street from the Lotte City Hotel (롯데시티호텔), inside the Daejeon Convention Center (DCC). It opens daily from 8am. Very close to IBS.
-> 
-> On the second floor of the Daejeon Convention Center, there is also a **brunch cafe** (브런치카페) run by Sungsimdang. The brunch menus are available from 8am to 7pm. You need to enter the building and take the elevator to the second floor.
+One of the best options for breakfast near IBS is the famous bakery **Sungsimdang (성심당)**. It is conveniently located across the street from the Lotte City Hotel (롯데시티호텔) inside the Daejeon Convention Center (DCC). The bakery opens daily from 8 AM, making it a perfect spot for an early morning treat. It’s very close to IBS, so you won’t have to go far.
+Don't be intimidated by the long queue at Sungsimdang; it’s often for a particular mango or strawberry cake. You can just walk in and buy any other bread without waiting in line.
+
+On the second floor of the Daejeon Convention Center, there is also a **brunch cafe** (브런치카페) run by Sungsimdang. The brunch menus are available from 8am to 7pm. You need to enter the building and take the elevator to the second floor.
 
 A closer option is *Starbucks* on the 38th floor of the EXPO tower, the building having the Shinsegae department store. It opens daily from 8am. You can buy a coffee and a sandwich there and enjoy the great view of Daejeon. It opens at 8am and closes at 10pm.
 

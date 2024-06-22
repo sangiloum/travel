@@ -73,14 +73,14 @@ pm(24,36.368,127.3805,"Mannyeon-dong",'https://kko.to/rrjvSwh-Lo');
   - Gyeongbokgung Kappo Jeju (경복궁갓포제주) <span class="mi">5</span> (2nd Floor, Korean).
   - Various Restaurants in hausD Street Mall <span class="mi">12</span> (1st Floor, 2nd Floor).
   - [Udonya (우동야)](https://www.instagram.com/sungsimdang.udonya_dcc/) <span class="mi">9</span>. Japanese Udon. Run by Sungsimdang.
-  - McDonald's <span class="mi">22</span> (24 hours)
+  - McDonald's <span class="mi">22</span> (Opening Hours: 06:00-01:00)
   - Mannyeon-dong <span class="mi">24</span> (Various restaurants)
   - [Restaurant Guide Book around Daejeon Convention Center (PDF File)](http://www.micedaejeon.com/images/djec/link/Restaurant_Guide_Book_Around_DCC_Eng.pdf)
 - Sightseeing
-  - Hanbat Arboretum (한밭수목원) <span class="mi">16</span> <span class="mi">17</span>, Leeungno Museum (이응노미술관) <span class="mi">18</span>, National Science Museum (국립중앙과학관) <span class="mi">23</span>
+  - Hanbat Arboretum (한밭수목원) <span class="mi">16</span> <span class="mi">17</span>, <a href="https://www.leeungnomuseum.or.kr/?en=Us">Leeungno Museum (이응노미술관)</a> <span class="mi">18</span>, National Science Museum (국립중앙과학관) <span class="mi">23</span>
   - [Daejeon Tour Guide (PDF File)](http://www.djto.kr/boardFileDown.do?file_idx=10883)
 - Pharmacy
-  - JEONG Pharmacy (정약국) <span class="mi">4</span>. Closed on Sunday. Open at 10am. Closed at 7:30pm on weekdays, 4:30pm on Saturday.
+  - JEONG Pharmacy (정약국) <span class="mi">4</span>. 4th Floor. Closed on Sunday. Open at 10am. Closed at 7:30pm on weekdays, 4:30pm on Saturday.
   - ON Pharmacy (온약국) <span class="mi">24</span>.
 - Convenience Stores (open 24 hours)
   - Emart24 (이마트24) <span class="mi">6</span> <span class="mi">5</span> (2nd Floor).
