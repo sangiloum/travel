@@ -73,7 +73,7 @@ Pass the rail options (AREX) and your bus is located to the left at **platform 5
 |	23:00	|	02:06	|	Deluxe (우등)	|	28,700	|
 
 {: .note}
-The prices are the same for all four stops in Daejeon (North Daejeon, Daedeok Culture Center
+The prices are almost same for all four stops in Daejeon (North Daejeon, Daedeok Culture Center
      (Doryong), Government Complex, and Daejeon Bus Terminal). Although the Daedeok Culture Center is also close to IBS, there are not many taxis waiting at the stop. 
      If you don't mind walking with luggages, 
      then it is possible to get off at the Daedeok Culture Center (Doryong) stop and walk for 30 minutes to IBS.
