@@ -24,5 +24,5 @@ Go out the front of the train-based Daejeon Station aboveground building and go 
 
 #### Bus
 
-Although time-consuming, it is possible to reach the Onoma Hotel by bus. Depending on traffic, the bus ride will take more than 1 hour and cost KRW 1,500 with T-money card. Once arriving at Daejeon Station, go out the front entrance (Exit 1) and walk until you reach the street. Turn right and walk another 60 meters until you reach a bus top. Ride bus 606 and exit the bus 
+Although time-consuming, it is possible to reach the Gaon Residence by bus. Depending on traffic, the bus ride will take more than 1 hour and cost KRW 1,500 with T-money card. Once arriving at Daejeon Station, go out the front entrance (Exit 1) and walk until you reach the street. Turn right and walk another 60 meters until you reach a bus top. Ride bus 606 and exit the bus 
 at 연구단지네거리 정류장 (Bus Stop number 43140). Be prepared for a walk less than 300m.
