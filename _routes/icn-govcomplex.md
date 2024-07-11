@@ -128,6 +128,7 @@ There is no bathroom on the bus. Sometimes the bus stops at the highway rest are
 - [Online booking](https://intercitybuse.tmoney.co.kr/) at [https://intercitybuse.tmoney.co.kr/](https://intercitybuse.tmoney.co.kr/) :  You can check the time schedule and the current availability of the seats. 
   - Departure: IncheonAirportT1
   - Destination: DaejeonGovComplex
+
 To use foreign credit cards, you may want to choose "GLOBAL CARD" in the list of credit cards. 
 ![Choose "GLOBAL CARD"](/assets/images/card.png)
 
