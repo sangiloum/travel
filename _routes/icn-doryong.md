@@ -121,7 +121,8 @@ There is no bathroom on the bus. Sometimes the bus stops at the highway rest are
 
 - Price: KRW 25,500 for deluxe and KRW 33,100 for premium. Night buses (after 10pm) are 10% more expensive.
 - Schedule: Earlist at 06:20. Last at 23:20.
-- [Online booking](https://intercitybuse.tmoney.co.kr/) at [https://intercitybuse.tmoney.co.kr/](https://intercitybuse.tmoney.co.kr/) :  You can check the time schedule and the current availability of the seats. But it is not yet clear whether it accepts a credit card issued by foreign banks -- please let us know if it works.
+- [Online booking](https://intercitybuse.tmoney.co.kr/) at [https://intercitybuse.tmoney.co.kr/](https://intercitybuse.tmoney.co.kr/) :  You can check the time schedule and the current availability of the seats. 
   - Departure: IncheonAirportT1
   - Destination: Daedeokcommunitycenter
-
+To use foreign credit cards, you may want to choose "GLOBAL CARD" in the list of credit cards. 
+![Choose "GLOBAL CARD"](assets/images/card.png)
