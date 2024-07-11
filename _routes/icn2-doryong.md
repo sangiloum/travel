@@ -116,3 +116,5 @@ ICN == 2 hours 35 min.==>Daejeon
 
 To use foreign credit cards, you may want to choose "GLOBAL CARD" in the list of credit cards. 
 ![Choose "GLOBAL CARD"](/assets/images/card.png)
+
+![Doryong Bus Stop - Getting off](/assets/images/doryong-off.jpg)

@@ -127,3 +127,5 @@ There is no bathroom on the bus. Sometimes the bus stops at the highway rest are
 
 To use foreign credit cards, you may want to choose "GLOBAL CARD" in the list of credit cards. 
 ![Choose "GLOBAL CARD"](/assets/images/card.png)
+
+![Doryong Bus Stop - Getting off](/assets/images/doryong-off.jpg)
