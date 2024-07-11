@@ -114,4 +114,4 @@ ICN == 2 hours 35 min.==>Daejeon
   - Departure: IncheonAirportT2
   - Destination: Daedeokcommunitycenter
 To use foreign credit cards, you may want to choose "GLOBAL CARD" in the list of credit cards. 
-![Choose "GLOBAL CARD"](assets/images/card.png)
+![Choose "GLOBAL CARD"](/assets/images/card.png)
