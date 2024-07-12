@@ -125,7 +125,7 @@ There is no bathroom on the bus. Sometimes the bus stops at the highway rest are
   - Departure: IncheonAirportT1
   - Destination: Daedeokcommunitycenter
 
-To use foreign credit cards, you may want to choose "GLOBAL CARD" in the list of credit cards. 
+To use foreign credit cards, you may want to choose "GLOBAL CARD" in the list of credit cards. For "Card Password", it only neeeds the first 2 digits of your credit card password. For "Resident Registration Number (front 6 digits"), you simply need to type your birthday in YYMMDD format.
 ![Choose "GLOBAL CARD"](/assets/images/card.png)
 
 ![Doryong Bus Stop - Getting off](/assets/images/doryong-off.jpg)
