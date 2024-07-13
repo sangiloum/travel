@@ -115,7 +115,7 @@ The bus to Daejeon will be at **bus platform 11A-3**.
 The ticket will have your departure time and your seat number.
 There is no bathroom on the bus. Sometimes the bus stops at the highway rest area for 10 or 20 minutes.
 
-|![Inside Ticket Office (Gate 8/9)](/assets/images/icn-ticket-inside.jpg)|![Outside Ticket Office (Gate 11)](/assets/images/icn-ticket-outside.jpg)|
+|![Inside Ticket Office (Gate 8/9)](/assets/images/icn1-bus-ticket.jpg)|![Outside Ticket Office (Gate 11)](/assets/images/icn-ticket-outside.jpg)|
 |:--:|:--:|
 |*Inside Ticket Office (Gate 8/9)*|*Outside Ticket Office (Gate 11)*|
 |![Bus Platform 11A](/assets/images/icn-t1-platform.jpg)|![Bus](/assets/images/icn-bus.jpg)|
@@ -129,7 +129,7 @@ There is no bathroom on the bus. Sometimes the bus stops at the highway rest are
   - Departure: IncheonAirportT1
   - Destination: DaejeonGovComplex
 
-To use foreign credit cards, you may want to choose "GLOBAL CARD" in the list of credit cards. For "Card Password", it only neeeds the first 2 digits of your credit card password. For "Resident Registration Number (front 6 digits"), you simply need to type your birthday in YYMMDD format.
+It is not clear whether foreign credit cards work on this website. Please let us know if it worked. If you want to use foreign credit cards, you may want to choose "GLOBAL CARD" in the list of credit cards. For "Card Password", it only neeeds the first 2 digits of your credit card password. For "Resident Registration Number (front 6 digits"), you simply need to type your birthday in YYMMDD format.
 ![Choose "GLOBAL CARD"](/assets/images/card.png)
 
 ![Daejeon Government Complex (대전청사) Bus Stop](/assets/images/govcomplexstop.jpg)

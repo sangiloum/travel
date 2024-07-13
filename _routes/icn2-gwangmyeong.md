@@ -9,6 +9,10 @@ You can use a bus number **6770** or **6004** to go to the KTX Gwangmyeong Stati
 Arrivals are on the first floor and most of the transportation options are in the Transit Center Basement 1. Buy your bus ticket at the kiosks or manned ticket office for **KTX Gwangmyeong Station (KTX광명역)**.
 You can also use the T-Money Card to pay for the bus fare in the bus.
 
+|![Bus Ticket Kiosks](/assets/images/icn2-ticket-kiosk.jpg)|![Bus ticket office](/assets/images/icn2-ticket.jpg)|
+|:--:|:--:|
+|*Bus Ticket Kiosks*|*Bujs Ticket Office*|
+
 #### Bus Number 6770
 
 <dl>

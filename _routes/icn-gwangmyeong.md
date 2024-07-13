@@ -11,6 +11,9 @@ You can use a bus number **6770** or **6004** to go to the KTX Gwangmyeong Stati
 You can buy bus tickets inside the airport near Exit 4 and in between 8 and 9; and outside just left of Exit 11.
 You can also use the T-Money Card to pay for the bus fare in the bus.
 
+|![Inside Ticket Office (Gate 8/9)](/assets/images/icn1-bus-ticket.jpg)|![Outside Ticket Office (Gate 11)](/assets/images/icn-ticket-outside.jpg)|
+|*Inside Ticket Office (Gate 8/9)*|*Outside Ticket Office (Gate 11)*|
+
 #### Bus Number 6770
 
 <dl>
