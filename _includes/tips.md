@@ -43,9 +43,10 @@ Taxi drivers in Korea do not expect tips.
 #### Taxi-hailing apps
 
 Kakao Taxi is the most popular taxi-hailing app in Korea. You can use it to call a taxi. It is available in English. Unfortunately, some people find it difficult to use it without a Korean phone number.
+- k.ride: A new taxi-hailing app for international visitors made by the number 1 taxi-hailing app, Kakao Taxi. [Android](https://play.google.com/store/apps/details?id=com.kakaomobility.kride&hl=en) [iOS](https://apps.apple.com/us/app/k-ride-taxi-cab-korea-trip/id6474654222) [(news)](https://www.koreaherald.com/view.php?ud=20240604050565)
 - Kakao Taxi: [Android](https://play.google.com/store/apps/details?id=com.kakao.taxi&hl=en), [iOS](https://apps.apple.com/us/app/kakao-t/id869125772) 
+- Uber: Uber is also available in Korea. 
 
-Uber is also available in Korea. 
 Both Kakao Taxi and Uber have the same price, as the taxi service will be provided by the same regular taxi. 
   
 
