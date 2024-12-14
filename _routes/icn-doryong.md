@@ -115,11 +115,11 @@ The bus to Daejeon will be at **bus platform 11A-3**.
 The ticket will have your departure time and your seat number.
 There is no bathroom on the bus. Sometimes the bus stops at the highway rest area for 10 or 20 minutes.
 
-|![Inside Ticket Office (Gate 8/9)](/assets/images/icn-ticket-inside.jpg)|![Outside Ticket Office (Gate 11)](/assets/images/icn-ticket-outside.jpg)|
+|![Inside Ticket Office (Gate 11)](/assets/images/icn-ticket-inside.jpg)|![Outside Ticket Office (Gate 11)](/assets/images/icn-ticket-outside.jpg)|
 |:--:|:--:|
 |*Inside Ticket Office (Gate 8/9)*|*Outside Ticket Office (Gate 11)*|
-|![Bus Platform 11A](/assets/images/icn-t1-platform.jpg)|![Bus](/assets/images/icn-bus.jpg)|
-|*Bus Platform 11A*|*Bus to Daejeon*|
+|![Bus Platform 11A-3](/assets/images/icn-t1-platform.jpg)|![Bus](/assets/images/icn-bus.jpg)|
+|*Bus Platform 11A-3*|*Bus to Daejeon*|
 
 
 

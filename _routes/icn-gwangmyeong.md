@@ -8,11 +8,11 @@ This may be the fastest way to get to Daejeon from the Incheon Airport and will 
 The KTX Gwangmyeong Station is located in Gwangmyeong, a city in the Gyeonggi Province. The KTX Gwangmyeong Station is roughly 50 km away from the Incheon Airport.
 
 You can use a bus number **6770** or **6004** to go to the KTX Gwangmyeong Station (KTX광명역) from Incheon International Airport. The bus stop is located at the 1st floor of the airport. 
-You can buy bus tickets inside the airport near Exit 4 and in between 8 and 9; and outside just left of Exit 11.
+You can buy bus tickets inside the airport.
 You can also use the T-Money Card to pay for the bus fare in the bus.
 
-|![Inside Ticket Office (Gate 8/9)](/assets/images/icn1-bus-ticket.jpg)|![Outside Ticket Office (Gate 11)](/assets/images/icn-ticket-outside.jpg)|
-|*Inside Ticket Office (Gate 8/9)*|*Outside Ticket Office (Gate 11)*|
+|![Ticket Office (Gate 11)](/assets/images/icn1-bus-ticket.jpg)|
+|*Inside Ticket Office (Gate 11)*|
 
 #### Bus Number 6770
 
