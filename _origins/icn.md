@@ -11,4 +11,4 @@ long: 126.4514
 {: .warning}
 The Incheon International Airport has two terminals. If you arrive at Terminal 2, please refer to the [Terminal 2](/icn2/).
 Terminal 2 is the newer terminal and is located about 20 minutes away from Terminal 1 by shuttle bus. Terminal 2 is served by mostly SKY team airlines --- 
-Korean Airlines, Delta Air Lines, Air France, KLM, Garuda Indonesia, China Airlines, and Jin Air.
+Korean Airlines, Delta Air Lines, Air France, KLM, Garuda Indonesia, Aeromexico, Garuda Indonesia, China Airlines, Xiamen Air, and Jin Air.
