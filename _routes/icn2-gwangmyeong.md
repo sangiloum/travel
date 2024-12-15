@@ -16,8 +16,8 @@ You can also use the T-Money Card to pay for the bus fare in the bus.
 #### Bus Number 6770
 
 <dl>
-<dt> <a href="https://www.letskorail.com/ebizcom/event/total/EbizcomEventTotallw_cus06101_detail.do?searchKeyword2=2439">Bus#6770 Timetable</a></dt>
-<dd>6:00, 6:20, 6:50, 7:10, 7:30, 7:50, 8:20, 8:40, 9:10, 9:40, 10:10, 10:40, 11:00, 11:20, 11:40, 12:00, 12:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:20, 15:40, 16:00, 16:20, 16:40, 17:00, 17:20, 17:40, 18:00, 18:30, 19:00, 19:20, 19:40, 20:00, 20:30, 21:00, 21:20, 21:40, 22:00, 22:30</dd>
+<dt> <a href="https://www.letskorail.com/ebizcom/event/total/EbizcomEventTotallw_cus06101_detail.do?searchKeyword2=2439">Bus#6770 Timetable</a>  (as of June 1, 2024)</dt>
+<dd>6:00, 6:20, 6:50, 7:10, 7:30, 7:50, 8:20, 8:40, 9:10, 9:40, 10:10, 10:40, 11:00, 11:20, 11:40, 12:00, 12:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:20, 15:40, 16:00, 16:20, 16:40, 17:00, 17:20, 17:40, 18:00, 18:20, 18:40, 19:00, 19:20, 19:40, 20:00, 20:20, 20:40, 21:00, 21:30, 22:05</dd>
 <dt> Price</dt>
 <dd> KRW 16,000</dd>
 <dt> Platform</dt>

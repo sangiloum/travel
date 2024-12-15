@@ -23,14 +23,15 @@ Convenience stores are are open 24 hours. You can buy snacks, drinks, and daily 
 
 ### SIM Card
 
-- If your smartphone supports an E-SIM, then it is best to buy an E-SIM online by installing an app. [Airalo](https://ref.airalo.com/gW2F) is highly recommended. They have a E-SIM covering 18 countires in Asia including Korea, that costs US $5 for 1GB data for 7 days or  US $13 for 3 GB data for 30 days.
+- If your smartphone supports an E-SIM, then it is best to buy an E-SIM online by installing an app. [Airalo](https://ref.airalo.com/gW2F) is highly recommended. They have a E-SIM covering 18 countires in Asia including Korea, that costs US $5 for 1GB data for 7 days or  US $13 for 3 GB data for 30 days. Warning: The SIM card for Korea is more expensive than the SIM card for covering Asia.
 - If you need a physical SIM card, you can buy it at the Incheon airport. You can visit the bookstore in the Incheon airport (K-Books) or the convenience store (CU); they are specialized for international visitors. 
+- In Daejeon, one can go to the KT Plaza Dunsan branch (KT플라자 둔산점) located near the E-Mart. The address is 51 Dunsanbuk-ro Seo-gu Daejeon. The store is open from 9am to 7pm on weekdays.
 
 ### Maps on the smart phone
 
 - Neither Google Maps nor Apple Maps works well in Korea. Due to the national security law, they are not allowed to show the map of Korea in detail. Google Maps has a limited support for public transportation in Korea but it does not support walking or driving directions. Apple Maps does not support public transportation in Korea but has a walking or driving direction.
 - Instead, use Naver Map or Kakao Map produced by local companies. They are the most popular map apps in Korea.
-  - Naver Map: [Android](https://play.google.com/store/apps/details?id=com.nhn.android.nmap&hl=en), [iOS](https://apps.apple.com/us/app/naver-map/id311867728)
+  - Naver Map: [Android](https://play.google.com/store/apps/details?id=com.nhn.android.nmap&hl=en), [iOS](https://apps.apple.com/us/app/naver-map/id311867728) (Naver Map supports English.)
   - Kakao Map: [Android](https://play.google.com/store/apps/details?id=net.daum.android.map&hl=en), [iOS](https://apps.apple.com/us/app/kakao-map/id304608425)
 - Note that neither maps shows IBS on the top of their search results for IBS or "기초과학연구원". 
 
