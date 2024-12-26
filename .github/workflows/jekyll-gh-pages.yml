@@ -35,9 +35,12 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ruby-full build-essential zlib1g-dev
           gem install bundler --user-install --no-document
+          # Add gem bin directory to PATH
+          echo "GEM_HOME=$(ruby -e 'puts Gem.user_dir')" >> $GITHUB_ENV
+          echo "GEM_PATH=$(ruby -e 'puts Gem.user_dir')" >> $GITHUB_ENV
           echo "$(ruby -e 'puts Gem.user_dir')/bin" >> $GITHUB_PATH
       - name: Install Gems
-        run: bundle install
+        run: bundle install --path vendor/bundle
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
