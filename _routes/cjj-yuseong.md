@@ -14,3 +14,12 @@ The bus to Yuseong Intercity Bus Stop will be at the bus platform 2.
 >
 > 06:30, 07:45, 9:20, 10:35, 12:10, 14:05, 15:05, 15:20, 17:05, 18:20, 19:05, 20:05, 22:05
 
+
+|![Gate 1](/assets/images/cjj-gate1.jpg)|![Waiting room and ticket booth](/assets/images/cjj-bus-booth.jpg)|
+|:--:|:--:|
+|*Gate 1*|*Waiting room and ticket booth*|
+
+|![Ticket Machine](/assets/images/cjj-ticketmachine.jpg)|
+|:--:|
+|*Ticket Machine*|
+
