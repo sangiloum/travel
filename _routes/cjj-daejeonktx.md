@@ -20,9 +20,9 @@ For visitors from China, it is also possible to buy the train ticket on [WeChat]
 As of 2023, it is possible to buy tickets online at above website by using foreign credit cards.
 
 {: .note-title}
-> Mugunghwa Train Schedule from Cheongju Airport Station to Daejeon Station
+> Mugunghwa Train Schedule from Cheongju Airport Station to Daejeon Station (As of May, 2025)
 > 
-> 06:58, 08:30, 09:20, 12:30, 14:25, 16:27, 18:15, 19:21, 20:31, 22:53
+> 06:58, 08:30, 09:20, 12:30, 14:25, 16:43, 18:15, 19:21, 20:33, 22:53
 
 {: .note}
 You may also buy a ticket to Shintanjin Station (신탄진역) and take a taxi to your final destination. Shintanjin Station is one station before Daejeon Station. 
