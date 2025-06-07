@@ -30,7 +30,7 @@ pm(7,36.3765, 127.3912,'Golfzone Zoimaru','http://golfzonzoimaru.co.kr/f_coffee'
 pm(8,36.37695, 127.3933, 'ICC Hotel (ICC 호텔)', 'http://hotel.hotelicc.com/view/index.do?SS_SVC_LANG_CODE=ENG');
 pm(9,36.37601, 127.392, 'Weltz Tower', 'https://kko.to/n89YwJBrEe');
 pm(10,36.37601, 127.3929, 'Lotte City Hotel (롯데시티호텔)', 'https://www.lottehotel.com/daejeon-city/en.html');
-pm(11,36.37601, 127.3937, 'GS The Fresh (Grocery Store)','https://kko.to/92PAI8InaC' );
+//pm(11,36.37601, 127.3937, 'GS The Fresh (Grocery Store)','https://kko.to/92PAI8InaC' );
 pm(12,36.37601, 127.3947, 'hausD Urban Street Mall (Restaurants / Cafes)','https://kko.to/1zXvUK6QLb' );
 pm(13,36.37679, 127.3968, "Farmers 161 (Farmers' Market)", 'https://kko.to/P770F3Lh51');
 pm(14,36.3753, 127.3923,'Sungsimdang (Bakery)', 'https://www.sungsimdang.co.kr/31/17');
@@ -53,11 +53,11 @@ pm(24,36.368,127.3805,"Mannyeon-dong",'https://kko.to/rrjvSwh-Lo');
 - Hotels
   - Onoma Hotel (오노마호텔) <span class="mi">4</span>, I-Hotel (아이호텔) <span class="mi">15</span>, ICC Hotel (ICC호텔) <span class="mi">8</span>, Lotte City Hotel (롯데시티호텔) <span class="mi">10</span>, Gaon Residence Hotel (가온레지던스호텔) <span class="mi">19</span>
 - Groceries: Open every day.
-  - GS The Fresh <span class="mi">11</span> (9 am - 11 pm), Farmers 161 <span class="mi">13</span> (9 am - 9 pm; Local produce, fruits, vegetables, etc.)
+  - Farmers 161 <span class="mi">13</span> (9 am - 9 pm; Local produce, fruits, vegetables, etc.)
 - Post Office <span class="mi">21</span>
 - Banks
-  - Shinhan Bank (신한은행) <span class="mi">4</span> (9th Floor), Woori Bank (우리은행) <span class="mi">20</span>
-  - ATM of the Woori Bank is located in the 1st floor of the IBS Main Building <span class="mi">1</span>.
+  - Hana Bank (하나은행) <span class="mi">7</span> (1st Floor), Shinhan Bank (신한은행) <span class="mi">4</span> (9th Floor), Woori Bank (우리은행) <span class="mi">20</span>
+  - ATM of the Hana Bank is located in the 1st floor of the IBS Main Building <span class="mi">1</span>.
 - Bakery: [Sungsimdang](https://www.instagram.com/sungsimdang_dcc/) <span class="mi">14</span> (Open at 8 am)
 - Cafe (having sandwiches for breakfast)
   - Sungsimdang Cafe (성심당 카페) <span class="mi">14</span> (2nd Floor): 
