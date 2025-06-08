@@ -28,7 +28,7 @@ pm(7,36.3765, 127.3912,'Golfzone Zoimaru','http://golfzonzoimaru.co.kr/f_coffee'
 pm(8,36.37695, 127.3933, 'ICC Hotel (ICC 호텔)', 'http://hotel.hotelicc.com/view/index.do?SS_SVC_LANG_CODE=ENG');
 pm(9,36.37601, 127.392, 'Weltz Tower', 'https://kko.to/n89YwJBrEe');
 pm(10,36.37601, 127.3929, 'Lotte City Hotel (롯데시티호텔)', 'https://www.lottehotel.com/daejeon-city/en.html');
-//pm(11,36.37601, 127.3937, 'GS The Fresh (Grocery Store)','https://kko.to/92PAI8InaC' );
+/*pm(11,36.37601, 127.3937, 'GS The Fresh (Grocery Store)','https://kko.to/92PAI8InaC' );*/
 pm(12,36.37601, 127.3947, 'hausD Urban Street Mall (Restaurants / Cafes)','https://kko.to/1zXvUK6QLb' );
 pm(13,36.37679, 127.3968, "Farmers 161 (Farmers' Market)", 'https://kko.to/P770F3Lh51');
 pm(14,36.3753, 127.3923,'Sungsimdang (Bakery)', 'https://www.sungsimdang.co.kr/31/17');
