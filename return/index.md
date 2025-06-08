@@ -47,6 +47,6 @@ You can also buy the airport ticket in person at the ticket office (and will pri
 https://maps.app.goo.gl/xd5Di9C8mn8vrbQYA
 
 
-# Incheon Airport by the train
+## Incheon Airport by the train
 
 One can take the KTX train from the Daejeon Station <span class="mi">4</span> to Gwangmyeong Station or Seoul station and transfer to the Incheon airport.
