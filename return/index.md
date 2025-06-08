@@ -5,7 +5,11 @@ title: Return to the airport
 # Return to the airport
 
 The most recommended way to reach the Incheon Airport from Daejeon is to take the airport bus. 
+There are frequent buses from 3 am so that you can catch an early morning flight.
 It is strongly recommended to buy the ticket early.
+It takes up to 3 hours to reach the terminal 1 
+and up to 3 hours 18 minutes to reach the terminal 2.
+
 <div id="map2"></div>
 <script language="javascript">
 var map = L.map('map2').setView([36.37,127.3885], 13);
