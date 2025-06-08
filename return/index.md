@@ -5,6 +5,7 @@ title: Return to the airport
 # Return to the airport
 
 The most recommended way to reach the Incheon Airport from Daejeon is to take the airport bus. 
+It is strongly recommended to buy the ticket early.
 <div id="map2"></div>
 <script language="javascript">
 var map = L.map('map2').setView([36.37,127.3885], 13);
