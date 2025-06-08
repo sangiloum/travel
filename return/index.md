@@ -44,7 +44,6 @@ One can reserve the ticket [online at https://txbuse.t-money.co.kr](https://txbu
 
 ### Method 2: Visit the ticket office 
 You can also buy the airport ticket in person at the ticket office (and will print it here if you used Method 1). Here is the location of the Deajeon Gov Complex bus stop <span class="mi">2</span>. (It’s 2.3 km away from IBS.) You can also use the Doryong Bus Stop <span class="mi">3</span>.
-https://maps.app.goo.gl/xd5Di9C8mn8vrbQYA
 
 
 ## Incheon Airport by the train
