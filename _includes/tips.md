@@ -14,7 +14,7 @@ A closer option is *Starbucks* on the 38th floor of the EXPO tower, the building
 
 On the 39th floor of the same building, there is a cafe called *Paul Bassett* with a pizza restaurant called *Il Forno*. It opens at 9am and closes at 10pm. 
 
-IBS has a cafeteria which is open daily during weekdays. It is located on the 1st (ground) floor. You can buy a breakfast coupon KRW 3,000 at the machine by cash or credit card and replace it with a sandwich and a drink at the counter.
+IBS has a cafeteria which is open daily during weekdays. It is located on the 1st (ground) floor. Inside the cafeteria, there is a small cafe where you can buy a sandwich and a drink.
 
 ### Convenience Stores
 
