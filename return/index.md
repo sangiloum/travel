@@ -4,6 +4,7 @@ title: Return to the airport
 ---
 # Return to the airport
 
+The most recommended way to reach the Incheon Airport from Daejeon is to take the airport bus. 
 <div id="map2"></div>
 <script language="javascript">
 var map = L.map('map2').setView([36.37,127.3885], 13);
@@ -43,7 +44,19 @@ One can reserve the ticket [online at https://txbuse.t-money.co.kr](https://txbu
 
 
 ### Method 2: Visit the ticket office 
-You can also buy the airport ticket in person at the ticket office (and will print it here if you used Method 1). Here is the location of the Deajeon Gov Complex bus stop <span class="mi">2</span>. (It’s 2.3 km away from IBS.) You can also use the Doryong Bus Stop <span class="mi">3</span>.
+You can also buy the airport ticket in person at the ticket office (and will print it here if you used Method 1). Here is the location of the Deajeon Gov Complex bus stop <span class="mi">2</span>. (It’s 2.3 km away from IBS.) You can also use the Doryong Bus Stop <span class="mi">3</span> to buy the ticket using the machine.
+
+|![Government Complex Bus Stop](/assets/images/dunsan.jpg)|
+|:--:|
+|*Government Complex Bus Stop* <span class="mi">2</span>|
+
+|![Ticket Machine at the Government Complex Bus Stop](/assets/images/dunsan-ticket.jpg)|![Ticket Office at the Government Complex Bus Stop](/assets/images/dunsan-ticket-office.jpg)|
+|:--:|:--:|
+|*Ticket Machine for the Incheon Airport at the Government Complex Bus Stop* <span class="mi">2</span>|*Ticket Office at the Government Complex Bus Stop* <span class="mi">2</span> (6am-9:15pm)|
+
+|![Doryong Bus Stop](/assets/images/doryong.jpg)|![Ticket Machines at the Doryong Bus Stop](/assets/images/doryong-ticket.jpg)|
+|:--:|:--:|
+|*Doryong Bus Stop* <span class="mi">3</span>|*Ticket Machines at the Doryong Bus Stop* <span class="mi">3</span>|
 
 
 ## Incheon Airport by the train
