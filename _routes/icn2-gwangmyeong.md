@@ -11,7 +11,7 @@ You can also use the T-Money Card to pay for the bus fare in the bus.
 
 |![Bus Ticket Kiosks](/assets/images/icn2-ticket-kiosk.jpg)|![Bus ticket office](/assets/images/icn2-ticket.jpg)|
 |:--:|:--:|
-|*Bus Ticket Kiosks*|*Bujs Ticket Office*|
+|*Bus Ticket Kiosks*|*Bus Ticket Office*|
 
 #### Bus Number 6770
 

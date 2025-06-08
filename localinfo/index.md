@@ -4,8 +4,6 @@ title: Local Information
 ---
 # Local Information 
 
-[Travel Instructions](/){: .btn .btn-green .v-align-middle}
-
 <div id="map2"></div>
 <script language="javascript">
 var map = L.map('map2').setView([36.3763,127.3885], 15);
