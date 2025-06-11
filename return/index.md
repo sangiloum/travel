@@ -47,6 +47,12 @@ One can reserve the ticket [online at https://txbuse.t-money.co.kr](https://txbu
 - Departure: Daejeon Gov Complex(airport route) <span class="mi">2</span> (or Daejeondoryong <span class="mi">3</span> if you are staying near Gaon)
 - Destination: IncheonAirportT1 or IncheonAirportT2
 
+If you want to use foreign credit cards, you should choose "GLOBAL CARD" in the list of credit cards. For "Card Password", it only needs the first 2 digits of your credit card password, but probably you can type anything, because it doesn't matter much.
+
+For "Resident Registration Number (front 6 digits"), you simply need to type your birthday in YYMMDD format. For the Cellular Phone number, if you don't have the Korean mobile phone number, put any number, for instance the phone number of your host at IBS. That is for the identification. 
+
+After booking the ticket, you'll need to pick up the ticket at the bus stop by using the machine. It'll ask you to identify yourself by using the credit card number that was used to pay for your bus ticket or the phone number.
+
 
 ### Method 2: Visit the ticket office 
 You can also buy the airport ticket in person at the ticket office (and will print it here if you used Method 1). Here is the location of the Deajeon Gov Complex bus stop <span class="mi">2</span>. (It’s 2.3 km away from IBS.) You can also use the Doryong Bus Stop <span class="mi">3</span> to buy the ticket using the machine.
