@@ -11,22 +11,24 @@ long: 127.4965
 ### International Routes from Cheongju International Airport (CJJ) — October 2025
 
 - [Aero K](https://www.aerok.com/en)  
-  - **Japan**: Tokyo (NRT), Kansai (KIX), Sapporo (CTS), Nagoya (NGO), Obihiro (OBO), Ibaraki (IBR), Okinawa (OKA)  
-  - **China**: Qingdao (TAO)  
-  - **Taiwan**: Taipei (TPE)
-  - **Vietnam**: Da Nang (DAD), Nha Trang (CXR)  
-  - **Philippines**: Clark Field (CRK)  
+  - **Japan**: Tokyo (NRT), Kansai (KIX), Sapporo (CTS), Nagoya (NGO), Obihiro (OBO), Ibaraki (IBR), Okinawa (OKA), Fukuoka (FUK), Kitakyushu (KKJ), Hiroshima (HIJ)
+  - **China**: Qingdao (TAO), Macao (MCO)
+  - **Taiwan**: Taipei (TPE), Taichung (RMQ)
+  - **Vietnam**: Da Nang (DAD), Nha Trang (CXR)
+  - **Philippines**: Clark Field (CRK), Cebu (CEB)
   - **Mongolia**: Ulaanbaatar (UBN)  
 
 - [T'way Air](https://www.twayair.com/)  
-  - **Japan**: Kansai (KIX)  
+  - **Japan**: Kansai (KIX), Fukuoka (FUK)
   - **China**: Yanji (YNJ)  
+  - **Taiwan**: Taipei (TPE), Kaohsiung (KPH)
   - **Vietnam**: Da Nang (DAD), Nha Trang (CXR)  
   - **Indonesia**: Bali/Denpasar (DPS)  
   - **Mongolia**: Ulaanbaatar (UBN)  
+  - **Singapore** (SIN)
 
 - [EASTAR JET](https://www.eastarjet.com/)  
-  - **China**: Zhangjiajie (DYG), Yanji (YNJ)  
+  - **China**: Zhangjiajie (DYG), Shanghai (PVG)
   - **Taiwan**: Taipei (TPE)  
   - **Vietnam**: Nha Trang (CXR)  
 
