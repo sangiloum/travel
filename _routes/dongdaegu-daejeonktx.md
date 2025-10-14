@@ -16,7 +16,6 @@ As of 2023, it is possible to buy tickets online at above website by using forei
 #### KTX Trains
 The KTX is a high-speed train that travels at speeds of up to 305 km/h.
 KTX standard seats cost about **KRW 19,700** and first class seats costs about KRW 27,600 and are sometimes discounted. Travel time is roughly **45 minutes** depending on the number of stops in route. Tickets do occasionally sell out but trains run every 10 to 20 minutes. Please see the website above for current timetables. 
-KTX standard seats cost about **KRW 19,700** and first class seats costs about KRW 27,600 and are sometimes discounted. Travel time is roughly **40 minutes** depending on the number of stops in route. Tickets do occasionally sell out but trains run every 10 to 20 minutes. Please see the website above for current timetables. 
 
 
 {: .warning}
