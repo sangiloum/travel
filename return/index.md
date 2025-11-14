@@ -30,8 +30,8 @@ pm(4, 36.33209, 127.4340, 'Daejeon Station (대전역)', 'https://kko.kakao.com/
 
 
 </script>
-
-## Incheon Airport by the Airport Bus
+## Incheon Airport (ICN)
+### Incheon Airport by the Airport Bus
 
 For those who want to take the airport bus to the Incheon airport, we’d like to advise you to buy the tickets as early as possible if you have not done so already.
 
@@ -41,7 +41,7 @@ There are two bus stops close to the IBS: Government Complex <span class="mi">2<
 The earliest bus from the Daejeon Government Complex departs at 2:59 a.m., and the last bus leaves at 6:25 p.m.
 
 
-### Method 1: Online 
+#### Method 1: Online 
 One can reserve the ticket [online at https://txbuse.t-money.co.kr](https://txbuse.t-money.co.kr)
  and print it at the bus stop before you leave. You will likely want the following:
 - Departure: Daejeon Gov Complex(airport route) <span class="mi">2</span> (or Daejeondoryong <span class="mi">3</span> if you are staying near Gaon)
@@ -54,7 +54,7 @@ For "Resident Registration Number (front 6 digits"), you simply need to type you
 After booking the ticket, you'll need to pick up the ticket at the bus stop by using the machine. It'll ask you to identify yourself by using the credit card number that was used to pay for your bus ticket or the phone number.
 
 
-### Method 2: Visit the ticket office 
+#### Method 2: Visit the ticket office 
 You can also buy the airport ticket in person at the ticket office (and will print it here if you used Method 1). Here is the location of the Deajeon Gov Complex bus stop <span class="mi">2</span>. (It’s 2.3 km away from IBS.) You can also use the Doryong Bus Stop <span class="mi">3</span> to buy the ticket using the machine.
 
 |![Government Complex Bus Stop](/assets/images/dunsan.jpg)|
@@ -70,6 +70,40 @@ You can also buy the airport ticket in person at the ticket office (and will pri
 |*Doryong Bus Stop* <span class="mi">3</span>|*Ticket Machines at the Doryong Bus Stop* <span class="mi">3</span>|
 
 
-## Incheon Airport by the train
+### Incheon Airport by the train
 
 One can take the KTX train from the Daejeon Station <span class="mi">4</span> to Gwangmyeong Station or Seoul station and transfer to the Incheon airport.
+
+
+## Cheongju Airport (CJJ)
+
+### Cheongju Airport by the Airport Bus
+
+You can take a bus from Yuseong Bus terminal to Cheongju Airport. The price is 6,500 KRW and the ride takes about 50 minutes. There are 15 departures each day, starting at 5:10 a.m. and ending at 8:35 p.m.
+
+#### Timetable from Yuseong Bus Terminal to Cheongju Airport
+*(as of November 5, 2025 — source: [Asamaru transportation guide](https://transportation.asamaru.net/%EA%B3%A0%EC%86%8D%EB%B2%84%EC%8A%A4/%EC%8B%9C%EA%B0%84%ED%91%9C/%EC%9C%A0%EC%84%B1%EC%8B%9C%EC%99%B8%EB%B2%84%EC%8A%A4%EC%A0%95%EB%A5%98%EC%86%8C/%EC%B6%9C%EB%B0%9C/%EC%B2%AD%EC%A3%BC%EA%B3%B5%ED%95%AD%EC%A0%95%EB%A5%98%EC%86%8C/%EB%8F%84%EC%B0%A9/))*
+
+| Departure (Yuseong) | Arrival (Cheongju) | Travel time |
+| --- | --- | --- |
+| 05:10 | 06:00 | 50 min |
+| 07:00 | 07:50 | 50 min |
+| 07:50 | 08:40 | 50 min |
+| 09:00 | 09:50 | 50 min |
+| 10:20 | 11:10 | 50 min |
+| 10:25 | 11:15 | 50 min |
+| 10:55 | 11:45 | 50 min |
+| 12:45 | 13:35 | 50 min |
+| 14:00 | 14:50 | 50 min |
+| 15:10 | 16:00 | 50 min |
+| 16:15 | 17:05 | 50 min |
+| 17:00 | 17:50 | 50 min |
+| 18:00 | 18:50 | 50 min |
+| 18:30 | 19:20 | 50 min |
+| 20:35 | 21:25 | 50 min |
+
+Times can change, so confirm at the Yuseong ticket office or kiosk on the day you depart.
+
+
+### Cheongju Airport by the Airport Bus
+There is a train stop at the Cheongju Airport. You can take a local train from Daejeon Station to Cheongju Airport. It takes about 1 hour. The airport train stop is a short walking distance to the airport terminal.

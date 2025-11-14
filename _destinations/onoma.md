@@ -11,4 +11,4 @@ roadview: https://kko.to/POEWMn3-ki
 Website: [https://www.marriott.com/en-us/hotels/cjjak-hotel-onoma-daejeon-autograph-collection/overview/](https://www.marriott.com/en-us/hotels/cjjak-hotel-onoma-daejeon-autograph-collection/overview/)
 
 This Marriott hotel is the only 5-star hotel in Daejeon. The hotel reception is located on the 7th floor.
-To access the Starbucks on the 38th floor from the hotel, one needs to go to the 1st floor, switch to a different elevator dedicated to 38--39th floor, and get off at the 38th floor. 
+To access the Starbucks on the 38th floor from the hotel, one needs to go to the 1st floor, switch to a different elevator dedicated to 38-39th floor, and get off at the 38th floor. 
