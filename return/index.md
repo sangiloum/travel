@@ -80,9 +80,9 @@ One can take the KTX train from the Daejeon Station <span class="mi">4</span> to
 
 ### Cheongju Airport by the Airport Bus
 
-You can take a bus from Yuseong Bus terminal (유성시외버스정류소) to Cheongju Airport (청주공항). The price is 6,500 KRW and the ride takes about 50 minutes. There are 15 departures each day, starting at 5:10 a.m. and ending at 8:35 p.m.
+You can take a bus from Yuseong Intercity Bus Stop (유성시외버스정류소) to Cheongju Airport (청주공항). The price is 6,500 KRW and the ride takes about 50 minutes. There are 15 departures each day, starting at 5:10 a.m. and ending at 8:35 p.m.
 
-#### Timetable from Yuseong Bus Terminal to Cheongju Airport
+#### Timetable from Yuseong Intercity Bus Stop to Cheongju Airport
 *(as of November 5, 2025 — source: [Asamaru transportation guide](https://transportation.asamaru.net/%EA%B3%A0%EC%86%8D%EB%B2%84%EC%8A%A4/%EC%8B%9C%EA%B0%84%ED%91%9C/%EC%9C%A0%EC%84%B1%EC%8B%9C%EC%99%B8%EB%B2%84%EC%8A%A4%EC%A0%95%EB%A5%98%EC%86%8C/%EC%B6%9C%EB%B0%9C/%EC%B2%AD%EC%A3%BC%EA%B3%B5%ED%95%AD%EC%A0%95%EB%A5%98%EC%86%8C/%EB%8F%84%EC%B0%A9/))*
 
 | Departure (Yuseong) | Arrival (Cheongju) | Travel time |
