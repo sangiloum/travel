@@ -4,12 +4,6 @@ title: Return to the airport
 ---
 # Return to the airport
 
-The most recommended way to reach the Incheon Airport from Daejeon is to take the airport bus. 
-There are frequent buses from 3 am so that you can catch an early morning flight.
-It is strongly recommended to buy the ticket early.
-It takes up to 3 hours to reach the terminal 1 
-and up to 3 hours 18 minutes to reach the terminal 2.
-
 <div id="map2"></div>
 <script language="javascript">
 var map = L.map('map2').setView([36.37,127.3885], 13);
@@ -31,6 +25,13 @@ pm(4, 36.33209, 127.4340, 'Daejeon Station (대전역)', 'https://kko.kakao.com/
 
 </script>
 ## Incheon Airport (ICN)
+
+The most recommended way to reach the Incheon Airport from Daejeon is to take the airport bus. 
+There are frequent buses from 3 am so that you can catch an early morning flight.
+It is strongly recommended to buy the ticket early.
+It takes up to 3 hours to reach the terminal 1 
+and up to 3 hours 18 minutes to reach the terminal 2.
+
 ### Incheon Airport by the Airport Bus
 
 For those who want to take the airport bus to the Incheon airport, we’d like to advise you to buy the tickets as early as possible if you have not done so already.
@@ -79,7 +80,7 @@ One can take the KTX train from the Daejeon Station <span class="mi">4</span> to
 
 ### Cheongju Airport by the Airport Bus
 
-You can take a bus from Yuseong Bus terminal to Cheongju Airport. The price is 6,500 KRW and the ride takes about 50 minutes. There are 15 departures each day, starting at 5:10 a.m. and ending at 8:35 p.m.
+You can take a bus from Yuseong Bus terminal (유성시외버스정류소) to Cheongju Airport (청주공항). The price is 6,500 KRW and the ride takes about 50 minutes. There are 15 departures each day, starting at 5:10 a.m. and ending at 8:35 p.m.
 
 #### Timetable from Yuseong Bus Terminal to Cheongju Airport
 *(as of November 5, 2025 — source: [Asamaru transportation guide](https://transportation.asamaru.net/%EA%B3%A0%EC%86%8D%EB%B2%84%EC%8A%A4/%EC%8B%9C%EA%B0%84%ED%91%9C/%EC%9C%A0%EC%84%B1%EC%8B%9C%EC%99%B8%EB%B2%84%EC%8A%A4%EC%A0%95%EB%A5%98%EC%86%8C/%EC%B6%9C%EB%B0%9C/%EC%B2%AD%EC%A3%BC%EA%B3%B5%ED%95%AD%EC%A0%95%EB%A5%98%EC%86%8C/%EB%8F%84%EC%B0%A9/))*
@@ -107,3 +108,28 @@ Times can change, so confirm at the Yuseong ticket office or kiosk on the day yo
 
 ### Cheongju Airport by the Airport Bus
 There is a train stop at the Cheongju Airport. You can take a local train from Daejeon Station to Cheongju Airport. It takes about 1 hour. The airport train stop is a short walking distance to the airport terminal.
+
+#### Direct train timetable (Daejeon → Cheongju Airport)
+*Mugunghwa trains — fare KRW 3,900 (standard seat). Source: Korail mobile booking screen, November 2025.*
+
+| Train | Departure (Daejeon) | Arrival (Cheongju Airport) | Travel time |
+| --- | --- | --- | --- |
+| 1701 | 06:06 | 07:01 | 55 min |
+| 1703 | 06:50 | 07:47 | 57 min |
+| 4301 | 07:54 | 08:52 | 58 min |
+| 1705 | 08:46 | 09:39 | 53 min |
+| 1707 | 12:14 | 13:08 | 54 min |
+| 1709 | 14:40 | 15:34 | 54 min |
+| 1711 | 17:43 | 18:37 | 54 min |
+| 1713 | 18:45 | 19:40 | 55 min |
+| 4303 | 20:11 | 21:10 | 59 min |
+| 1715 | 21:11 | 22:05 | 54 min |
+
+Times may change, so confirm on the day of departure through Korail or the station kiosk.
+
+Tickets for trains can be purchased by tellers at ticketing counters, by machine, or online at
+- [Korail Website (English)](https://www.letskorail.com/english)
+- [Mobile Korail Website (English)](https://m.letskorail.com/english)
+
+As of 2023, it is possible to buy tickets online at above website by using foreign credit cards.
+For visitors from China, it is also possible to buy the train ticket on [WeChat](https://www.minipaycn.com/minipay/wechat.do) or [AliPay](https://www.minipaycn.com/minipay/alipay.do).
