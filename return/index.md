@@ -106,7 +106,7 @@ You can take a bus from Yuseong Intercity Bus Stop (유성시외버스정류소)
 Times can change, so confirm at the Yuseong ticket office or kiosk on the day you depart.
 
 
-### Cheongju Airport by the Airport Bus
+### Cheongju Airport by the Local Train
 There is a train stop at the Cheongju Airport. You can take a local train from Daejeon Station to Cheongju Airport. It takes about 1 hour. The airport train stop is a short walking distance to the airport terminal.
 
 #### Direct train timetable (Daejeon → Cheongju Airport)
