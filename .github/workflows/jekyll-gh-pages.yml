@@ -40,7 +40,7 @@ jobs:
           echo "GEM_PATH=$(ruby -e 'puts Gem.user_dir')" >> $GITHUB_ENV
           echo "$(ruby -e 'puts Gem.user_dir')/bin" >> $GITHUB_PATH
       - name: Install Gems
-        run: bundle install --path vendor/bundle
+        run: bundle install 
       - name: Build with Jekyll
         run: bundle exec jekyll build
       - name: Upload artifact
