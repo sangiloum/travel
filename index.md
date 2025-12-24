@@ -5,10 +5,8 @@ title: Travel Instructions to IBS
 # Travel Instructions to the IBS, Daejeon, Korea
 
 ## Notice: [K-ETA (Korea Electronic Travel Authorization) Temporary Exemption](https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=258312)
-Normally, citizens of some countries do not need to get a visa to visit Korea, but they need to get the K-ETA (Korea Electronic Travel Authorization) online before flying to Korea. However, the Ministry of Justice of Korea has decided to temporarily exempt the K-ETA for citizens of 52 countries (including the US, Canada, Australia, and most European countries) until December 31, <b>2026</b>. Please check the [K-ETA website](https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=258312) for more information.
-This extension of exemption was announced on December 11, 2024. 
-
-According to an email from the government official, the K-ETA Temporary Exemption will be extended until the end of December 31, 2026.
+Normally, citizens of some countries do not need to get a visa to visit Korea, but they need to get the K-ETA (Korea Electronic Travel Authorization) online before flying to Korea. However, the Ministry of Justice of Korea has decided to temporarily exempt the K-ETA for citizens of 52 countries (including the US, Canada, Australia, and most European countries) until December 31, 2026. Please check the [K-ETA website](https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707) for more information.
+This extension of exemption was announced on December 23, 2025. 
 
 Visitors without K-ETA are required to fill out the [e-Arrival card](https://www.e-arrivalcard.go.kr) on the website [www.e-arrivalcard.go.kr](https://www.e-arrivalcard.go.kr). This requires no fees and you can complete and submit it within 3 days before arrival in Korea.
 
