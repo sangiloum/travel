@@ -12,4 +12,4 @@ long: 126.4514
 The Incheon International Airport has two terminals. If you arrive at Terminal 2, please refer to the [Terminal 2](/icn2/).
 Terminal 2 is the newer terminal and is located about 20 minutes away from Terminal 1 by shuttle bus. Terminal 2 is served by mostly SKY team airlines plus other airlines owned by Korean Airlines: 
 Korean Airlines, Delta Air Lines, Air France, KLM, Garuda Indonesia, Aeromexico, Garuda Indonesia, China Airlines, Xiamen Air, Jin Air, Air Seoul, and Air Busan.
-The Asiana Airlines is planning to relocate to Terminal 2 on January 14, 2026.
+The Asiana Airlines has been relocated to Terminal 2 on January 14, 2026.
