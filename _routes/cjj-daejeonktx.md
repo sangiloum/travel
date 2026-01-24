@@ -5,7 +5,9 @@ title: Use a train
 
 Cheongju Airport (청주공항) has its own train station, Cheongju Airport Station (청주공항역). It is a walking distance (600m) from Cheongju Airport, which takes about 10 minutes.
 
-You can take a train to Daejeon Station (대전역) from Cheongju Airport Station. The train ride takes about **55 minutes**. The train ticket costs **KRW 3,900**. The train schedule is available at the [Korail website](http://www.letskorail.com/).
+You can take a train to Daejeon Station (대전역) from Cheongju Airport Station. The Mugunghwa (무궁화) train ride takes about **55 minutes** and costs **KRW 3,900**. 
+The ITX train (once a day) takes 51 minutes and costs KRW 5,900.
+The train schedule is available at the [Korail website](http://www.letskorail.com/).
 
 {: .important}
 Since Cheongju Airport Station is an unmanned station, to buy a ticket, 
@@ -20,9 +22,9 @@ For visitors from China, it is also possible to buy the train ticket on [WeChat]
 As of 2023, it is possible to buy tickets online at above website by using foreign credit cards.
 
 {: .note-title}
-> Mugunghwa Train Schedule from Cheongju Airport Station to Daejeon Station (As of May, 2025)
+> Train Schedule from Cheongju Airport Station to Daejeon Station (As of January 2026)
 > 
-> 06:58, 08:30, 09:20, 12:30, 14:25, 16:43, 18:15, 19:21, 20:33, 22:53
+> 06:58, 08:30, 09:28, 12:30, 14:31, 15:08 (ITX), 16:43, 18:15, 19:21, 20:33, 22:53
 
 {: .note}
 You may also buy a ticket to Shintanjin Station (신탄진역) and take a taxi to your final destination. Shintanjin Station is one station before Daejeon Station. 
