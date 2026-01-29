@@ -78,6 +78,10 @@ One can take the KTX train from the Daejeon Station <span class="mi">4</span> to
 
 ## Cheongju Airport (CJJ)
 
+### Cheongju Airport by the taxi
+
+The taxi from IBS to Cheongju airport may cost about 50,000 KRW. 
+
 ### Cheongju Airport by the Airport Bus
 
 You can take a bus from Yuseong Complex Terminal (유성복합터미널) to Cheongju Airport (청주공항). The price is 6,500 KRW and the ride takes about 50 minutes. There are 15 departures each day, starting at 5:10 a.m. and ending at 8:35 p.m.
