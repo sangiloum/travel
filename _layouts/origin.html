@@ -28,9 +28,19 @@ layout: default
 
 <h2>Where are you travelling to?</h2>
 
-{% for destination in site.destinations %}
-<a href="{{destination.slug}}/" class="btn btn-blue">{{destination.title}}</a>
-{% endfor %}
+<div class="destination-grid">
+  {% for destination in site.destinations %}
+    {% assign dest_parts = destination.title | split: "(" %}
+    {% assign dest_english = dest_parts | first | strip %}
+    {% assign dest_korean = dest_parts | last | replace: ")", "" | split: "[" | first | strip %}
+    <a href="{{ destination.slug }}/" class="destination-card">
+      <span class="destination-card__name">{{ dest_english }}</span>
+      {% if dest_korean != "" and dest_korean != dest_english %}
+      <span class="destination-card__korean">{{ dest_korean }}</span>
+      {% endif %}
+    </a>
+  {% endfor %}
+</div>
 
 
 <div id="map"></div>

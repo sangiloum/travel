@@ -4,3 +4,209 @@
     -moz-border-radius: 50px; -webkit-border-radius: 50px;color:white;
     opacity:0.5; font-size:15px !important; font-weight: bold;text-align:center;display:inline-block;}
 
+.hero {
+    margin: 2rem 0 2.5rem;
+    padding: 2rem 2.5rem;
+    border-radius: 24px;
+    background: linear-gradient(135deg, #f6f4ef 0%, #edf2f6 50%, #f6f0e9 100%);
+    display: grid;
+    grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+    gap: 2rem;
+}
+
+.hero__eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.8rem;
+    color: #54616f;
+    margin: 0 0 0.5rem;
+}
+
+.hero__lead {
+    font-size: 1.05rem;
+    color: #2f3a44;
+    max-width: 40rem;
+}
+
+.hero__actions {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.hero__facts {
+    display: grid;
+    gap: 1rem;
+    align-content: center;
+}
+
+.fact {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    padding: 1rem 1.2rem;
+    box-shadow: 0 8px 20px rgba(34, 45, 56, 0.08);
+}
+
+.fact__label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #6b7280;
+}
+
+.fact__value {
+    font-size: 1.05rem;
+    color: #1f2933;
+    margin-top: 0.25rem;
+}
+
+.fact__link {
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    color: #1f4f8b;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(31, 79, 139, 0.3);
+}
+
+.fact__link:hover {
+    color: #163b68;
+    border-bottom-color: rgba(22, 59, 104, 0.6);
+}
+
+.section-lead {
+    color: #4b5563;
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 1.5rem;
+    box-shadow: 0 12px 24px rgba(31, 41, 55, 0.08);
+    border: 1px solid #eef0f2;
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.card h4 {
+    margin-top: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.muted {
+    color: #6b7280;
+    margin-top: -0.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.notice {
+    border-radius: 18px;
+    padding: 1.5rem;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 2rem;
+}
+
+.tile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.9rem;
+    margin-top: 1rem;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 110px;
+    padding: 1rem 1.2rem;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+    background: #ffffff;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 8px 16px rgba(31, 41, 55, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.tile:hover {
+    transform: translateY(-2px);
+    border-color: #c7d2e3;
+    box-shadow: 0 12px 22px rgba(31, 79, 139, 0.14);
+}
+
+.tile--featured {
+    border-color: #b7c7e3;
+    background: linear-gradient(135deg, #f6f4ef 0%, #edf2f6 100%);
+}
+
+.tile__title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1f2933;
+}
+
+.tile__sub {
+    margin-top: 0.35rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.destination-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 120px;
+    padding: 1.2rem 1.4rem;
+    border-radius: 16px;
+    border: 1px solid #e6e9ee;
+    background: #ffffff;
+    box-shadow: 0 10px 18px rgba(31, 41, 55, 0.08);
+    text-decoration: none;
+    color: inherit;
+}
+
+.destination-card:hover {
+    border-color: #c7d2e3;
+    box-shadow: 0 12px 24px rgba(31, 79, 139, 0.15);
+    transform: translateY(-2px);
+}
+
+.destination-card__name {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #1f2933;
+}
+
+.destination-card__korean {
+    margin-top: 0.35rem;
+    font-size: 0.95rem;
+    color: #6b7280;
+}
+
+@media (max-width: 900px) {
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 1.6rem;
+    }
+}
