@@ -42,6 +42,8 @@ There are two bus stops close to the IBS: Government Complex <span class="mi">2<
 The earliest bus from the Daejeon Government Complex departs at 2:59 a.m., and the last bus leaves at 6:25 p.m.
 
 
+Make sure to board the correct bus. Not only the airport buses but also buses to Seoul and other cities will stop there. 
+
 #### Method 1: Online 
 One can reserve the ticket [online at https://txbuse.t-money.co.kr](https://txbuse.t-money.co.kr)
  and print it at the bus stop before you leave. You will likely want the following:
