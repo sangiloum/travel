@@ -2,79 +2,18 @@
 title: Using the Airport Bus to go to Daejeon directly
 order: 1
 ---
+{% assign s = site.data.schedules["icn2-govcomplex"] %}
 For most visitors, this is the most recommended method to visit IBS.
 From the Incheon Airport, you can take the airport bus to the Daejeon Government Complex. The bus will take you directly. The bus ride will take roughly **3 hours**.
 
-Arrivals are on the first floor and most of the transportation options are in the Transit Center Basement 1. Buy your bus ticket at the kiosks or manned ticket office for **Daejeon Government Complex (대전청사)** Bus Stop. 
-Pass the rail options (AREX) and your bus is located to the left at **platform 5**. There is seating near the platforms and you can recharge your phone or other electronics at one of the outlets. Your bus departure time and seat number will be on the ticket. The first bus leaves at 6:00 AM and the last bus leaves at 23:00.
+Arrivals are on the first floor and most of the transportation options are in the Transit Center Basement 1. Buy your bus ticket at the kiosks or manned ticket office for **Daejeon Government Complex (대전청사)** Bus Stop.
+Pass the rail options (AREX) and your bus is located to the left at **platform 5**. There is seating near the platforms and you can recharge your phone or other electronics at one of the outlets. Your bus departure time and seat number will be on the ticket. The first bus leaves at {{ s.first_bus }} and the last bus leaves at {{ s.last_bus }}.
+#### Bus Schedule (as of {{ s.updated }})
 
-#### Bus Schedule (as of June 2025)
-
-|	Departure	|	Arrival	|	Class	|		Fare for an Adult	(KRW)|
-|  :--:	|	:--:	|	:--:	|	:--:	|
-|	출발	|	도착	|	등급	|	요금(어른)	|
-|	06:00	|	09:01	|	Deluxe (우등)	|	26,100	|
-|	06:20	|	09:21	|	Premium (프리미엄)	|	34,000	|
-|	06:30	|	09:31	|	Deluxe (우등)	|	26,100	|
-|	06:40	|	09:41	|	Deluxe (우등)	|	26,100	|
-|	07:00	|	10:01	|	Deluxe (우등)	|	26,100	|
-|	07:20	|	10:21	|	Deluxe (우등)	|	26,100	|
-|	07:40	|	10:41	|	Deluxe (우등)	|	26,100	|
-|	08:00	|	11:01	|	Premium (프리미엄)	|	34,000	|
-|	08:10	|	11:11	|	Deluxe (우등)	|	26,100	|
-|	08:40	|	11:41	|	Deluxe (우등)	|	26,100	|
-|	08:50	|	11:51	|	Deluxe (우등)	|	26,100	|
-|	09:00	|	12:01	|	Premium (프리미엄)	|	34,000	|
-|	09:20	|	12:21	|	Deluxe (우등)	|	26,100	|
-|	09:30	|	12:31	|	Deluxe (우등)	|	26,100	|
-|	09:40	|	12:41	|	Deluxe (우등)	|	26,100	|
-|	09:50	|	12:51	|	Premium (프리미엄)	|	34,000	|
-|	10:10	|	13:11	|	Deluxe (우등)	|	26,100	|
-|	10:20	|	13:21	|	Deluxe (우등)	|	26,100	|
-|	10:30	|	13:31	|	Premium (프리미엄)	|	34,000	|
-|	10:50	|	13:51	|	Deluxe (우등)	|	26,100	|
-|	11:00	|	14:01	|	Deluxe (우등)	|	26,100	|
-|	11:10	|	14:11	|	Deluxe (우등)	|	26,100	|
-|	11:20	|	14:21	|	Deluxe (우등)	|	26,100	|
-|	11:30	|	14:31	|	Premium (프리미엄)	|	34,000	|
-|	11:50	|	14:51	|	Deluxe (우등)	|	26,100	|
-|	12:10	|	15:11	|	Premium (프리미엄)	|	34,000	|
-|	12:30	|	15:31	|	Deluxe (우등)	|	26,100	|
-|	12:50	|	15:51	|	Deluxe (우등)	|	26,100	|
-|	13:20	|	16:21	|	Premium (프리미엄)	|	34,000	|
-|	13:30	|	16:31	|	Deluxe (우등)	|	26,100	|
-|	13:40	|	16:41	|	Deluxe (우등)	|	26,100	|
-|	14:00	|	17:01	|	Deluxe (우등)	|	26,100	|
-|	14:20	|	17:21	|	Premium (프리미엄)	|	34,000	|
-|	14:30	|	17:31	|	Deluxe (우등)	|	26,100	|
-|	14:40	|	17:41	|	Deluxe (우등)	|	26,100	|
-|	15:00	|	18:01	|	Deluxe (우등)	|	26,100	|
-|	15:20	|	18:21	|	Premium (프리미엄)	|	34,000	|
-|	15:40	|	18:41	|	Deluxe (우등)	|	26,100	|
-|	16:00	|	19:01	|	Premium (프리미엄)	|	34,000	|
-|	16:20	|	19:21	|	Deluxe (우등)	|	26,100	|
-|	16:40	|	19:41	|	Premium (프리미엄)	|	34,000	|
-|	16:50	|	19:51	|	Deluxe (우등)	|	26,100	|
-|	17:00	|	20:01	|	Deluxe (우등)	|	26,100	|
-|	17:20	|	20:21	|	Deluxe (우등)	|	26,100	|
-|	17:40	|	20:41	|	Premium (프리미엄)	|	34,000	|
-|	18:00	|	21:01	|	Deluxe (우등)	|	26,100	|
-|	18:20	|	21:21	|	Premium (프리미엄)	|	34,000	|
-|	18:30	|	21:31	|	Deluxe (우등)	|	26,100	|
-|	18:40	|	21:41	|	Deluxe (우등)	|	26,100	|
-|	19:00	|	22:01	|	Deluxe (우등)	|	26,100	|
-|	19:20	|	22:21	|	Deluxe (우등)	|	26,100	|
-|	19:30	|	22:31	|	Deluxe (우등)	|	26,100	|
-|	19:50	|	22:51	|	Premium (프리미엄)	|	34,000	|
-|	20:00	|	23:01	|	Deluxe (우등)	|	26,100	|
-|	20:20	|	23:21	|	Premium (프리미엄)	|	34,000	|
-|	20:30	|	23:31	|	Deluxe (우등)	|	26,100	|
-|	20:50	|	23:51	|	Deluxe (우등)	|	26,100	|
-|	21:10	|	24:11	|	Deluxe (우등)	|	26,100	|
-|	21:30	|	24:31	|	Premium (프리미엄)	|	34,000	|
-|	22:00	|	01:01	|	Deluxe (우등)	|	28,700	|
-|	22:30	|	01:31	|	Deluxe (우등)	|	28,700	|
-|	23:00	|	02:01	|	Deluxe (우등)	|	28,700	|
+| Departure | Class | Fare for an Adult (KRW) |
+| :--: | :--: | :--: |
+{% for row in s.rows %}| {{ row.time }} | {{ row.class }} | {{ row.fare }} |
+{% endfor %}
 
 {: .note}
 The prices are almost same for all four stops in Daejeon (North Daejeon, Daedeok Culture Center
@@ -117,7 +56,7 @@ ICN == 2 hours 35 min.==>Daejeon
 
 
 - Price: KRW 26,100 for deluxe and KRW 34,000 for premium. Night buses (after 10pm) are 10% more expensive.
-- Schedule: Earlist at 06:00. Last at 23:00.
+- Schedule: Earliest at {{ s.first_bus }}. Last at {{ s.last_bus }}.
 - [Online booking](https://intercitybuse.tmoney.co.kr/) at [https://intercitybuse.tmoney.co.kr/](https://intercitybuse.tmoney.co.kr/) :  You can check the time schedule and the current availability of the seats. 
   - Departure: IncheonAirportT2
   - Destination: DaejeonGovComplex

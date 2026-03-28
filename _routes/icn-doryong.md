@@ -2,79 +2,18 @@
 title: Using the Airport Bus to go to Daejeon directly
 order: 5
 ---
+{% assign s = site.data.schedules["icn-doryong"] %}
 
 From the Incheon Airport, you can take the airport bus to the Daedeok Culture Center (or, also known as Doryong). The bus will take you directly. The bus ride will take roughly **2 hours 40 minutes**.
 
 You can buy bus tickets inside the airport near Exit 4 and in between 8 and 9; and outside just left of Exit 11.
 At the ticket office, you can purchase the ticket for **Daedeok Culture Center (대덕문화센터)** Bus Stop (or Doryong Bus Stop).
-
-
-#### Bus Schedule (as of December 2024)
+#### Bus Schedule (as of {{ s.updated }})
 
 | Departure | Class | Fare for an Adult (KRW) |
 | :--: | :--: | :--: |
-| 06:20 | Deluxe (우등) | 26,100 |
-| 06:40 | Premium (프리미엄) | 34,000 |
-| 06:50 | Deluxe (우등) | 26,100 |
-| 07:00 | Deluxe (우등) | 26,100 |
-| 07:20 | Deluxe (우등) | 26,100 |
-| 07:40 | Deluxe (우등) | 26,100 |
-| 08:00 | Deluxe (우등) | 26,100 |
-| 08:20 | Premium (프리미엄) | 34,000 |
-| 08:30 | Deluxe (우등) | 26,100 |
-| 08:40 | Deluxe (우등) | 26,100 |
-| 09:00 | Deluxe (우등) | 26,100 |
-| 09:10 | Deluxe (우등) | 26,100 |
-| 09:20 | Premium (프리미엄) | 34,000 |
-| 09:40 | Deluxe (우등) | 26,100 |
-| 09:50 | Deluxe (우등) | 26,100 |
-| 10:00 | Deluxe (우등) | 26,100 |
-| 10:10 | Premium (프리미엄) | 34,000 |
-| 10:30 | Deluxe (우등) | 26,100 |
-| 10:40 | Deluxe (우등) | 26,100 |
-| 10:50 | Premium (프리미엄) | 34,000 |
-| 11:10 | Deluxe (우등) | 26,100 |
-| 11:20 | Deluxe (우등) | 26,100 |
-| 11:30 | Deluxe (우등) | 26,100 |
-| 11:50 | Premium (프리미엄) | 34,000 |
-| 12:10 | Deluxe (우등) | 26,100 |
-| 12:30 | Premium (프리미엄) | 34,000 |
-| 12:50 | Deluxe (우등) | 26,100 |
-| 13:10 | Deluxe (우등) | 26,100 |
-| 13:40 | Premium (프리미엄) | 34,000 |
-| 13:50 | Deluxe (우등) | 26,100 |
-| 14:00 | Deluxe (우등) | 26,100 |
-| 14:20 | Deluxe (우등) | 26,100 |
-| 14:40 | Premium (프리미엄) | 34,000 |
-| 14:50 | Deluxe (우등) | 26,100 |
-| 15:00 | Deluxe (우등) | 26,100 |
-| 15:20 | Deluxe (우등) | 26,100 |
-| 15:40 | Premium (프리미엄) | 34,000 |
-| 16:00 | Deluxe (우등) | 26,100 |
-| 16:20 | Premium (프리미엄) | 34,000 |
-| 16:40 | Deluxe (우등) | 26,100 |
-| 17:00 | Premium (프리미엄) | 34,000 |
-| 17:10 | Deluxe (우등) | 26,100 |
-| 17:20 | Deluxe (우등) | 26,100 |
-| 17:40 | Deluxe (우등) | 26,100 |
-| 18:00 | Premium (프리미엄) | 34,000 |
-| 18:20 | Deluxe (우등) | 26,100 |
-| 18:40 | Premium (프리미엄) | 34,000 |
-| 18:50 | Deluxe (우등) | 26,100 |
-| 19:00 | Deluxe (우등) | 26,100 |
-| 19:20 | Deluxe (우등) | 26,100 |
-| 19:40 | Deluxe (우등) | 26,100 |
-| 19:50 | Deluxe (우등) | 26,100 |
-| 20:10 | Premium (프리미엄) | 34,000 |
-| 20:20 | Deluxe (우등) | 26,100 |
-| 20:40 | Premium (프리미엄) | 34,000 |
-| 20:50 | Deluxe (우등) | 26,100 |
-| 21:10 | Deluxe (우등) | 26,100 |
-| 21:30 | Deluxe (우등) | 26,100 |
-| 21:50 | Premium (프리미엄) | 34,000 |
-| 22:20 | Deluxe (우등) | 28,700 |
-| 22:50 | Deluxe (우등) | 28,700 |
-| 23:20 | Deluxe (우등) | 28,700 |
+{% for row in s.rows %}| {{ row.time }} | {{ row.class }} | {{ row.fare }} |
+{% endfor %}
 
 
 {: .note}
@@ -124,7 +63,7 @@ There is no bathroom on the bus. Sometimes the bus stops at the highway rest are
 
 
 - Price: KRW 25,500 for deluxe and KRW 33,100 for premium. Night buses (after 10pm) are 10% more expensive.
-- Schedule: Earlist at 06:20. Last at 23:20.
+- Schedule: Earliest at {{ s.first_bus }}. Last at {{ s.last_bus }}.
 - [Online booking](https://intercitybuse.tmoney.co.kr/) at [https://intercitybuse.tmoney.co.kr/](https://intercitybuse.tmoney.co.kr/) :  You can check the time schedule and the current availability of the seats. 
   - Departure: IncheonAirportT1
   - Destination: Daedeokcommunitycenter
