@@ -36,8 +36,7 @@ and up to 3 hours 18 minutes to reach the terminal 2.
 
 For those who want to take the airport bus to the Incheon airport, we’d like to advise you to buy the tickets as early as possible if you have not done so already.
 
-There are two bus stops close to the IBS: Government Complex <span class="mi">2</span> and Doryong Bus Stop <span class="mi">3</span>. Both are acceptable options. Doryong Bus Stop may be slightly closer, but it is unmanned and has only automated ticket machines. In contrast, the Government Complex stop features a staffed ticket office.
-
+There are two bus stops close to the IBS: Government Complex  (정부청사) <span class="mi">2</span> and Doryong Bus Stop (도룡) <span class="mi">3</span>. Both are acceptable options. Doryong Bus Stop may be slightly closer, but it is unmanned and has only automated ticket machines. In contrast, the Government Complex stop features a staffed ticket office.
 
 The earliest bus from the Daejeon Government Complex departs at 2:59 a.m., and the last bus leaves at 6:25 p.m.
 
@@ -101,7 +100,9 @@ Times can change, so confirm at the Yuseong ticket office or kiosk on the day yo
 There is a train stop at the Cheongju Airport. You can take a local train from Daejeon Station to Cheongju Airport. It takes about 1 hour. The airport train stop is a short walking distance to the airport terminal.
 
 #### Direct train timetable (Daejeon → Cheongju Airport)
-*Mugunghwa trains — fare KRW 3,900 (standard seat). Source: Korail mobile booking screen, November 2025.*
+- Mugunghwa trains — fare KRW 3,900 (standard seat).
+- ITX trains - fare KRW 5,900.
+- *Source: Korail mobile booking screen, March 2026.*
 
 | Train | Departure (Daejeon) | Arrival (Cheongju Airport) | Travel time |
 | --- | --- | --- | --- |
@@ -109,12 +110,13 @@ There is a train stop at the Cheongju Airport. You can take a local train from D
 | 1703 | 06:50 | 07:47 | 57 min |
 | 4301 | 07:54 | 08:52 | 58 min |
 | 1705 | 08:46 | 09:39 | 53 min |
-| 1707 | 12:14 | 13:08 | 54 min |
-| 1709 | 14:40 | 15:34 | 54 min |
-| 1711 | 17:43 | 18:37 | 54 min |
-| 1713 | 18:45 | 19:40 | 55 min |
+| 1701 ITX | 10:05 | 10:55 | 50 min |
+| 1757 | 12:22 | 13:19 | 53 min |
+| 1759 | 14:43 | 15:34 | 54 min |
+| 1761 | 17:43 | 18:37 | 54 min |
+| 1763 | 18:45 | 19:40 | 55 min |
 | 4303 | 20:11 | 21:10 | 59 min |
-| 1715 | 21:11 | 22:05 | 54 min |
+| 1765 | 21:11 | 22:05 | 54 min |
 
 Times may change, so confirm on the day of departure through Korail or the station kiosk.
 
