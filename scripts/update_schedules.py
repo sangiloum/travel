@@ -58,6 +58,7 @@ ROUTES = [
     {"file": "icn2-doryong",    "dep": "9337", "arr": "9517"},
 ]
 CJJ_YUSEONG = {"dep": "3182", "arr": "9502"}
+YUSEONG_CJJ = {"dep": "9502", "arr": "3182"}
 
 session = requests.Session()
 session.mount("https://", LegacyTLSAdapter())
@@ -100,3 +101,13 @@ data = {"updated": UPDATED,
         "times": times}
 (DATA_DIR / "cjj-yuseong.yml").write_text(yaml.dump(data, allow_unicode=True, default_flow_style=False))
 print(f"  cjj-yuseong.yml — {len(times)} departures")
+
+# Yuseong → CJJ
+tickets = fetch(YUSEONG_CJJ["dep"], YUSEONG_CJJ["arr"])
+times = [fmt_time(t["DEP_TIME"]) for t in tickets]
+data = {"updated": UPDATED,
+        "first_bus": first_bus(times),
+        "last_bus": last_bus(times),
+        "times": times}
+(DATA_DIR / "yuseong-cjj.yml").write_text(yaml.dump(data, allow_unicode=True, default_flow_style=False))
+print(f"  yuseong-cjj.yml — {len(times)} departures")

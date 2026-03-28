@@ -86,28 +86,13 @@ The taxi from IBS to Cheongju airport may cost about 50,000 KRW.
 
 ### Cheongju Airport by the Airport Bus
 
-You can take a bus from Yuseong Complex Terminal (유성복합터미널) to Cheongju Airport (청주공항). The price is 6,500 KRW and the ride takes about 50 minutes. There are 15 departures each day, starting at 5:10 a.m. and ending at 8:35 p.m.
+{% assign s = site.data.schedules["yuseong-cjj"] %}
+You can take a bus from Yuseong Complex Terminal (유성복합터미널) to Cheongju Airport (청주공항). The price is 6,500 KRW and the ride takes about 50 minutes. The first bus departs at {{ s.first_bus }} and the last bus departs at {{ s.last_bus }}.
 
-#### Timetable from Yuseong Complex Terminal to Cheongju Airport
-*(as of November 5, 2025 — source: [Asamaru transportation guide](https://transportation.asamaru.net/%EA%B3%A0%EC%86%8D%EB%B2%84%EC%8A%A4/%EC%8B%9C%EA%B0%84%ED%91%9C/%EC%9C%A0%EC%84%B1%EC%8B%9C%EC%99%B8%EB%B2%84%EC%8A%A4%EC%A0%95%EB%A5%98%EC%86%8C/%EC%B6%9C%EB%B0%9C/%EC%B2%AD%EC%A3%BC%EA%B3%B5%ED%95%AD%EC%A0%95%EB%A5%98%EC%86%8C/%EB%8F%84%EC%B0%A9/))*
-
-| Departure (Yuseong) | Arrival (Cheongju) | Travel time |
-| --- | --- | --- |
-| 05:10 | 06:00 | 50 min |
-| 07:00 | 07:50 | 50 min |
-| 07:50 | 08:40 | 50 min |
-| 09:00 | 09:50 | 50 min |
-| 10:20 | 11:10 | 50 min |
-| 10:25 | 11:15 | 50 min |
-| 10:55 | 11:45 | 50 min |
-| 12:45 | 13:35 | 50 min |
-| 14:00 | 14:50 | 50 min |
-| 15:10 | 16:00 | 50 min |
-| 16:15 | 17:05 | 50 min |
-| 17:00 | 17:50 | 50 min |
-| 18:00 | 18:50 | 50 min |
-| 18:30 | 19:20 | 50 min |
-| 20:35 | 21:25 | 50 min |
+> Current schedule (as of {{ s.updated }})
+>
+> {{ s.times | join: ", " }}
+{: .note-title }
 
 Times can change, so confirm at the Yuseong ticket office or kiosk on the day you depart.
 
