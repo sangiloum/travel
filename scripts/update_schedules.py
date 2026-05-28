@@ -14,7 +14,10 @@ class LegacyTLSAdapter(HTTPAdapter):
     """Bypass SSL verification and allow legacy ciphers for bustago.or.kr."""
     def init_poolmanager(self, *args, **kwargs):
         ctx = ssl._create_unverified_context()
-        ctx.set_ciphers("DEFAULT:@SECLEVEL=1")
+        try:
+            ctx.set_ciphers("DEFAULT:@SECLEVEL=1")
+        except ssl.SSLError:
+            ctx.set_ciphers("DEFAULT")
         kwargs["ssl_context"] = ctx
         super().init_poolmanager(*args, **kwargs)
 
