@@ -27,5 +27,4 @@ As of 2023, it is possible to buy tickets online at above website by using forei
 > 06:58, 08:30, 09:28, 12:30, 14:31, 15:08 (ITX), 16:43, 18:15, 19:21, 20:33, 22:53
 
 {: .note}
-You may also buy a ticket to Shintanjin Station (신탄진역) and take a taxi to your final destination. Shintanjin Station is one station before Daejeon Station. 
-
+You may also buy a ticket to Sintanjin Station (신탄진역) and take a taxi to your final destination. Sintanjin Station is one station before Daejeon Station. 
