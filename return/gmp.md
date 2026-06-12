@@ -34,25 +34,8 @@ At Seoul Station, transfer to the all-stop [AREX (Airport Railroad)](https://www
 {: .warning}
 The AREX **Express** train does NOT stop at the Gimpo Airport — take the **all-stop** train.
 
-<h2 id="method2"><span class="btn">Method 2</span> KTX to Seoul Station + taxi</h2>
-
-<h3 id="method2-1">Step 1 @ IBS — Get to Daejeon Station</h3>
-
-Take a taxi to Daejeon Station as in Method 1.
-
-<h3 id="method2-2">Step 2 @ Daejeon Station — KTX to Seoul Station</h3>
-
-Take the KTX train from Daejeon Station to Seoul Station as in Method 1.
-
-<h3 id="method2-3">Step 3 @ Seoul Station — Taxi to the Gimpo Airport</h3>
-
-If you have heavy luggage, a taxi from Seoul Station to the Gimpo Airport takes about 30–40 minutes depending on traffic.
-
-{% include taxi_phrase.html
-   english="Gimpo International Airport"
-   korean="김포공항으로 가 주세요."
-   fare="KRW 20,000–25,000"
-   time="30–40 min" %}
+{: .note}
+We do not recommend taking a taxi from Seoul Station to the Gimpo Airport — it is far more expensive than the AREX and can be slower in traffic.
 
 {% endcapture %}
 {% include toc.html html=allcontent h_max=3 %}
@@ -90,7 +73,6 @@ L.marker(daejeonstn, {icon: greenIcon}).addTo(map).bindPopup('<b><a href="https:
 L.marker(seoulstn, {icon: greenIcon}).addTo(map).bindPopup('<b>Seoul Station (서울역)</b>');
 L.marker(gmp, {icon: redIcon}).addTo(map).bindPopup('<b>Gimpo International Airport (김포공항)</b>');
 L.polyline([ibs, daejeonstn, seoulstn, gmp], {color: 'red'}).addTo(map);
-L.polyline([ibs, daejeonstn, seoulstn, gmp], {color: 'blue', dashArray: '8'}).addTo(map);
 var bounds = new L.latLngBounds([ibs, daejeonstn, seoulstn, gmp]);
 map.fitBounds(bounds);
 </script>
