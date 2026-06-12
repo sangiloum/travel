@@ -2,15 +2,22 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+Note: `AGENTS.md` is a mirror of this file for other agents — keep both in sync when editing.
+
 ## Commands
 
 ```bash
 bundle install              # Install dependencies
 bundle exec jekyll serve    # Local development server
 bundle exec jekyll build    # Build static site to _site/
+
+pip install requests pyyaml             # first time only
+python scripts/update_schedules.py      # Refresh bus schedule YAML in _data/schedules/
 ```
 
-Deployment happens automatically via GitHub Actions on push to `main`.
+Deployment happens automatically via GitHub Actions on push to `main` (`.github/workflows/jekyll-gh-pages.yml`).
+
+`_config.yml` sets Liquid `error_mode: strict` and `strict_filters: true`, so a typo in a Liquid tag or filter fails the build rather than rendering silently.
 
 ## Architecture
 
@@ -20,18 +27,19 @@ This is a Jekyll 4.3 static site (theme: `just-the-docs`) that generates a trave
 
 Three Jekyll collections drive all content (`_config.yml`):
 
-- **`_origins/`** — departure points (airports, train stations). Front matter: `title`, `nav_order`, `lat`, `long`, `city`.
-- **`_destinations/`** — final destinations (IBS, hotels). Front matter: `title`, `order`, `lat`, `long`, `roadview`.
-- **`_routes/`** — individual transportation legs. Front matter: `origin`, `destination`, `title`, `order`, `next`, `prev`. Files named `{origin}-{destination}.md`.
+- **`_origins/`** — departure points (airports, train/bus stations). Front matter: `title`, `nav_order`, `lat`, `long`, `city`. Output as pages at `/:name/`.
+- **`_destinations/`** — final destinations (IBS, hotels). Front matter: `title`, `order`, `lat`, `long`, `roadview`. Not output directly.
+- **`_routes/`** — individual transportation legs. Front matter: `title`, `order`, and optionally `origin`/`destination`. Files are named `{origin}-{destination}.md`; when `origin`/`destination` are absent from front matter, the plugin derives them from the filename slug (first/last hyphen-separated segment).
 
-### Page Generation (`_plugins/tour.rb`)
+Intermediate transit stops (e.g. `govcomplex`, `doryong`, `yuseong`, `seoul`, `daejeonktx`) must exist in `_origins/` — the tour layout looks up their titles and coordinates there.
 
-The custom `TourPageGenerator` plugin creates the tour pages at `/origin/destination/` URLs. It:
-1. Computes the cartesian product of all origins × destinations
-2. For each pair, finds matching routes (direct, 2-leg, or 3-leg chains via intermediate stops)
-3. Groups routes into numbered "methods" when multiple transport options exist
+### Page Generation (`_plugins/tour.rb` + `_layouts/tour.html`)
 
-To add a new route option: create a markdown file in `_routes/` with appropriate `origin`/`destination` front matter. The plugin auto-discovers it.
+The custom `TourPageGenerator` plugin creates one tour page per origin × destination pair at `/origin/destination/` URLs (cartesian product). It also fills in missing route `origin`/`destination` from filename slugs and chains destinations into `prev`/`next` order for the page navigation buttons.
+
+The actual route assembly happens in Liquid inside `_layouts/tour.html`: for each pair it finds direct routes, then 2-leg chains (origin → X, X → destination), then 3-leg chains, numbering each as "Method N" with step-by-step sections. If no chain exists, the page shows "Under construction".
+
+To add a new route option: create a markdown file in `_routes/` named `{origin}-{destination}.md`. The plugin and layout auto-discover it, including as a leg in multi-leg chains.
 
 ### Layouts & Includes
 
@@ -39,22 +47,31 @@ To add a new route option: create a markdown file in `_routes/` with appropriate
 - **`_layouts/tour.html`** — assembles multi-leg routes into a step-by-step tour page with a map showing colored polylines per method
 - **`_includes/head_custom.html`** — loads Leaflet.js 1.9.4
 - **`_includes/tips.md`** — shared travel tips content (SIM cards, taxi, etc.)
+- **`_includes/taxi_phrase.html`** — "show this to the taxi driver" card; params: `english`, `korean`, optional `fare`/`time`/`note`
+
+Standalone pages outside the collections: `index.md` (home), `localinfo/index.md` (local information), and the return-journey section — `return/index.md` (hub with airport cards) plus its just-the-docs children `return/icn.md`, `return/cjj.md`, `return/gmp.md` (explicit `permalink`, `parent` front matter). The return pages hand-replicate the tour-page structure: raw HTML `<h2>`/`<h3>` Method/Step headings with explicit `id`s inside `{% capture allcontent %}` (required for the toc.html include, which runs before kramdown assigns heading ids), followed by a Leaflet map and `{{ allcontent }}`.
 
 ### Maps
 
-Leaflet.js with OpenStreetMap tiles. Green markers = origins, red marker = IBS. Tour pages draw color-coded polylines (up to 8 colors for 8 methods). Coordinates come from front matter `lat`/`long` fields.
+Leaflet.js with OpenStreetMap tiles. Blue marker = current origin, green markers = transit stops, red marker = IBS/destination. Tour pages draw color-coded polylines (up to 8 colors for 8 methods). Coordinates come from front matter `lat`/`long` fields.
 
 ### Schedule Data (`_data/schedules/`)
 
-Bus schedule YAML files are generated by `scripts/update_schedules.py` (fetches from bustago.or.kr API). Each file contains:
+Bus schedule YAML files are generated by `scripts/update_schedules.py` (fetches from the bustago.or.kr API). Each file contains:
 
-- **ICN routes** (`icn-govcomplex.yml`, `icn2-govcomplex.yml`, `icn-doryong.yml`, `icn2-doryong.yml`): `updated`, `first_bus`, `last_bus`, `rows` (list of `time`/`class`/`fare`)
-- **CJJ route** (`cjj-yuseong.yml`): `updated`, `first_bus`, `last_bus`, `times` (list of departure times)
+- **ICN routes** (`icn-govcomplex.yml`, `icn2-govcomplex.yml`, `icn-doryong.yml`, `icn2-doryong.yml`, and the return direction `govcomplex-icn.yml`, `govcomplex-icn2.yml`, `doryong-icn.yml`, `doryong-icn2.yml`): `updated`, `first_bus`, `last_bus`, `rows` (list of `time`/`class`/`fare`)
+- **CJJ routes** (`cjj-yuseong.yml`, `yuseong-cjj.yml`): `updated`, `first_bus`, `last_bus`, `times` (list of departure times)
+
+Bustago terminal IDs are direction-specific: a stop's departure-side ID can differ from its arrival-side ID (e.g. Government Complex is `9505` as an arrival but `9536` as a departure; Doryong is `9517` as an arrival but `9527` as a departure). See the comments in `scripts/update_schedules.py`.
 
 `first_bus` = first departure ≥ 02:00 (start of regular daily service).
 `last_bus` = last departure < 02:00 (late-night continuation past midnight); falls back to the last departure if none exist.
 
+All scalar values are written single-quoted on purpose: unquoted `HH:MM` times and comma-formatted fares get mangled by Ruby's YAML 1.1 parser (sexagesimal numbers, stripped commas).
+
 Route markdown files reference these via `{% assign s = site.data.schedules["..."] %}` placed immediately after the front matter `---`, so `s.first_bus` and `s.last_bus` are available throughout the file.
+
+The `Update bus schedules` GitHub Action (`.github/workflows/update-bus-schedules.yml`) runs this script weekly (Mondays 12:00 KST, plus manual dispatch) and commits any `_data/schedules/` changes to `main`, which triggers the normal deployment.
 
 ### Styling
 

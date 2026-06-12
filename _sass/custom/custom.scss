@@ -206,9 +206,50 @@
     color: #6b7280;
 }
 
+.taxi-phrase {
+    margin: 1rem 0;
+    padding: 1rem 1.4rem;
+    border: 2px solid #1f4f8b;
+    border-radius: 16px;
+    background: #f6f8fb;
+}
+
+.taxi-phrase__label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #54616f;
+}
+
+.taxi-phrase__korean {
+    margin: 0.4rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.35;
+    color: #1f2933;
+}
+
+.taxi-phrase__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.2rem;
+    font-size: 0.95rem;
+    color: #4b5563;
+}
+
+.taxi-phrase__note {
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
 @media (max-width: 900px) {
     .hero {
         grid-template-columns: 1fr;
         padding: 1.6rem;
+    }
+
+    .taxi-phrase__korean {
+        font-size: 1.5rem;
     }
 }
