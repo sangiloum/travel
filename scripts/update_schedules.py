@@ -54,11 +54,20 @@ def last_bus(times):
     late = [t for t in times if t < CUTOFF]
     return late[-1] if late else (times[-1] if times else "")
 
+# Bustago terminal IDs are direction-specific for the Daejeon stops:
+#   Government Complex: 9505 (대전청사) as arrival, 9536 (대전청사공항) as departure
+#   Doryong:            9517 (대덕문화센터) as arrival, 9527 (대전도룡) as departure
+# (9503 is 대전복합, the main complex terminal — same bus times but different fares.)
 ROUTES = [
-    {"file": "icn-govcomplex",  "dep": "9303", "arr": "9503"},
-    {"file": "icn2-govcomplex", "dep": "9337", "arr": "9503"},
+    {"file": "icn-govcomplex",  "dep": "9303", "arr": "9505"},
+    {"file": "icn2-govcomplex", "dep": "9337", "arr": "9505"},
     {"file": "icn-doryong",     "dep": "9303", "arr": "9517"},
     {"file": "icn2-doryong",    "dep": "9337", "arr": "9517"},
+    # Return direction: Daejeon -> Incheon Airport
+    {"file": "govcomplex-icn",  "dep": "9536", "arr": "9303"},
+    {"file": "govcomplex-icn2", "dep": "9536", "arr": "9337"},
+    {"file": "doryong-icn",     "dep": "9527", "arr": "9303"},
+    {"file": "doryong-icn2",    "dep": "9527", "arr": "9337"},
 ]
 CJJ_YUSEONG = {"dep": "3182", "arr": "9502"}
 YUSEONG_CJJ = {"dep": "9502", "arr": "3182"}
