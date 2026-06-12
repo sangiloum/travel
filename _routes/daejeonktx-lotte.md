@@ -9,13 +9,10 @@ It is recommended for you to take a taxi to the Lotte City Hotel. The taxi fare 
 #### Taxi
 Here's the instruction to give to the taxi driver. 
 
-{: .important-title}
-> Message to the taxi driver
-> 
-> {: .text-alpha}
-> **롯데시티호텔로 가주세요**
-> 
-> Please go to the Lotte City Hotel.
+{% include taxi_phrase.html
+   english="Lotte City Hotel"
+   korean="롯데시티호텔로 가주세요"
+   note="Please go to the Lotte City Hotel." %}
 
 #### Subway + Taxi
 

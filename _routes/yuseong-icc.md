@@ -10,13 +10,10 @@ It is recommended for you to take a taxi. The taxi fare should be around 11,000 
 
 Here's the instruction to give to the taxi driver. 
 
-{: .important-title}
-> Message to the taxi driver
-> 
-> {: .text-alpha}
-> **도룡동 ICC 호텔로 가주세요**
->
-> Please go to the ICC Hotel.
+{% include taxi_phrase.html
+   english="ICC Hotel"
+   korean="도룡동 ICC 호텔로 가주세요"
+   note="Please go to the ICC Hotel." %}
 
 
 

@@ -10,15 +10,10 @@ It is recommended for you to take a taxi. The taxi fare should be around 11,000 
 
 Here's the instruction to give to the taxi driver. 
 
-{: .important-title}
-> Message to the taxi driver
-> 
-> {: .text-alpha}
-> **롯데시티호텔 옆 아이호텔(I-Hotel)로 가주세요**
->
-> (구)대덕특구게스트하우스
-> 
-> Please go to the I-Hotel, next to the Lotte City Hotel.
+{% include taxi_phrase.html
+   english="I-Hotel"
+   korean="롯데시티호텔 옆 아이호텔(I-Hotel)로 가주세요"
+   note="(구)대덕특구게스트하우스 — Please go to the I-Hotel, next to the Lotte City Hotel." %}
 
 
 

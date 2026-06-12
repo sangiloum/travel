@@ -7,10 +7,7 @@ From Sintanjin Station (신탄진역), it is recommended to take a taxi to Gaon 
 
 Show this message to the taxi driver:
 
-{: .important-title}
-> Message to the taxi driver
->
-> {: .text-alpha}
-> **대전 가온레지던스로 가주세요**
->
-> Please go to Gaon Residence in Daejeon.
+{% include taxi_phrase.html
+   english="Gaon Residence"
+   korean="대전 가온레지던스로 가주세요"
+   note="Please go to Gaon Residence in Daejeon." %}

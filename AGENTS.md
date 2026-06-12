@@ -37,7 +37,7 @@ Intermediate transit stops (e.g. `govcomplex`, `doryong`, `yuseong`, `seoul`, `d
 
 The custom `TourPageGenerator` plugin creates one tour page per origin × destination pair at `/origin/destination/` URLs (cartesian product). It also fills in missing route `origin`/`destination` from filename slugs and chains destinations into `prev`/`next` order for the page navigation buttons.
 
-The actual route assembly happens in Liquid inside `_layouts/tour.html`: for each pair it finds direct routes, then 2-leg chains (origin → X, X → destination), then 3-leg chains, numbering each as "Method N" with step-by-step sections. If no chain exists, the page shows "Under construction".
+The actual route assembly happens in Liquid inside `_layouts/tour.html`: for each pair it finds direct routes, then 2-leg chains (origin → X, X → destination), then 3-leg chains, numbering each as "Method N" with step-by-step sections. Direct routes with `order >= 1000` (e.g. a direct taxi) render last, after the multi-leg chains, instead of first. If no chain exists, the page shows "Under construction".
 
 To add a new route option: create a markdown file in `_routes/` named `{origin}-{destination}.md`. The plugin and layout auto-discover it, including as a leg in multi-leg chains.
 

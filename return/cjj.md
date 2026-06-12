@@ -21,7 +21,6 @@ The Yuseong Complex Terminal (유성복합터미널) is about 5 km from IBS.
 {% include taxi_phrase.html
    english="Yuseong Complex Terminal"
    korean="유성복합터미널로 가 주세요."
-   fare="KRW 7,000–9,000"
    time="15 min" %}
 
 <h3 id="method1-2">Step 2 @ Yuseong Complex Terminal — Bus to the Cheongju Airport</h3>
@@ -44,7 +43,6 @@ There is a train stop at the Cheongju Airport. You can take a local train from D
 {% include taxi_phrase.html
    english="Daejeon Station"
    korean="대전역으로 가 주세요."
-   fare="KRW 12,000–15,000"
    time="25 min" %}
 
 <h3 id="method2-2">Step 2 @ Daejeon Station — Train to the Cheongju Airport</h3>
@@ -86,7 +84,6 @@ If you have heavy luggage or an early flight, a taxi straight to the airport is 
 {% include taxi_phrase.html
    english="Cheongju International Airport"
    korean="청주국제공항으로 가 주세요."
-   fare="KRW 50,000"
    time="50 min" %}
 
 You can also call a taxi with the Kakao T or k.ride apps — see the [Local Information](/localinfo/) page.

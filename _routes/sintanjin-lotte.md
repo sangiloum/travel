@@ -7,10 +7,7 @@ From Sintanjin Station (신탄진역), it is recommended to take a taxi to Lotte
 
 Show this message to the taxi driver:
 
-{: .important-title}
-> Message to the taxi driver
->
-> {: .text-alpha}
-> **대전 롯데시티호텔로 가주세요**
->
-> Please go to Lotte City Hotel Daejeon.
+{% include taxi_phrase.html
+   english="Lotte City Hotel"
+   korean="대전 롯데시티호텔로 가주세요"
+   note="Please go to Lotte City Hotel Daejeon." %}

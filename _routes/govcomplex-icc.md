@@ -9,13 +9,10 @@ After you arrive at the [Government Complex Bus Stop](https://naver.me/GlVC83eN)
 
 Here's the instruction to give to the taxi driver. 
 
-{: .important-title}
-> Message to the taxi driver
-> 
-> {: .text-alpha}
-> **ICC 호텔로 가주세요**
->
-> Please go to the ICC Hotel.
+{% include taxi_phrase.html
+   english="ICC Hotel"
+   korean="ICC 호텔로 가주세요"
+   note="Please go to the ICC Hotel." %}
 
 
 

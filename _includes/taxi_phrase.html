@@ -1,10 +1,9 @@
 <div class="taxi-phrase">
     <div class="taxi-phrase__label">🚕 Show this to the taxi driver — {{ include.english }}</div>
     <div class="taxi-phrase__korean">{{ include.korean }}</div>
-    {% if include.fare or include.time %}
+    {% if include.time %}
     <div class="taxi-phrase__meta">
-        {% if include.fare %}<span>Approx. fare: {{ include.fare }}</span>{% endif %}
-        {% if include.time %}<span>Approx. time: {{ include.time }}</span>{% endif %}
+        <span>Approx. time: {{ include.time }}</span>
     </div>
     {% endif %}
     {% if include.note %}<div class="taxi-phrase__note">{{ include.note }}</div>{% endif %}
