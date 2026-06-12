@@ -9,13 +9,10 @@ It is recommended for you to take a taxi. The taxi fare should be around 11,000 
 
 Here's the instruction to give to the taxi driver. Often taxi drivers do not know IBS but all of them are familiar with the big department store next to the IBS --- Shinsegae Department Store, the tallest building of Daejeon.
 
-{: .important-title}
-> Message to the taxi driver
-> 
-> {: .text-alpha}
-> **신세계백화점 오노마호텔로 가주세요**
-> 
-> Please go to the Onoma Hotel in the Shinsegae Department Store.
+{% include taxi_phrase.html
+   english="Onoma Hotel"
+   korean="신세계백화점 오노마호텔로 가주세요"
+   note="Please go to the Onoma Hotel in the Shinsegae Department Store." %}
 
 
 

@@ -9,14 +9,10 @@ It is recommended for you to take a taxi to IBS. The taxi fare should be around 
 #### Taxi
 Here's the instruction to give to the taxi driver. 
 
-{: .important-title}
-> Message to the taxi driver
-> 
-> {: .text-alpha}
-> **도룡동 가온레지던스호텔로 가주세요**
-> 대전 유성구 대덕대로590번길 12-13
-> 
-> Please go to the Gaon Residence Hotel in Doryong-dong.
+{% include taxi_phrase.html
+   english="Gaon Residence"
+   korean="도룡동 가온레지던스호텔로 가주세요"
+   note="대전 유성구 대덕대로590번길 12-13 — Please go to the Gaon Residence Hotel in Doryong-dong." %}
 
 #### Subway + Taxi
 

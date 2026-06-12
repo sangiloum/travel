@@ -9,13 +9,10 @@ It is recommended for you to take a taxi to IBS. The taxi fare should be around 
 #### Taxi
 Here's the instruction to give to the taxi driver. 
 
-{: .important-title}
-> Message to the taxi driver
-> 
-> {: .text-alpha}
-> **신세계백화점 오노마호텔로 가주세요**
-> 
-> Please go to the Onoma Hotel in the Shinsegae Department Store.
+{% include taxi_phrase.html
+   english="Onoma Hotel"
+   korean="신세계백화점 오노마호텔로 가주세요"
+   note="Please go to the Onoma Hotel in the Shinsegae Department Store." %}
 
 #### Subway + Taxi
 

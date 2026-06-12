@@ -7,10 +7,7 @@ From Sintanjin Station (신탄진역), it is recommended to take a taxi to ICC H
 
 Show this message to the taxi driver:
 
-{: .important-title}
-> Message to the taxi driver
->
-> {: .text-alpha}
-> **대전 ICC 호텔로 가주세요**
->
-> Please go to ICC Hotel in Daejeon.
+{% include taxi_phrase.html
+   english="ICC Hotel"
+   korean="대전 ICC 호텔로 가주세요"
+   note="Please go to ICC Hotel in Daejeon." %}

@@ -9,13 +9,10 @@ It is recommended for you to take a taxi to IBS. The taxi fare should be around 
 #### Taxi
 Here's the instruction to give to the taxi driver. Often taxi drivers do not know IBS but all of them are familiar with the big department store next to the IBS --- Shinsegae Department Store, the tallest building of Daejeon.
 
-{: .important-title}
-> Message to the taxi driver
-> 
-> {: .text-alpha}
-> **신세계백화점 옆 기초과학연구원(IBS)으로 가주세요**
-> 
-> Please go to the Institute for Basic Science (IBS), next to the Shinsegae Department Store.
+{% include taxi_phrase.html
+   english="IBS Discrete Mathematics Group"
+   korean="신세계백화점 옆 기초과학연구원(IBS)으로 가주세요"
+   note="Please go to the Institute for Basic Science (IBS), next to the Shinsegae Department Store." %}
 
 #### Subway + Taxi
 
