@@ -8,5 +8,4 @@ The simplest option is to take a taxi from the Cheongju Airport directly to your
 {% include taxi_phrase.html
    english="Gaon Residence"
    korean="대전 도룡동 가온레지던스로 가 주세요."
-   fare="KRW 62,000"
    time="50 min" %}

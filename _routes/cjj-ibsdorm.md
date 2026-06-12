@@ -8,6 +8,5 @@ The simplest option is to take a taxi from the Cheongju Airport directly to your
 {% include taxi_phrase.html
    english="IBS Guesthouse/Dormitory"
    korean="대전 기초과학연구원 생활관으로 가 주세요."
-   fare="KRW 62,000"
    time="50 min"
    note="IBS address: 55 Expo-ro, Yuseong-gu, Daejeon (대전 유성구 엑스포로 55)." %}

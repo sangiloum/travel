@@ -18,7 +18,6 @@ permalink: /return/gmp/
 {% include taxi_phrase.html
    english="Daejeon Station"
    korean="대전역으로 가 주세요."
-   fare="KRW 12,000–15,000"
    time="25 min" %}
 
 <h3 id="method1-2">Step 2 @ Daejeon Station — KTX to Seoul Station</h3>

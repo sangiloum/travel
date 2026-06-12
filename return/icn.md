@@ -33,7 +33,6 @@ The stop is about a 20-minute walk from IBS, or a few minutes by taxi. Here is t
 {% include taxi_phrase.html
    english="Doryong Bus Stop (for the Incheon Airport bus)"
    korean="인천공항 가는 공항버스를 타려고 합니다. 대전 도룡동 시외버스 정류장으로 가 주세요."
-   fare="KRW 5,000"
    time="5 min"
    note="The first sentence tells the driver that you are catching the airport bus to the Incheon Airport. The stop is also known as the Daedeok Culture Center (대덕문화센터) stop." %}
 
@@ -84,7 +83,6 @@ There are many bus stops around the Government Complex — city bus stops and se
 {% include taxi_phrase.html
    english="Government Complex Bus Stop (for the Incheon Airport bus)"
    korean="인천공항 가는 공항버스를 타려고 합니다. 정부청사 시외버스 정류장으로 가 주세요."
-   fare="KRW 5,000–6,000"
    time="10 min"
    note="The first sentence tells the driver that you are catching the airport bus to the Incheon Airport, so they can drop you at the correct stop among the several stops around the Government Complex." %}
 
@@ -125,7 +123,6 @@ If the bus schedule does not fit your flight, you can take the KTX train to Seou
 {% include taxi_phrase.html
    english="Daejeon Station"
    korean="대전역으로 가 주세요."
-   fare="KRW 12,000–15,000"
    time="25 min" %}
 
 <h3 id="method3-2">Step 2 @ Daejeon Station — KTX to Seoul Station</h3>
