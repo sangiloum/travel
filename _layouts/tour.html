@@ -32,7 +32,9 @@ layout: default
 
 {% assign colors = ",red,blue,green,black,yellow,magenta,purple" | split: "," %}
 {% assign tpoints = "" %}
-{% assign rstart=site.routes | where:'origin', page.origin |where: 'destination', page.destination %}
+{% comment %} Direct routes with order >= 1000 (e.g. a direct taxi) render last, after the multi-leg chains. {% endcomment %}
+{% assign rdirect=site.routes | where:'origin', page.origin |where: 'destination', page.destination %}
+{% assign rstart=rdirect | where_exp: "r", "r.order < 1000" %}
 {% for route in rstart %}
 {% assign count=count | plus: 1 %}        
 <h2 id="method{{count}}"><span class="btn">Method {{count}}</span> {{route.title}}</h2>
@@ -101,6 +103,21 @@ layout: default
         {% endfor %}
   {% endfor %}
 {% endfor %}
+
+{% assign rlast=rdirect | where_exp: "r", "r.order >= 1000" %}
+{% for route in rlast %}
+{% assign count=count | plus: 1 %}
+<h2 id="method{{count}}"><span class="btn">Method {{count}}</span> {{route.title}}</h2>
+<h3 id="method{{count}}-1">Step 1 @ {{startlocation.title}}</h3>
+    {{route.content}}
+    <script language="javascript">
+        L.polyline([
+            [{{startlocation.lat}}, {{startlocation.long}}],
+            [{{endlocation.lat}}, {{endlocation.long}}]],
+            {color: '{{colors[count]}}'}
+        ).addTo(map);
+    </script>
+{% endfor  %}
 
 {% if count==0 %}
 <h2>Travel Instruction: Under construction</h1>
