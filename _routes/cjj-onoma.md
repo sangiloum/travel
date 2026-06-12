@@ -3,7 +3,7 @@ title: Take a taxi directly from the Cheongju Airport
 order: 1000
 ---
 
-The simplest option is to take a taxi from the Cheongju Airport directly to your final destination. Taxis wait in front of the arrival hall. The ride to Onoma Hotel takes about 50 minutes and costs about 62,000 KRW. You can also call a taxi with the Kakao T app — see the [Local Information](/localinfo/) page.
+The simplest option is to take a taxi from the Cheongju Airport directly to your final destination. Taxis wait in front of the arrival hall. The ride to Onoma Hotel takes about 50 minutes and costs about 62,000 KRW.
 
 {% include taxi_phrase.html
    english="Onoma Hotel"

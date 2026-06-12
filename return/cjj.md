@@ -79,14 +79,14 @@ For visitors from China, it is also possible to buy the train ticket on [WeChat]
 
 <h3 id="method3-1">Step 1 @ IBS — Taxi to the Cheongju Airport</h3>
 
-If you have heavy luggage or an early flight, a taxi straight to the airport is the simplest option. The ride takes about 50 minutes.
+If you have heavy luggage or an early flight, a taxi straight to the airport is the simplest option. The ride takes about 50 minutes and costs approximately KRW 62,000.
 
 {% include taxi_phrase.html
    english="Cheongju International Airport"
    korean="청주국제공항으로 가 주세요."
    time="50 min" %}
 
-You can also call a taxi with the Kakao T or k.ride apps — see the [Local Information](/localinfo/) page.
+You can also call a taxi with the Kakao T, k.ride, or Uber apps — see the [Local Information](/localinfo/) page.
 
 {% endcapture %}
 {% include toc.html html=allcontent h_max=3 %}
