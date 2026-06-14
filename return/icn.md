@@ -70,7 +70,7 @@ The Government Complex (정부청사) stop is the one with a staffed ticket offi
 The bus stop is 2.3 km away from IBS — about 10 minutes by taxi, or a 30-minute walk. Here is the [exact location of the bus stop on Kakao Map](https://kko.kakao.com/y4Eea2yrof).
 
 {: .warning}
-There are many bus stops around the Government Complex — city bus stops and several intercity bus stops — and first-time visitors often end up at the wrong one. The airport bus leaves from the intercity bus stop with the ticket office, on the street on the east side of the Government Complex. Check the [exact location on Kakao Map](https://kko.kakao.com/y4Eea2yrof) before you go. When you take a taxi, tell the driver that you are going there to catch the airport bus to the Incheon Airport — the phrase below includes it.
+There are many bus stops around the Government Complex — city bus stops and several intercity bus stops — and first-time visitors often end up at the wrong one. The airport bus leaves from the intercity bus stop with the ticket office, on the street on the west side of the Government Complex. Check the [exact location on Kakao Map](https://kko.kakao.com/y4Eea2yrof) before you go. When you take a taxi, tell the driver that you are going there to catch the airport bus to the Incheon Airport — the phrase below includes it.
 
 {% include taxi_phrase.html
    english="Government Complex Bus Stop (for the Incheon Airport bus)"
