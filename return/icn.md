@@ -5,9 +5,7 @@ nav_order: 1
 permalink: /return/icn/
 ---
 {% assign s1 = site.data.schedules["doryong-icn"] %}
-{% assign s1b = site.data.schedules["doryong-icn2"] %}
 {% assign s2 = site.data.schedules["govcomplex-icn"] %}
-{% assign s2b = site.data.schedules["govcomplex-icn2"] %}
 
 # Return to Incheon Airport (ICN)
 
@@ -54,19 +52,13 @@ After booking the ticket, you'll need to pick up the ticket at the bus stop by u
 |*Doryong Bus Stop*|*Ticket Machines at the Doryong Bus Stop*|
 
 The first bus departs at {{ s1.first_bus }} and the last bus departs at {{ s1.last_bus }}.
+The same departures serve both Terminal 1 and Terminal 2; Terminal 2 is the next airport stop after Terminal 1.
 
-#### Bus Schedule to Terminal 1 (as of {{ s1.updated }})
+#### Bus Schedule to Incheon Airport (Terminals 1 and 2, as of {{ s1.updated }})
 
 | Departure | Class | Fare for an Adult (KRW) |
 | :--: | :--: | :--: |
 {% for row in s1.rows %}| {{ row.time }} | {{ row.class }} | {{ row.fare }} |
-{% endfor %}
-
-#### Bus Schedule to Terminal 2 (as of {{ s1b.updated }})
-
-| Departure | Class | Fare for an Adult (KRW) |
-| :--: | :--: | :--: |
-{% for row in s1b.rows %}| {{ row.time }} | {{ row.class }} | {{ row.fare }} |
 {% endfor %}
 
 <h2 id="method2"><span class="btn">Method 2</span> Airport bus from the Government Complex Bus Stop</h2>
@@ -99,19 +91,13 @@ You can buy the ticket in person at the ticket office (open 6:00–21:15), or re
 |*Ticket Machine for the Incheon Airport*|*Ticket Office (6am–9:15pm)*|
 
 The first bus departs at {{ s2.first_bus }} and the last bus departs at {{ s2.last_bus }}.
+The same departures serve both Terminal 1 and Terminal 2; Terminal 2 is the next airport stop after Terminal 1.
 
-#### Bus Schedule to Terminal 1 (as of {{ s2.updated }})
+#### Bus Schedule to Incheon Airport (Terminals 1 and 2, as of {{ s2.updated }})
 
 | Departure | Class | Fare for an Adult (KRW) |
 | :--: | :--: | :--: |
 {% for row in s2.rows %}| {{ row.time }} | {{ row.class }} | {{ row.fare }} |
-{% endfor %}
-
-#### Bus Schedule to Terminal 2 (as of {{ s2b.updated }})
-
-| Departure | Class | Fare for an Adult (KRW) |
-| :--: | :--: | :--: |
-{% for row in s2b.rows %}| {{ row.time }} | {{ row.class }} | {{ row.fare }} |
 {% endfor %}
 
 <h2 id="method3"><span class="btn">Method 3</span> KTX train via Seoul Station + AREX</h2>
