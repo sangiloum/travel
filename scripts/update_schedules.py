@@ -2,7 +2,7 @@
 # Usage:  python scripts/update_schedules.py
 # Prereq: pip install requests pyyaml
 
-import requests, yaml, datetime, pathlib, ssl
+import requests, yaml, datetime, pathlib, ssl, re
 from requests.adapters import HTTPAdapter
 
 # Force PyYAML to single-quote all strings so Ruby/Jekyll reads HH:MM times
@@ -69,8 +69,15 @@ ROUTES = [
     {"file": "doryong-icn",     "dep": "9527", "arr": "9303"},
     {"file": "doryong-icn2",    "dep": "9527", "arr": "9337"},
 ]
-CJJ_YUSEONG = {"dep": "3182", "arr": "9502"}
-YUSEONG_CJJ = {"dep": "9502", "arr": "3182"}
+# Cheongju Airport <-> Yuseong is fetched from txbus (the TmoneyGO backend), NOT
+# bustago: bustago omits several 서울고속/새서울고속 우등 departures on this route
+# (e.g. 06:30, 09:20, 12:10, 15:20, 18:50), which the airport kiosk and TmoneyGO
+# do show. txbus lists the full schedule and is a strict superset of bustago here.
+# txbus terminal codes come from /otck/readTrmlList.do and differ from bustago IDs:
+#   청주공항 = 2814201, 유성복합 = 3417501.
+# (The ICN airport routes above stay on bustago -- txbus does not carry them.)
+CJJ_YUSEONG_TX = {"dep": "2814201", "arr": "3417501"}
+YUSEONG_CJJ_TX = {"dep": "3417501", "arr": "2814201"}
 
 session = requests.Session()
 session.mount("https://", LegacyTLSAdapter())
@@ -88,6 +95,36 @@ def fmt_time(t):
 def fmt_fare(f):
     return f"{int(f):,}" if f else ""
 
+# --- txbus (TmoneyGO backend) --------------------------------------------------
+# txbus uses modern TLS, so a plain session works; it does require a browser
+# User-Agent and a warmed session cookie. The booking endpoint (readAlcnList.do)
+# rejects scripted requests, but the operation-info endpoint (readRunInfList.do)
+# is open and returns the full daily timetable as an HTML page.
+TXBUS_BASE = "https://txbus.t-money.co.kr"
+tx_session = requests.Session()
+tx_session.headers.update({"User-Agent":
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"})
+tx_session.get(f"{TXBUS_BASE}/runinf/runInf.do")  # warm session cookie
+
+def fetch_txbus(dep, arr):
+    """Return sorted 'HH:MM' departure times for a txbus route.
+
+    readRunInfList.do renders the row list twice, so we stop collecting at the
+    first descending time (the start of the repeated copy)."""
+    r = tx_session.post(f"{TXBUS_BASE}/runinf/readRunInfList.do",
+        headers={"Referer": f"{TXBUS_BASE}/runinf/runInf.do"},
+        data={"depr_Trml_Cd": dep, "arvl_Trml_Cd": arr, "depr_Dt": DATE,
+              "depr_Time": "00:00", "bef_Aft_Dvs": "D", "req_Rec_Num": "80"})
+    times = []
+    for tr in re.findall(r"<tr>(.*?)</tr>", r.text, re.S):
+        tm = re.search(r"\d{2}:\d{2}", tr)
+        if tm and "<strong>" in tr:  # a real bus row carries a grade in <strong>
+            if times and tm.group(0) < times[-1]:  # repeated copy begins
+                break
+            times.append(tm.group(0))
+    return times
+
 # ICN routes
 for route in ROUTES:
     tickets = fetch(route["dep"], route["arr"])
@@ -104,22 +141,15 @@ for route in ROUTES:
     out.write_text(yaml.dump(data, allow_unicode=True, default_flow_style=False))
     print(f"  {route['file']}.yml — {len(rows)} rows")
 
-# CJJ → Yuseong
-tickets = fetch(CJJ_YUSEONG["dep"], CJJ_YUSEONG["arr"])
-times = [fmt_time(t["DEP_TIME"]) for t in tickets]
-data = {"updated": UPDATED,
-        "first_bus": first_bus(times),
-        "last_bus": last_bus(times),
-        "times": times}
-(DATA_DIR / "cjj-yuseong.yml").write_text(yaml.dump(data, allow_unicode=True, default_flow_style=False))
-print(f"  cjj-yuseong.yml — {len(times)} departures")
-
-# Yuseong → CJJ
-tickets = fetch(YUSEONG_CJJ["dep"], YUSEONG_CJJ["arr"])
-times = [fmt_time(t["DEP_TIME"]) for t in tickets]
-data = {"updated": UPDATED,
-        "first_bus": first_bus(times),
-        "last_bus": last_bus(times),
-        "times": times}
-(DATA_DIR / "yuseong-cjj.yml").write_text(yaml.dump(data, allow_unicode=True, default_flow_style=False))
-print(f"  yuseong-cjj.yml — {len(times)} departures")
+# CJJ <-> Yuseong (via txbus / TmoneyGO -- see note by the terminal codes above)
+for fname, rt in [("cjj-yuseong", CJJ_YUSEONG_TX), ("yuseong-cjj", YUSEONG_CJJ_TX)]:
+    times = fetch_txbus(rt["dep"], rt["arr"])
+    if not times:  # transient txbus failure: keep the last-known-good YAML
+        print(f"  {fname}.yml — SKIPPED (txbus returned no departures)")
+        continue
+    data = {"updated": UPDATED,
+            "first_bus": first_bus(times),
+            "last_bus": last_bus(times),
+            "times": times}
+    (DATA_DIR / f"{fname}.yml").write_text(yaml.dump(data, allow_unicode=True, default_flow_style=False))
+    print(f"  {fname}.yml — {len(times)} departures (txbus)")
