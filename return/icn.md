@@ -9,47 +9,59 @@ permalink: /return/icn/
 
 # Return to Incheon Airport (ICN)
 
-The most recommended way to reach the Incheon Airport from Daejeon is to take the airport bus.
+The **most recommended way to reach the Incheon Airport from Daejeon is to take the airport bus**.
 There are frequent buses from around 3 a.m. so that you can catch an early morning flight.
 It is strongly recommended to buy the ticket early.
 It takes up to 3 hours to reach Terminal 1
 and up to 3 hours 18 minutes to reach Terminal 2.
+**Book the bus in advance. The tickets may be sold out.**
 
 {: .warning}
 Make sure to board the correct bus. Not only the airport buses but also buses to Seoul and other cities stop at the same bus stops.
 
 {% capture allcontent %}
 
-<h2 id="method1"><span class="btn">Method 1</span> Airport bus from the Doryong Bus Stop</h2>
+<h2 id="method1"><span class="btn">Method 1</span> Airport bus from the Doryong Inter-City Bus Stop</h2>
 
-The Doryong Bus Stop (도룡, also signed as Daedeok Culture Center / 대덕문화센터) is the closest airport bus stop to IBS — about 1.5 km, so it is walkable, and it is easy to find the right boarding point. This is the stop we recommend. Note that it is unmanned and has only automated ticket machines; if you prefer a staffed ticket office, use the Government Complex stop (Method 2).
+The Doryong Inter-City Bus Stop (도룡시외버스정류장) is the closest airport bus stop to IBS — about 1.5 km, so it is walkable, and it is easy to find the right boarding point. This is the stop we recommend. Note that it is unmanned and has only automated ticket machines; if you prefer a staffed ticket office, use the Government Complex stop (Method 2).
 
-<h3 id="method1-1">Step 1 @ IBS — Get to the Doryong Bus Stop</h3>
+<h3 id="method1-1">Step 1 @ IBS — Get to the Doryong Inter-City Bus Stop</h3>
 
-The stop is about a 20-minute walk from IBS, or a few minutes by taxi. Here is the [exact location of the bus stop on Kakao Map](https://kko.kakao.com/m17R13IvP0).
+The stop is about a 20-minute walk from IBS, or a few minutes by taxi. Here is the [exact location of the bus stop on Kakao Map](https://kko.kakao.com/m17R13IvP0)
+or [Google Map](https://maps.app.goo.gl/emej8ELmnfrsHMQw8?g_st=aw).
+
+On Uber, you can search "Inter-city bus" and pick the result whose address is "634, 대덕대로 유성구 대전광역시" — that is this stop. The ride from the Expo Park area takes only a few minutes and costs about KRW 5,000–6,500.
+
+|![Searching for "Inter-city bus" on Uber](/assets/images/uber-search.png)|![Uber fare estimate to the Doryong Inter-City Bus Stop](/assets/images/uber-ride.png)|
+|:--:|:--:|
+|*Search "Inter-city bus" and choose the one at 634, 대덕대로*|*From Lotte City Hotel to Inter-city Bus Stop*|
 
 {% include taxi_phrase.html
-   english="Doryong Bus Stop (for the Incheon Airport bus)"
-   korean="인천공항 가는 공항버스를 타려고 합니다. 대전 도룡동 시외버스 정류장으로 가 주세요."
+   english="Doryong Inter-City Bus Stop (for the Incheon Airport bus)"
+   korean="인천공항 가는 공항버스를 타려고 합니다. 도룡시외버스정류장으로 가 주세요."
    time="5 min"
-   note="The first sentence tells the driver that you are catching the airport bus to the Incheon Airport. The stop is also known as the Daedeok Culture Center (대덕문화센터) stop." %}
+   note="The first sentence tells the driver that you are catching the airport bus to the Incheon Airport. The stop is known as the Doryong Inter-City Bus Stop." %}
 
-<h3 id="method1-2">Step 2 @ Doryong Bus Stop — Buy the ticket and board</h3>
+<h3 id="method1-2">Step 2 @ Doryong Inter-City Bus Stop — Buy the ticket and board</h3>
 
-There is no ticket office here; buy your ticket at the machine, or reserve it [online at https://txbuse.t-money.co.kr](https://txbuse.t-money.co.kr)
-and print it at the machine before you leave. You will likely want the following:
-- Departure: Daejeondoryong
-- Destination: IncheonAirportT1 or IncheonAirportT2
 
-If you want to use foreign credit cards, you should choose "GLOBAL CARD" in the list of credit cards. For "Card Password", it only needs the first 2 digits of your credit card password, but probably you can type anything, because it doesn't matter much.
+The easiest method is to ask people in Korea: they can buy your bus ticket on the app "TMoney Go" and pay by a Korean credit card. Then there will be a ticket with a QR code. You should get the screenshot of your ticket having the QR code. When you board the bus, you show the QR code on your phone to the scanner on the bus.
 
-For "Resident Registration Number (front 6 digits)", you simply need to type your birthday in YYMMDD format. For the Cellular Phone number, if you don't have the Korean mobile phone number, put any number, for instance the phone number of your host at IBS. That is for the identification.
+There is no ticket office here; buy your ticket at the machine. <del>Previously it was possible to reserve it [online at https://txbuse.t-money.co.kr](https://txbuse.t-money.co.kr)
+and print it at the machine before you leave. However, it is reported that this is no longer possible with international credit cards. You will likely want the following:</del>
+- <del>Departure: Daejeondoryong</del>
+- <del>Destination: IncheonAirportT1 or IncheonAirportT2.</del>
 
-After booking the ticket, you'll need to pick up the ticket at the bus stop by using the machine. It'll ask you to identify yourself by using the credit card number that was used to pay for your bus ticket or the phone number.
 
-|![Doryong Bus Stop](/assets/images/doryong.jpg)|![Ticket Machines at the Doryong Bus Stop](/assets/images/doryong-ticket.jpg)|
+<del>If you want to use foreign credit cards, you should choose "GLOBAL CARD" in the list of credit cards. For "Card Password", it only needs the first 2 digits of your credit card password, but probably you can type anything, because it doesn't matter much.</del>
+
+<del>For "Resident Registration Number (front 6 digits)", you simply need to type your birthday in YYMMDD format. For the Cellular Phone number, if you don't have the Korean mobile phone number, put any number, for instance the phone number of your host at IBS. That is for the identification.</del>
+
+<del>After booking the ticket, you'll need to pick up the ticket at the bus stop by using the machine. It'll ask you to identify yourself by using the credit card number that was used to pay for your bus ticket or the phone number.</del>
+
+|![Doryong Bus Stop](/assets/images/doryong.jpg)|![Ticket Machines at the Doryong Inter-City Bus Stop](/assets/images/doryong-ticket.jpg)|
 |:--:|:--:|
-|*Doryong Bus Stop*|*Ticket Machines at the Doryong Bus Stop*|
+|*Doryong Inter-City Bus Stop*|*Ticket Machines at the Doryong Inter-City Bus Stop*|
 
 The first bus departs at {{ s1.first_bus }} and the last bus departs at {{ s1.last_bus }}.
 The same departures serve both Terminal 1 and Terminal 2; Terminal 2 is the next airport stop after Terminal 1.
@@ -80,7 +92,11 @@ There are many bus stops around the Government Complex — city bus stops and se
 
 <h3 id="method2-2">Step 2 @ Government Complex Bus Stop — Buy the ticket and board</h3>
 
-You can buy the ticket in person at the ticket office (open 6:00–21:15), or reserve it [online at https://txbuse.t-money.co.kr](https://txbuse.t-money.co.kr) (choose **Daejeon Gov Complex(airport route)** as the departure) and print it at the machine, as described in Method 1.
+
+The easiest method is to ask people in Korea: they can buy your bus ticket on the app "TMoney Go" and pay by a Korean credit card. Then there will be a ticket with a QR code. You should get the screenshot of your ticket having the QR code. When you board the bus, you show the QR code on your phone to the scanner on the bus.
+
+You can buy the ticket in person at the ticket office (open 6:00–21:15). 
+<del>(Previously it was possible to reserve it [online at https://txbuse.t-money.co.kr](https://txbuse.t-money.co.kr) (choose **Daejeon Gov Complex(airport route)** as the departure) and print it at the machine, as described in Method 1. However it has been reported that it no longer accepts international credit cards.)</del>
 
 |![Government Complex Bus Stop](/assets/images/dunsan.jpg)|
 |:--:|
