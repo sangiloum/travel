@@ -48,8 +48,9 @@ To add a new route option: create a markdown file in `_routes/` named `{origin}-
 - **`_includes/head_custom.html`** — loads Leaflet.js 1.9.4
 - **`_includes/tips.md`** — shared travel tips content (SIM cards, taxi, etc.)
 - **`_includes/taxi_phrase.html`** — "show this to the taxi driver" card; params: `english`, `korean`, optional `fare`/`time`/`note`
+- **`_includes/app_screenshot.html`** — annotated app screenshot figure; params: `src`, `alt`, optional `caption`, optional `boxes` (semicolon-separated `left,top,width,height,label` highlight boxes, numbers are percentages of the image)
 
-Standalone pages outside the collections: `index.md` (home), `localinfo/index.md` (local information), and the return-journey section — `return/index.md` (hub with airport cards) plus its just-the-docs children `return/icn.md`, `return/cjj.md`, `return/gmp.md` (explicit `permalink`, `parent` front matter). The return pages hand-replicate the tour-page structure: raw HTML `<h2>`/`<h3>` Method/Step headings with explicit `id`s inside `{% capture allcontent %}` (required for the toc.html include, which runs before kramdown assigns heading ids), followed by a Leaflet map and `{{ allcontent }}`.
+Standalone pages outside the collections: `index.md` (home), `localinfo/index.md` (local information), and the return-journey section — `return/index.md` (hub with airport cards) plus its just-the-docs children (explicit `permalink`, `parent` front matter). The airport pages `return/icn.md`, `return/cjj.md`, `return/gmp.md` hand-replicate the tour-page structure: raw HTML `<h2>`/`<h3>` Method/Step headings with explicit `id`s inside `{% capture allcontent %}` (required for the toc.html include, which runs before kramdown assigns heading ids), followed by a Leaflet map and `{{ allcontent }}`. `return/tmoneygo.md` is a plain markdown how-to (TmoneyGO bus-ticket booking) built from `app_screenshot.html` figures, linked from `return/index.md` and `return/icn.md`.
 
 ### Maps
 
