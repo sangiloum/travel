@@ -5,42 +5,45 @@ nav_order: 3
 lat: 36.72261
 long: 127.4965
 ---
-[Cheongju Airport](https://www.airport.co.kr/cheongjueng/index.do) is the closest airport to Daejeon. It is located in Cheongju, the capital of North Chungcheong Province. The airport is about 51 km away from IBS. The airport has domestic flights to Jeju and international flights to Japan, Taipei, Vietnam, Philippines, and Mongol.
+[Cheongju Airport](https://www.airport.co.kr/cheongjueng/index.do) is the closest airport to Daejeon. It is located in Cheongju, the capital of North Chungcheong Province. The airport is about 51 km away from IBS. The airport has domestic flights to Jeju and international flights to Japan, China, Taiwan, Vietnam, and the Philippines.
 
 
-### International Routes from Cheongju International Airport (CJJ) — July 2026
+### International Routes from Cheongju International Airport (CJJ) — Winter 2026–27
 
-- [Aero K](https://www.aerok.com/en-US)  
-  - **Japan**: Tokyo (NRT), Kansai (KIX), Sapporo (CTS), Nagoya (NGO), Obihiro (OBO), Ibaraki (IBR), Okinawa (OKA), Fukuoka (FUK), Kitakyushu (KKJ), Kumamoto (KMJ), Hiroshima (HIJ), Hakodate (HKD), Hanamaki (HNA)
-  - **Taiwan**: Taipei (TPE), Taichung (RMQ), 
+Based on the [official Cheongju Airport flight schedule](https://www.airport.co.kr/cheongju/cms/frCon/index.do?MENU_ID=110) and the airlines' own route lists, checked in November 2026. Schedules change often, so please check with the airline before booking.
+
+- [Aero K](https://www.aerok.com/en-US)
+  - **Japan**: Tokyo (NRT), Osaka (KIX), Nagoya (NGO), Sapporo (CTS), Fukuoka (FUK), Kitakyushu (KKJ), Okinawa (OKA), Hiroshima (HIJ), Ibaraki (IBR) (seasonal)
+    - New this winter: Kumamoto (KMJ) from Dec 23, Kobe (UKB) from Dec 24, Obihiro (OBO) from Jan 1, Matsuyama (MYJ) from Jan 2
+  - **Taiwan**: Taipei (TPE)
   - **Vietnam**: Da Nang (DAD), Nha Trang (CXR)
-  - **Philippines**: Clark Field (CRK)
-  - **Mongolia**: Ulaanbaatar (UBN)  
+  - **Philippines**: Clark (CRK)
+
+- [Trinity Airways](https://www.trinityairways.com/) (formerly T'way Air)
+  - **Japan**: Osaka (KIX), Fukuoka (FUK)
+  - **Vietnam**: Da Nang (DAD), Nha Trang (CXR) (scheduled until mid-December 2026)
+
+- [EASTAR JET](https://www.eastarjet.com/)
+  - **China**: Shanghai (PVG), Zhangjiajie (DYG) (seasonal), Yanji (YNJ) (summer only)
+  - **Taiwan**: Taipei (TPE)
 
 - [China Eastern Airlines](https://www.ceair.com/ko/krw/home)
   - **China**: Shanghai (PVG)
 
-- [T'way Air](https://www.twayair.com/)  
-  - **Japan**: Kansai (KIX), Fukuoka (FUK)
-  - **China**: Yanji (YNJ)  
-  - **Taiwan**: Taipei (TPE), Kaohsiung (KPH)
-  - **Vietnam**: Da Nang (DAD), Nha Trang (CXR)  
-  - **Indonesia**: Bali/Denpasar (DPS)  
-  - **Mongolia**: Ulaanbaatar (UBN)  
+- [Spring Airlines](https://en.ch.com/)
+  - **China**: Shanghai (PVG)
 
-- [EASTAR JET](https://www.eastarjet.com/)  
-  - **China**: Zhangjiajie (DYG), Shanghai (PVG)
-  - **Taiwan**: Taipei (TPE)  
-  - **Vietnam**: Nha Trang (CXR)  
+- [Qingdao Airlines](https://www.qdairlines.com)
+  - **China**: Qingdao (TAO)
 
-- [Sichuan Airlines](https://global.sichuanair.com/)  
-  - **China**: Zhangjiajie (DYG)  
+- [Loong Air](https://www.loongair.cn/#/web/home)
+  - **China**: Zhangjiajie (DYG)
 
-- [Loong Air](https://www.loongair.cn/#/web/home)  
-  - **China**: Zhangjiajie (DYG)  
+- [Sichuan Airlines](https://global.sichuanair.com/)
+  - **China**: Zhangjiajie (DYG) (until Dec 8, 2026)
 
 - [Ruili Airlines](https://www.rlair.net/)
   - **China**: Kunming (KMG)
 
-- [Qingdao Airlines](https://www.qdairlines.com)
-  - **China**: Qingdao (TAO)
+- [Beijing Capital Airlines](https://www.jdair.net/)
+  - **China**: Lijiang (LJG) (until Dec 3, 2026)
