@@ -87,7 +87,7 @@ The Cheongju Airport ↔ Daejeon train data is updated by hand from Korail's off
 - Take every train that stops at `청주공항` and at `대전` or, failing that, `서대전` (some ITX-마음 trains serve Seodaejeon instead of Daejeon; set `station` accordingly). Trains 1181/1182 run via the Gyeongbu Line to Seoul and skip both. Times are written as `HH:MM` (seconds dropped); `minutes` is computed from the full `HH:MM:SS` times.
 - Fares are on the same board: **일반열차(ITX-마음, ITX-새마을, 새마을호) 운임표** (sheet `15.대전~제천`, `대전`–`청주공항` = 5,900 as of 2026-09-01; it has no `서대전`–`청주공항` pair) and **일반열차(무궁화호, 누리로) 운임표** (`.xls`, read with xlrd; sheet `6.대전~제천, 서울~제천`, `대전`–`청주공항` = 3,900 as of 2025-09-27).
 - Do not automate this from the script or query korail.com's ticket search with a scripted browser: the ticket search flags automation (code -8003) and warns that access may be restricted.
-- Not used, and why: the data.go.kr Korail API (`B551457/run/v2`) has no train types, only covers days already run (`travelerTrainRunInfo2`, recorded times) or only origin/terminus (`travelerTrainRunPlan2`, whose future data also disagreed with the official timetable), and misses the Seodaejeon trains if you query by `대전`. The `KORAIL_API_KEY` Actions secret from that experiment is unused.
+- Not used, and why: the data.go.kr Korail API (`B551457/run/v2`) has no train types, only covers days already run (`travelerTrainRunInfo2`, recorded times) or only origin/terminus (`travelerTrainRunPlan2`, whose future data also disagreed with the official timetable), and misses the Seodaejeon trains if you query by `대전`.
 
 ### Styling
 
