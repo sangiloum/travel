@@ -82,7 +82,7 @@ title: Travel Instructions to IBS
       </a>
       <a href="/suseo/" class="tile">
         <span class="tile__title">Suseo Station</span>
-        <span class="tile__sub">수서역 · SRT hub</span>
+        <span class="tile__sub">수서역 · KTX</span>
       </a>
       <a href="/gwangmyeong/" class="tile">
         <span class="tile__title">Gwangmyeong Station</span>
@@ -103,7 +103,7 @@ title: Travel Instructions to IBS
 <h2 id="notice">Entry requirements</h2>
 <div class="notice">
   <h3>
-    <a href="https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=258312">K-ETA (Korea Electronic Travel Authorization) Temporary Exemption</a>
+    <a href="https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707">K-ETA (Korea Electronic Travel Authorization) Temporary Exemption</a>
   </h3>
   <p>
     Normally, citizens of some countries do not need a visa to visit Korea, but they must obtain the K-ETA online before flying to Korea.
