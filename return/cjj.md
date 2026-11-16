@@ -5,6 +5,7 @@ nav_order: 2
 permalink: /return/cjj/
 ---
 {% assign s = site.data.schedules["yuseong-cjj"] %}
+{% assign tr = site.data.schedules["train-daejeon-cjj"] %}
 
 # Return to Cheongju Airport (CJJ)
 
@@ -49,23 +50,13 @@ There is a train stop at the Cheongju Airport. You can take a local train from D
 
 #### Direct train timetable (Daejeon → Cheongju Airport)
 - Mugunghwa trains — fare KRW 3,900 (standard seat).
-- ITX trains - fare KRW 5,900.
-- *Source: Korail mobile booking screen, March 2026.*
+- ITX trains — fare KRW 5,900.
+- *Source: Korail open data (recent daily runs), {{ tr.updated }}.*
 
 | Train | Departure (Daejeon) | Arrival (Cheongju Airport) | Travel time |
 | --- | --- | --- | --- |
-| 1701 | 06:06 | 07:01 | 55 min |
-| 1703 | 06:50 | 07:47 | 57 min |
-| 4301 | 07:54 | 08:52 | 58 min |
-| 1705 | 08:46 | 09:39 | 53 min |
-| 1701 ITX | 10:05 | 10:55 | 50 min |
-| 1757 | 12:22 | 13:19 | 53 min |
-| 1759 | 14:43 | 15:34 | 54 min |
-| 1761 | 17:43 | 18:37 | 54 min |
-| 1763 | 18:45 | 19:40 | 55 min |
-| 4303 | 20:11 | 21:10 | 59 min |
-| 1765 | 21:11 | 22:05 | 54 min |
-
+{% for r in tr.rows %}| {{ r.train }}{% if r.type == "ITX" %} (ITX){% endif %} | {{ r.departure }} | {{ r.arrival }} | {{ r.minutes }} min |
+{% endfor %}
 Times may change, so confirm on the day of departure through Korail or the station kiosk.
 
 Tickets for trains can be purchased by tellers at ticketing counters, by machine, or online at
