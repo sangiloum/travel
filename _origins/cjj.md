@@ -44,6 +44,3 @@ Based on the [official Cheongju Airport flight schedule](https://www.airport.co.
 
 - [Ruili Airlines](https://www.rlair.net/)
   - **China**: Kunming (KMG)
-
-- [Beijing Capital Airlines](https://www.jdair.net/)
-  - **China**: Lijiang (LJG) (until Dec 3, 2026)
