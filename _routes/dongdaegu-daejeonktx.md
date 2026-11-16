@@ -25,16 +25,8 @@ Often KTX tickets on Friday evening, Saturday morning, and Sunday evening are so
 Some KTX trains are slower as they use a slower track. If you are in a hurry, make sure to check the timetable. Those KTX trains are cheaper.
 
 
-#### SRT Trains
-
-The SRT is another high-speed train similar to the KTX Train but run by a different company, SR. SR and KORAIL share the same tracks from Busan to Osong.
-
-Tickets for SRT trains can be purchased by tellers at ticketing counters, by machine, or online at
-- [SRT Website (English)](https://etk.srail.kr/main.do?language=EN)
-
-SRT standard seats cost about **KRW 17,400** and first class seats costs about KRW 25,300 and are sometimes discounted. Travel time is roughly **40 minutes** depending on the number of stops in route. Tickets do occasionally sell out but trains run every 10 to 20 minutes. Please see the website above for current timetables. 
-
-
+{: .note}
+Since September 2026, the SRT has been merged into the KTX. Former SRT trains (bound for Suseo Station in Seoul) now run as KTX trains and are sold on the same Korail website above. They keep the lower former-SRT fares: about **KRW 17,400** for standard seats and about KRW 25,300 for first class.
 
 #### Slower trains
 There are slower trains that take up to 3 hours 30 minutes to travel to Daejeon. 
