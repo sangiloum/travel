@@ -6,7 +6,7 @@ title: Use a train
 
 Cheongju Airport (청주공항) has its own train station, Cheongju Airport Station (청주공항역). It is a walking distance (600m) from Cheongju Airport, which takes about 10 minutes.
 
-You can take a train to Daejeon Station (대전역) from Cheongju Airport Station. The ride takes about **1 hour**. A Mugunghwa (무궁화) ticket costs **KRW 3,900**; an ITX ticket costs KRW 5,900.
+You can take a train to Daejeon Station (대전역) from Cheongju Airport Station. The ride takes about **1 hour**. A Mugunghwa (무궁화) ticket costs **KRW 3,900**; an ITX-마음 ticket to Daejeon costs KRW 5,900.
 The train schedule is available at the [Korail website](http://www.letskorail.com/).
 
 {: .important}
@@ -24,11 +24,14 @@ As of 2023, it is possible to buy tickets online at above website by using forei
 
 #### Train timetable (Cheongju Airport → Daejeon, as of {{ t.updated }})
 
-| Train | Departure (Cheongju Airport) | Arrival (Daejeon) | Travel time |
+| Train | Departure (Cheongju Airport) | Arrival | Travel time |
 | --- | --- | --- | --- |
-{% for r in t.rows %}| {{ r.train }}{% if r.type == "ITX" %} (ITX){% endif %} | {{ r.departure }} | {{ r.arrival }} | {{ r.minutes }} min |
+{% for r in t.rows %}| {{ r.train }}{% if r.type != "Mugunghwa" %} ({{ r.type }}){% endif %} | {{ r.departure }} | {{ r.arrival }} {{ r.station }} | {{ r.minutes }} min |
 {% endfor %}
-*Source: Korail open data (recent daily runs). Times can change, so check Korail before you travel.*
+*Source: Korail 일반열차 시간표 (official timetable). Times can change, so check Korail before you travel.*
+
+{: .note}
+Two ITX-마음 trains go to **Seodaejeon Station (서대전역)** instead of Daejeon Station. Seodaejeon is also in Daejeon, about as far from IBS as Daejeon Station; take a taxi from there.
 
 {: .note}
 You may also buy a ticket to Sintanjin Station (신탄진역) and take a taxi to your final destination. Sintanjin Station is one station before Daejeon Station. 

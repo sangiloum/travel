@@ -50,12 +50,13 @@ There is a train stop at the Cheongju Airport. You can take a local train from D
 
 #### Direct train timetable (Daejeon → Cheongju Airport)
 - Mugunghwa trains — fare KRW 3,900 (standard seat).
-- ITX trains — fare KRW 5,900.
-- *Source: Korail open data (recent daily runs), {{ tr.updated }}.*
+- ITX-마음 trains — fare KRW 5,900 from Daejeon Station.
+- Two ITX-마음 trains leave from **Seodaejeon Station (서대전역)** instead of Daejeon Station.
+- *Source: Korail 일반열차 시간표 (official timetable), {{ tr.updated }}.*
 
-| Train | Departure (Daejeon) | Arrival (Cheongju Airport) | Travel time |
+| Train | Departure | Arrival (Cheongju Airport) | Travel time |
 | --- | --- | --- | --- |
-{% for r in tr.rows %}| {{ r.train }}{% if r.type == "ITX" %} (ITX){% endif %} | {{ r.departure }} | {{ r.arrival }} | {{ r.minutes }} min |
+{% for r in tr.rows %}| {{ r.train }}{% if r.type != "Mugunghwa" %} ({{ r.type }}){% endif %} | {{ r.departure }} {{ r.station }} | {{ r.arrival }} | {{ r.minutes }} min |
 {% endfor %}
 Times may change, so confirm on the day of departure through Korail or the station kiosk.
 

@@ -2,7 +2,7 @@
 # Usage:  python scripts/update_schedules.py
 # Prereq: pip install requests pyyaml
 
-import requests, yaml, datetime, pathlib, ssl, re, os, collections
+import requests, yaml, datetime, pathlib, ssl, re
 from requests.adapters import HTTPAdapter
 
 # Force PyYAML to single-quote all strings so Ruby/Jekyll reads HH:MM times
@@ -153,84 +153,3 @@ for fname, rt in [("cjj-yuseong", CJJ_YUSEONG_TX), ("yuseong-cjj", YUSEONG_CJJ_T
             "times": times}
     (DATA_DIR / f"{fname}.yml").write_text(yaml.dump(data, allow_unicode=True, default_flow_style=False))
     print(f"  {fname}.yml — {len(times)} departures (txbus)")
-
-# --- Korail trains: Cheongju Airport <-> Daejeon ---------------------------------
-# data.go.kr Korail open API (B551457/run/v2). travelerTrainRunInfo2 returns one
-# row per train per station, but only for days that have already run, and its
-# times are the recorded (actual) ones. So we read the last three days with data
-# and keep, per train, the most common departure/arrival time; a train must
-# appear on at least two of those days. (travelerTrainRunPlan2 covers future
-# dates but only lists each train's origin and terminus; Chungbuk Line trains
-# pass through Cheongju Airport rather than starting there, so it can't be used.)
-# The service key lives in the KORAIL_API_KEY environment variable (a GitHub
-# Actions secret in CI); without it the train files are left unchanged.
-KORAIL_URL = "https://apis.data.go.kr/B551457/run/v2/travelerTrainRunInfo2"
-KORAIL_KEY = os.environ.get("KORAIL_API_KEY")
-KORAIL_DAYS = 3
-# The API does not give the train type. On the Chungbuk Line through Cheongju
-# Airport, trains 1701/1702 are ITX; the others are Mugunghwa. Update this set if
-# Korail renumbers the ITX service.
-ITX_TRAINS = {"1701", "1702"}
-
-def fetch_korail_stops(day, station):
-    rows, page = [], 1
-    while True:
-        r = requests.get(KORAIL_URL, timeout=60, params={
-            "serviceKey": KORAIL_KEY, "returnType": "JSON", "pageNo": page, "numOfRows": 1000,
-            "cond[run_ymd::GTE]": day, "cond[run_ymd::LTE]": day, "cond[stn_nm::EQ]": station})
-        body = r.json()["response"]["body"]
-        items = body["items"]["item"]
-        rows += items
-        if not items or len(rows) >= body["totalCount"]:
-            return {row["trn_no"]: row for row in rows}
-        page += 1
-
-def korail_day(day, origin, dest):
-    """{train: (departure, arrival)} for trains stopping at origin, then dest."""
-    dep, arr = fetch_korail_stops(day, origin), fetch_korail_stops(day, dest)
-    out = {}
-    for no, d in dep.items():
-        a = arr.get(no)
-        if a and d["trn_dptre_dt"] and a["trn_arvl_dt"] and a["trn_arvl_dt"] > d["trn_dptre_dt"]:
-            out[no.lstrip("0")] = (d["trn_dptre_dt"][:16], a["trn_arvl_dt"][:16])
-    return out
-
-def korail_trains(origin, dest):
-    days = []
-    for back in range(1, 15):
-        day = (datetime.date.today() - datetime.timedelta(days=back)).strftime("%Y%m%d")
-        trains = korail_day(day, origin, dest)
-        if trains:
-            days.append(trains)
-        if len(days) == KORAIL_DAYS:
-            break
-    rows = []
-    for no in {no for d in days for no in d}:
-        seen = [d[no] for d in days if no in d]
-        if len(seen) < min(2, len(days)):
-            continue
-        fmt = "%Y-%m-%d %H:%M"
-        dep_t = collections.Counter(s[0][11:] for s in seen).most_common(1)[0][0]
-        arr_t = collections.Counter(s[1][11:] for s in seen).most_common(1)[0][0]
-        mins = collections.Counter(
-            int((datetime.datetime.strptime(s[1], fmt) - datetime.datetime.strptime(s[0], fmt)).total_seconds() // 60)
-            for s in seen).most_common(1)[0][0]
-        rows.append({"train": no, "type": "ITX" if no in ITX_TRAINS else "Mugunghwa",
-                     "departure": dep_t, "arrival": arr_t, "minutes": str(mins)})
-    return sorted(rows, key=lambda row: row["departure"])
-
-if not KORAIL_KEY:
-    print("  train-*.yml — SKIPPED (KORAIL_API_KEY not set)")
-else:
-    for fname, origin, dest in [("train-cjj-daejeon", "청주공항", "대전"),
-                                ("train-daejeon-cjj", "대전", "청주공항")]:
-        rows = korail_trains(origin, dest)
-        if not rows:  # API outage: keep the last-known-good YAML
-            print(f"  {fname}.yml — SKIPPED (Korail returned no trains)")
-            continue
-        data = {"updated": UPDATED,
-                "first_train": rows[0]["departure"],
-                "last_train": rows[-1]["departure"],
-                "rows": rows}
-        (DATA_DIR / f"{fname}.yml").write_text(yaml.dump(data, allow_unicode=True, default_flow_style=False))
-        print(f"  {fname}.yml — {len(rows)} trains (Korail)")
