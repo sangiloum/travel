@@ -55,9 +55,8 @@ ICN == 2 hours 35 min.==>Daejeon
 |*Doors to bus platforms*|*Bus platform 5*|
 
 
-- Price: KRW 26,100 for deluxe and KRW 34,000 for premium. Night buses (after 10pm) are 10% more expensive.
 - Schedule: Earliest at {{ s.first_bus }}. Last at {{ s.last_bus }}.
-- [Online booking](https://intercitybuse.tmoney.co.kr/) at [https://intercitybuse.tmoney.co.kr/](https://intercitybuse.tmoney.co.kr/) :  You can check the time schedule and the current availability of the seats. 
+- [Online booking](https://intercitybuse.tmoney.co.kr/): Check current departure times, fares, and seat availability.
   - Departure: IncheonAirportT2
   - Destination: DaejeonGovComplex
 
