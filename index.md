@@ -112,10 +112,9 @@ title: Travel Instructions to IBS
   </p>
   <p class="muted">This extension of exemption was announced on December 23, 2025.</p>
   <p>
-    Use Korea’s official <a href="https://www.e-arrivalcard.go.kr/portal/guide/navigator.do?locale=E">e-Arrival Card Navigator</a> to check whether you need to submit an arrival card.
-    Travelers entering with a valid K-ETA are exempt, and holders of a valid Korean residence card are generally exempt.
-    If you enter with a Korean visa, you must submit an e-Arrival Card even if you also hold a K-ETA, unless a separate exemption applies.
-    If required, you can submit it free of charge starting three days before arrival (Korea Standard Time).
+    Visitors without K-ETA are required to fill out the <a href="https://www.e-arrivalcard.go.kr">e-Arrival card</a> at
+    <a href="https://www.e-arrivalcard.go.kr">www.e-arrivalcard.go.kr</a>.
+    There is no fee, and you can submit it within 3 days before arrival in Korea.
   </p>
 </div>
 
