@@ -103,14 +103,14 @@ title: Travel Instructions to IBS
 <h2 id="notice">Entry requirements</h2>
 <div class="notice">
   <h3>
-    <a href="https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707">K-ETA (Korea Electronic Travel Authorization) Temporary Exemption</a>
+    <a href="https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=332884&amp;locale=en&amp;pageIndex=1&amp;tmpltNm=notice">K-ETA (Korea Electronic Travel Authorization) Temporary Exemption</a>
   </h3>
   <p>
-    Normally, citizens of some countries do not need a visa to visit Korea, but they must obtain the K-ETA online before flying to Korea.
-    The Ministry of Justice of Korea has temporarily exempted the K-ETA for citizens of 52 countries (including the US, Canada, Australia, and most European countries) until December 31, 2026.
-    Please check the <a href="https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707">K-ETA website</a> for details.
+    Travelers entering Korea without a visa generally need a K-ETA unless they qualify for an exemption.
+    The Korean Ministry of Justice has extended the temporary exemption for travelers from the same 22 eligible countries and regions (including the US, Canada, Australia, and the UK) through <strong>December 31, 2027 (Korea Standard Time)</strong>.
+    Check the <a href="https://www.k-eta.go.kr/portal/newapply/index.do?locale=EN">official K-ETA website</a> for eligibility before you travel.
   </p>
-  <p class="muted">This extension of exemption was announced on December 23, 2025.</p>
+  <p class="muted">The Ministry of Justice announced the extension on November 23, 2026.</p>
   <p>
     Visitors without K-ETA are required to fill out the <a href="https://www.e-arrivalcard.go.kr">e-Arrival card</a> at
     <a href="https://www.e-arrivalcard.go.kr">www.e-arrivalcard.go.kr</a>.
